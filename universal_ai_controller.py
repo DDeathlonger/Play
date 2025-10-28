@@ -205,23 +205,96 @@ class UniversalAIController:
         print(f"SEE #{self.action_count}: {context} -> {filename}")
         return observation
         
+    def _constrain_coordinates_to_window(self, x, y):
+        """Constrain coordinates to application window bounds"""
+        window_info = self._get_target_window_bounds()
+        
+        if not window_info:
+            # No window found, return original coordinates
+            return x, y, None
+        
+        # Constrain coordinates to window bounds with padding
+        padding = 5  # Keep 5px away from edges
+        constrained_x = max(window_info["left"] + padding, 
+                          min(x, window_info["right"] - padding))
+        constrained_y = max(window_info["top"] + padding,
+                          min(y, window_info["bottom"] - padding))
+        
+        return constrained_x, constrained_y, window_info
+    
+    def _calculate_movement_duration(self, start_x, start_y, end_x, end_y, window_info=None):
+        """Calculate movement duration with speed restrictions"""
+        # Calculate distance
+        distance = ((end_x - start_x) ** 2 + (end_y - start_y) ** 2) ** 0.5
+        
+        # Speed restrictions (pixels per second)
+        if window_info:
+            # Within app window - moderate speed for precision
+            min_speed = 200  # Minimum 200 px/sec (slow for precision)
+            max_speed = 800  # Maximum 800 px/sec (fast but controlled)
+        else:
+            # Outside app or no window - slower for safety
+            min_speed = 100  # Very slow for safety
+            max_speed = 400  # Moderate maximum
+        
+        # Calculate duration based on distance and speed limits
+        max_duration = distance / min_speed  # Slowest allowed time
+        min_duration = distance / max_speed  # Fastest allowed time
+        
+        # Default duration (middle ground)
+        default_duration = distance / 500  # 500 px/sec default
+        
+        # Constrain to min/max bounds
+        duration = max(min_duration, min(default_duration, max_duration))
+        
+        # Absolute bounds for sanity
+        duration = max(0.1, min(duration, 3.0))  # 0.1s to 3.0s maximum
+        
+        return duration
+
     def move_to(self, x, y, smooth=True, reason="navigation"):
-        """AI ACTION: Move mouse to coordinates"""
+        """AI ACTION: Move mouse to coordinates with window constraints and speed limits"""
         self.action_count += 1
         
         try:
+            # Get current position for speed calculation
+            current_pos = pyautogui.position()
+            
+            # Constrain target coordinates to window bounds
+            constrained_x, constrained_y, window_info = self._constrain_coordinates_to_window(x, y)
+            
+            # Calculate appropriate movement duration
+            duration = self._calculate_movement_duration(
+                current_pos.x, current_pos.y, 
+                constrained_x, constrained_y, 
+                window_info
+            )
+            
+            # Perform movement with calculated duration
             if smooth:
-                pyautogui.moveTo(x, y, duration=0.8, tween=pyautogui.easeInOutQuad)
+                pyautogui.moveTo(constrained_x, constrained_y, duration=duration, tween=pyautogui.easeInOutQuad)
             else:
-                pyautogui.moveTo(x, y)
+                pyautogui.moveTo(constrained_x, constrained_y)
                 
             actual_pos = pyautogui.position()
+            
+            # Calculate movement distance and speed for logging
+            distance = ((constrained_x - current_pos.x) ** 2 + (constrained_y - current_pos.y) ** 2) ** 0.5
+            speed = distance / duration if duration > 0 else 0
             
             action = {
                 "action_id": self.action_count,
                 "action_type": "move",
-                "target": {"x": x, "y": y},
+                "target_requested": {"x": x, "y": y},
+                "target_constrained": {"x": constrained_x, "y": constrained_y},
                 "actual": {"x": actual_pos.x, "y": actual_pos.y},
+                "movement_info": {
+                    "distance_pixels": round(distance, 2),
+                    "duration_seconds": round(duration, 3),
+                    "speed_pixels_per_second": round(speed, 2),
+                    "constrained_to_window": bool(window_info),
+                    "window_title": window_info["title"] if window_info else None
+                },
                 "smooth": smooth,
                 "reason": reason,
                 "success": True,
@@ -229,7 +302,9 @@ class UniversalAIController:
             }
             
             self.session_log.append(action)
-            print(f"MOVE #{self.action_count}: to ({x}, {y}) - {reason}")
+            constrained_msg = f" -> ({constrained_x}, {constrained_y})" if (constrained_x != x or constrained_y != y) else ""
+            speed_msg = f" [{speed:.0f}px/s]" if speed > 0 else ""
+            print(f"MOVE #{self.action_count}: to ({x}, {y}){constrained_msg}{speed_msg} - {reason}")
             return action
             
         except Exception as e:
@@ -262,20 +337,42 @@ class UniversalAIController:
             return violation_response
         
         try:
-            # Move to position first
-            pyautogui.moveTo(x, y, duration=0.3)
+            # Constrain click coordinates to window bounds
+            constrained_x, constrained_y, window_info = self._constrain_coordinates_to_window(x, y)
+            
+            # Move to constrained position with appropriate speed
+            current_pos = pyautogui.position()
+            duration = self._calculate_movement_duration(
+                current_pos.x, current_pos.y,
+                constrained_x, constrained_y,
+                window_info
+            )
+            
+            pyautogui.moveTo(constrained_x, constrained_y, duration=duration)
             time.sleep(0.1)
             
-            # Perform click
+            # Perform click at constrained coordinates
             if button == "left":
-                pyautogui.click(x, y, clicks=clicks)
+                pyautogui.click(constrained_x, constrained_y, clicks=clicks)
             elif button == "right":
-                pyautogui.rightClick(x, y)
+                pyautogui.rightClick(constrained_x, constrained_y)
+            
+            # Calculate movement info for logging
+            distance = ((constrained_x - current_pos.x) ** 2 + (constrained_y - current_pos.y) ** 2) ** 0.5
+            speed = distance / duration if duration > 0 else 0
                 
             action = {
                 "action_id": self.action_count,
                 "action_type": "click",
-                "position": {"x": x, "y": y},
+                "position_requested": {"x": x, "y": y},
+                "position_constrained": {"x": constrained_x, "y": constrained_y},
+                "movement_info": {
+                    "distance_pixels": round(distance, 2),
+                    "duration_seconds": round(duration, 3),
+                    "speed_pixels_per_second": round(speed, 2),
+                    "constrained_to_window": bool(window_info),
+                    "window_title": window_info["title"] if window_info else None
+                },
                 "button": button,
                 "clicks": clicks,
                 "reason": reason,
@@ -284,7 +381,9 @@ class UniversalAIController:
             }
             
             self.session_log.append(action)
-            print(f"CLICK #{self.action_count}: {button} at ({x}, {y}) - {reason}")
+            constrained_msg = f" -> ({constrained_x}, {constrained_y})" if (constrained_x != x or constrained_y != y) else ""
+            speed_msg = f" [{speed:.0f}px/s]" if speed > 0 else ""
+            print(f"CLICK #{self.action_count}: {button} at ({x}, {y}){constrained_msg}{speed_msg} - {reason}")
             return action
             
         except Exception as e:
@@ -297,28 +396,70 @@ class UniversalAIController:
             self.session_log.append(error_action)
             return error_action
     
-    def drag(self, start_x, start_y, end_x, end_y, duration=1.0, reason="manipulation"):
-        """AI ACTION: Drag from start to end point"""
+    def drag(self, start_x, start_y, end_x, end_y, duration=None, reason="manipulation"):
+        """AI ACTION: Drag from start to end point with window constraints and speed limits"""
         self.action_count += 1
         
         try:
-            pyautogui.moveTo(start_x, start_y)
+            # Constrain both start and end coordinates to window bounds
+            constrained_start_x, constrained_start_y, window_info = self._constrain_coordinates_to_window(start_x, start_y)
+            constrained_end_x, constrained_end_y, _ = self._constrain_coordinates_to_window(end_x, end_y)
+            
+            # Calculate appropriate duration if not provided
+            if duration is None:
+                duration = self._calculate_movement_duration(
+                    constrained_start_x, constrained_start_y,
+                    constrained_end_x, constrained_end_y,
+                    window_info
+                )
+                # Drag operations should be slightly slower for precision
+                duration = duration * 1.5  # 50% slower than regular movement
+                duration = max(0.2, min(duration, 4.0))  # 0.2s to 4.0s bounds
+            
+            # Move to start position first
+            current_pos = pyautogui.position()
+            move_duration = self._calculate_movement_duration(
+                current_pos.x, current_pos.y,
+                constrained_start_x, constrained_start_y,
+                window_info
+            )
+            
+            pyautogui.moveTo(constrained_start_x, constrained_start_y, duration=move_duration)
             time.sleep(0.1)
-            pyautogui.dragTo(end_x, end_y, duration=duration, button='left')
+            
+            # Perform drag to constrained end position
+            pyautogui.dragTo(constrained_end_x, constrained_end_y, duration=duration, button='left')
+            
+            # Calculate drag distance and speed for logging
+            drag_distance = ((constrained_end_x - constrained_start_x) ** 2 + (constrained_end_y - constrained_start_y) ** 2) ** 0.5
+            drag_speed = drag_distance / duration if duration > 0 else 0
             
             action = {
                 "action_id": self.action_count,
                 "action_type": "drag",
-                "start": {"x": start_x, "y": start_y},
-                "end": {"x": end_x, "y": end_y},
-                "duration": duration,
+                "start_requested": {"x": start_x, "y": start_y},
+                "start_constrained": {"x": constrained_start_x, "y": constrained_start_y},
+                "end_requested": {"x": end_x, "y": end_y},
+                "end_constrained": {"x": constrained_end_x, "y": constrained_end_y},
+                "movement_info": {
+                    "drag_distance_pixels": round(drag_distance, 2),
+                    "drag_duration_seconds": round(duration, 3),
+                    "drag_speed_pixels_per_second": round(drag_speed, 2),
+                    "constrained_to_window": bool(window_info),
+                    "window_title": window_info["title"] if window_info else None
+                },
                 "reason": reason,
                 "success": True,
                 "timestamp": datetime.now().strftime("%H%M%S_%f")[:12]
             }
             
             self.session_log.append(action)
-            print(f"DRAG #{self.action_count}: ({start_x}, {start_y}) -> ({end_x}, {end_y}) - {reason}")
+            constrained_msg = ""
+            if (constrained_start_x != start_x or constrained_start_y != start_y or 
+                constrained_end_x != end_x or constrained_end_y != end_y):
+                constrained_msg = f" -> ({constrained_start_x}, {constrained_start_y}) to ({constrained_end_x}, {constrained_end_y})"
+            speed_msg = f" [{drag_speed:.0f}px/s]" if drag_speed > 0 else ""
+            print(f"DRAG #{self.action_count}: ({start_x}, {start_y}) -> ({end_x}, {end_y}){constrained_msg}{speed_msg} - {reason}")
             return action
             
         except Exception as e:
