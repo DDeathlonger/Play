@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-10-28T13:52:31.686256",
+    "session_id": "INTEGRATED_MCP_1761684751_95a4aaac",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761684751_95a4aaac",
+      "timestamp": "2025-10-28T13:52:31.686240"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T13:52:40.237219",
+    "session_id": "INTEGRATED_MCP_1761684751_95a4aaac",
+    "event_type": "BUILTIN_MCP_SERVER_STARTED",
+    "data": {
+      "port": 8765,
+      "thread_id": 33648
+    }
+  }
+]

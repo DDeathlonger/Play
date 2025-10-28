@@ -1,0 +1,84 @@
+[
+  {
+    "timestamp": "2025-10-28T14:04:54.222417",
+    "session_id": "MAX_SEC_1761685494_431836d2",
+    "event_type": "MAX_SECURITY_AI_MCP_INITIALIZED",
+    "data": {
+      "session_id": "MAX_SEC_1761685494_431836d2",
+      "security_level": "MAXIMUM",
+      "timestamp": "2025-10-28T14:04:54.222417"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T14:05:00.735351",
+    "session_id": "MAX_SEC_1761685494_431836d2",
+    "event_type": "SPACESHIP_APP_INITIALIZED",
+    "data": {
+      "pid": 21220,
+      "status": "running"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T14:05:00.750346",
+    "session_id": "MAX_SEC_1761685494_431836d2",
+    "event_type": "AI_CONTROLLER_FAILURE",
+    "data": {
+      "error": "No module named 'pyautogui'"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T14:05:00.751344",
+    "session_id": "MAX_SEC_1761685494_431836d2",
+    "event_type": "INITIALIZATION_FAILURE",
+    "data": {
+      "error": "Failed to initialize AI controller",
+      "critical": true
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T14:05:00.754858",
+    "session_id": "MAX_SEC_1761685494_431836d2",
+    "event_type": "EMERGENCY_SHUTDOWN_COMPLETE",
+    "data": {
+      "reason": "emergency_shutdown_called",
+      "final_status": {
+        "session_id": "MAX_SEC_1761685494_431836d2",
+        "is_running": false,
+        "security_level": "MAXIMUM",
+        "whitelist_verified": false,
+        "containment_verified": false,
+        "mcp_authenticated": false,
+        "app_running": false,
+        "actions_queued": 0,
+        "total_security_events": 4,
+        "session_duration": 6.754858732223511
+      }
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T14:05:00.756891",
+    "session_id": "MAX_SEC_1761685494_431836d2",
+    "event_type": "EMERGENCY_SHUTDOWN_COMPLETE",
+    "data": {
+      "reason": "emergency_shutdown_called",
+      "final_status": {
+        "session_id": "MAX_SEC_1761685494_431836d2",
+        "is_running": false,
+        "security_level": "MAXIMUM",
+        "whitelist_verified": false,
+        "containment_verified": false,
+        "mcp_authenticated": false,
+        "app_running": false,
+        "actions_queued": 0,
+        "total_security_events": 5,
+        "session_duration": 6.756891250610352
+      }
+    },
+    "security_level": "MAXIMUM"
+  }
+]

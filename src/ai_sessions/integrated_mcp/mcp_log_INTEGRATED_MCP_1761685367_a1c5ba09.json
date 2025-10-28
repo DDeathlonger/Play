@@ -1,0 +1,2975 @@
+[
+  {
+    "timestamp": "2025-10-28T14:02:47.113658",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+      "timestamp": "2025-10-28T14:02:47.113640"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.114151",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.114460",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.114817",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.115104",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.115494",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.116130",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.116758",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.117857",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.118746",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.119202",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.119637",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.120128",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.120495",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.120888",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.121379",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.122423",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.123162",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.123768",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.124524",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.124951",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.125326",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.125787",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.126359",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.126931",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.127376",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.127884",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.128453",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.129223",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.130196",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.130986",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.131678",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.132273",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.133169",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.135315",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.136265",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.136899",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.141796",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.142645",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.143205",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.143754",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.144379",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.145056",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.145777",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.146331",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.146897",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.147551",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.148264",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.148852",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.149500",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.150250",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.151616",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.152464",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.153178",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.153850",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.154733",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.155643",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.156362",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.157072",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.157759",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.158646",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.159458",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.160306",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.161097",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.161811",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.162565",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.163252",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.163933",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.164699",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.165428",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.166122",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.167039",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.168714",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.170167",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.171302",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.172103",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.173157",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.173978",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.174962",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.175816",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.176777",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.177673",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.178540",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.179453",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.180430",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.181483",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.182384",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.183195",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.185075",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.186659",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.187708",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.188785",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.190186",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.191135",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.191991",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.192818",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.193627",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.194481",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.195302",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.196153",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.196970",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.197801",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.198677",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.199507",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.201291",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.203445",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.204850",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.205870",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.206961",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.207919",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.208872",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.209822",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.210741",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.211699",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.212727",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.214089",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.215204",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.216363",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.218787",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.219997",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.221028",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.222172",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.223252",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.224275",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.225347",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.226382",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.227540",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.228616",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.229850",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.231062",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.232198",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.233292",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.235260",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.236517",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.237642",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.238709",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.239786",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.240860",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.241985",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.243087",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.244168",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.245549",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.247005",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.248476",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.249659",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.251559",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.253020",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.254398",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.255684",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.256998",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.258159",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.259323",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.260488",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.261850",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.264141",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.265559",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.266865",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.268664",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.270092",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.271354",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.272616",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.273898",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.275162",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.276431",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.278116",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.279757",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.281119",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.282412",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.283955",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.285704",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.287200",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.288510",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.289845",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.291135",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.292630",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.295504",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.298298",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.301278",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.304467",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.306435",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.308070",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.309922",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.311390",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.312809",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.314215",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.315636",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.317108",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.319200",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.321119",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.322682",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.324655",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.326453",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.327982",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.330058",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.331578",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.333076",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.335494",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.337133",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.338613",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.340322",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.342061",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.343610",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.345117",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.346758",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.348322",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.349802",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.352242",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.353894",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.355978",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.357772",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.359333",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.360838",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.362360",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.363906",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.365475",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.367338",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.369495",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.371449",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.373118",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.374733",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.376330",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.377932",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.379611",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.381242",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.382863",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.385197",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.387766",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.389570",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.391259",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.392967",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.394644",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.396412",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.398778",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.401630",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.403973",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.405824",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.407572",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.409273",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.411048",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.412967",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.414869",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.419032",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.421059",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.422836",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.424640",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.426475",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.428221",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.430041",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.432017",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.435423",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.437585",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.439482",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.441299",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.443082",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.445107",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.447222",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.449340",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.452241",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.454346",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.456284",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.458135",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.460004",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.461866",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.464499",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.466511",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.468791",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.471051",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.472999",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.475000",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.476952",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.479156",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.481988",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.484311",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.486675",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.488735",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.490667",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.492617",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.494748",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.496953",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.499068",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.501324",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.503571",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.505720",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.507702",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.509841",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.512279",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.514357",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.516461",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.519041",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.521279",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.523349",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.525604",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.527824",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.529936",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.532035",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.534708",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.537140",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.539485",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.542090",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.544269",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.546526",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.548808",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.551174",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.553613",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.556162",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.558566",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.560760",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.562955",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.565255",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.567700",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.571331",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.573655",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.575830",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.578031",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.580276",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.582480",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.585021",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.587967",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.590276",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.592512",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.594780",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.597109",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.599495",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.602930",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.605395",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.607806",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.610086",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.612443",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.614781",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.618531",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.621336",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.623724",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.626101",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.628385",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.630916",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.634548",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.637461",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.640079",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.642433",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.644755",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.647113",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.649735",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.653144",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.655757",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.658132",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.660490",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.662972",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.665909",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.669139",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.672766",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.675306",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.677767",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.680495",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.683368",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.686743",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.689331",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.691759",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.694182",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.698594",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.702167",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.705109",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.707697",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.710200",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.713128",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.715812",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.719115",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.721803",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.724345",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.727096",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.729704",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.732229",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.736062",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.738859",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.741690",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.744560",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.747162",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.749792",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.753238",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.756065",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.758872",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.761501",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.764166",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.767226",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.771263",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.774354",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.777085",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.780060",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.782795",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.787379",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.790549",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.793267",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.796023",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.798693",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.801729",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.807362",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.810409",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.813220",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.816093",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.819207",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.822244",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.825031",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.827734",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.830568",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.833475",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.837302",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.840478",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.843254",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.846168",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.849015",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.852794",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.855741",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.858514",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.861230",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.864058",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.868023",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.871108",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.873932",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.876770",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.879583",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.882751",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.886272",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.889262",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.892093",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.895001",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.898236",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.901876",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.905003",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.909117",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.912265",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.915425",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.918711",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.921715",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.924675",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.927791",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.931215",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.934774",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.937897",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.941183",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.945136",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.948354",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.951817",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.954923",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.957917",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.961398",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.964634",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.968283",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.971618",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.975379",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.978459",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.981514",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.985024",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.988382",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.991723",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.994882",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:47.997911",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.001535",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.005415",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.008997",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.012118",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.015428",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.019027",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.022765",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.025966",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.029118",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.032273",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.036226",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.041313",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.044654",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.047820",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.051631",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.055062",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.058345",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.061630",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.064867",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.069635",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.073041",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.076404",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.079928",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.084466",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.087942",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.091204",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.094367",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.097938",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.102170",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.105893",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.109223",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.112844",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.116433",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.120613",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.124009",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.127308",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.131249",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.135342",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.139028",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  },
+  {
+    "timestamp": "2025-10-28T14:02:48.142366",
+    "session_id": "INTEGRATED_MCP_1761685367_a1c5ba09",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": null
+  }
+]

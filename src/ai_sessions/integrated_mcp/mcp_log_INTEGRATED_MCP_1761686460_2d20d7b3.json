@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-10-28T14:21:00.979075",
+    "session_id": "INTEGRATED_MCP_1761686460_2d20d7b3",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761686460_2d20d7b3",
+      "timestamp": "2025-10-28T14:21:00.979045"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:21:07.020023",
+    "session_id": "INTEGRATED_MCP_1761686460_2d20d7b3",
+    "event_type": "EXISTING_MCP_SERVER_CONNECTED",
+    "data": {
+      "port": 8765,
+      "status": "reused_existing"
+    }
+  }
+]

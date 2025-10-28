@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-10-28T13:38:18.135500",
+    "session_id": "INTEGRATED_MCP_1761683898_5056054f",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761683898_5056054f",
+      "timestamp": "2025-10-28T13:38:18.135478"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T13:38:31.713056",
+    "session_id": "INTEGRATED_MCP_1761683898_5056054f",
+    "event_type": "AI_AGENT_REGISTERED",
+    "data": {
+      "agent": "Visual AI Agent",
+      "session_id": "test_session_1761683911"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T13:38:31.713995",
+    "session_id": "INTEGRATED_MCP_1761683898_5056054f",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": {
+      "command": "click",
+      "timestamp": "2025-10-28T13:38:31.713980",
+      "agent": "Visual AI Agent",
+      "reason": "testing_generate_button",
+      "parameters": {}
+    }
+  }
+]

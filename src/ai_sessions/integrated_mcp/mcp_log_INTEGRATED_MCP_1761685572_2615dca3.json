@@ -1,0 +1,129 @@
+[
+  {
+    "timestamp": "2025-10-28T14:06:12.964007",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+      "timestamp": "2025-10-28T14:06:12.963990"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:21.295529",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /health HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:21.297096",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "BUILTIN_MCP_SERVER_STARTED",
+    "data": {
+      "port": 8765,
+      "thread_id": 24788,
+      "endpoints": [
+        "/health",
+        "/commands",
+        "/status"
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:25.059528",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:27.068846",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /commands HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:31.070079",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:33.081885",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /commands HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:37.093159",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:39.099807",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /commands HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:43.119457",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:45.132566",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /commands HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:49.102082",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:51.106826",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /commands HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:55.122449",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:06:57.140902",
+    "session_id": "INTEGRATED_MCP_1761685572_2615dca3",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /commands HTTP/1.1\" 200 -"
+    }
+  }
+]

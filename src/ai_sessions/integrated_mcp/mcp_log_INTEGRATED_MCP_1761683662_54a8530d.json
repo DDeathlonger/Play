@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-10-28T13:34:22.485512",
+    "session_id": "INTEGRATED_MCP_1761683662_54a8530d",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761683662_54a8530d",
+      "timestamp": "2025-10-28T13:34:22.485497"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T13:35:08.073820",
+    "session_id": "INTEGRATED_MCP_1761683662_54a8530d",
+    "event_type": "LATEST_COMMAND_UPDATED",
+    "data": {
+      "command": "focus_app",
+      "timestamp": "2025-10-28T13:35:08.073808",
+      "agent": "Window Manager",
+      "reason": "ensuring_window_focus",
+      "parameters": {}
+    }
+  }
+]

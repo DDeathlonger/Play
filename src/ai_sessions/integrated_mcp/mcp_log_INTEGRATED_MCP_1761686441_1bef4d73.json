@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2025-10-28T14:20:41.988517",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+      "timestamp": "2025-10-28T14:20:41.988501"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:20:50.342050",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /health HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:20:50.344269",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "BUILTIN_MCP_SERVER_STARTED",
+    "data": {
+      "port": 8765,
+      "thread_id": 34052,
+      "endpoints": [
+        "/health",
+        "/commands",
+        "/status"
+      ],
+      "conflict_resolution": "normal"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:21:04.998515",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /health HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:21:07.017973",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /status HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:21:54.595761",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /health HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T14:22:21.106186",
+    "session_id": "INTEGRATED_MCP_1761686441_1bef4d73",
+    "event_type": "MCP_SERVER_STOPPED",
+    "data": {
+      "reason": "app_shutdown",
+      "server_type": "builtin_http_server"
+    }
+  }
+]

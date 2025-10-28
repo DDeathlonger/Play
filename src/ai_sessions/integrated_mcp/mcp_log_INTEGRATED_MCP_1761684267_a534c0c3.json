@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-10-28T13:44:27.094258",
+    "session_id": "INTEGRATED_MCP_1761684267_a534c0c3",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761684267_a534c0c3",
+      "timestamp": "2025-10-28T13:44:27.094242"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T13:44:35.646479",
+    "session_id": "INTEGRATED_MCP_1761684267_a534c0c3",
+    "event_type": "BUILTIN_MCP_SERVER_STARTED",
+    "data": {
+      "port": 8765,
+      "thread_id": 27132
+    }
+  },
+  {
+    "timestamp": "2025-10-28T13:44:57.310819",
+    "session_id": "INTEGRATED_MCP_1761684267_a534c0c3",
+    "event_type": "MCP_SERVER_STOPPED",
+    "data": {
+      "reason": "app_shutdown",
+      "server_type": "builtin_http_server"
+    }
+  }
+]

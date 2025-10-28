@@ -1,0 +1,18 @@
+{
+  "session_id": "124352",
+  "total_actions": 0,
+  "security_violations": 0,
+  "window_whitelist": [
+    "Spaceship Designer",
+    "Optimized Spaceship"
+  ],
+  "security_summary": {
+    "total_actions": 0,
+    "security_violations": 0,
+    "whitelist_size": 2,
+    "security_rate": "0.0%"
+  },
+  "start_time": null,
+  "end_time": null,
+  "actions": []
+}

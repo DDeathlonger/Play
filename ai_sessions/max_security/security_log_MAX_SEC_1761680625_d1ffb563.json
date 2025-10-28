@@ -1,0 +1,84 @@
+[
+  {
+    "timestamp": "2025-10-28T12:43:45.547224",
+    "session_id": "MAX_SEC_1761680625_d1ffb563",
+    "event_type": "MAX_SECURITY_AI_MCP_INITIALIZED",
+    "data": {
+      "session_id": "MAX_SEC_1761680625_d1ffb563",
+      "security_level": "MAXIMUM",
+      "timestamp": "2025-10-28T12:43:45.547197"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:43:52.058745",
+    "session_id": "MAX_SEC_1761680625_d1ffb563",
+    "event_type": "SPACESHIP_APP_INITIALIZED",
+    "data": {
+      "pid": 31092,
+      "status": "running"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:43:52.283034",
+    "session_id": "MAX_SEC_1761680625_d1ffb563",
+    "event_type": "AI_CONTROLLER_FAILURE",
+    "data": {
+      "error": "AI controller cannot focus spaceship application"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:43:52.284058",
+    "session_id": "MAX_SEC_1761680625_d1ffb563",
+    "event_type": "INITIALIZATION_FAILURE",
+    "data": {
+      "error": "Failed to initialize AI controller",
+      "critical": true
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:43:52.287356",
+    "session_id": "MAX_SEC_1761680625_d1ffb563",
+    "event_type": "EMERGENCY_SHUTDOWN_COMPLETE",
+    "data": {
+      "reason": "emergency_shutdown_called",
+      "final_status": {
+        "session_id": "MAX_SEC_1761680625_d1ffb563",
+        "is_running": false,
+        "security_level": "MAXIMUM",
+        "whitelist_verified": false,
+        "containment_verified": false,
+        "mcp_authenticated": false,
+        "app_running": false,
+        "actions_queued": 0,
+        "total_security_events": 4,
+        "session_duration": 7.287347793579102
+      }
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:43:52.289604",
+    "session_id": "MAX_SEC_1761680625_d1ffb563",
+    "event_type": "EMERGENCY_SHUTDOWN_COMPLETE",
+    "data": {
+      "reason": "emergency_shutdown_called",
+      "final_status": {
+        "session_id": "MAX_SEC_1761680625_d1ffb563",
+        "is_running": false,
+        "security_level": "MAXIMUM",
+        "whitelist_verified": false,
+        "containment_verified": false,
+        "mcp_authenticated": false,
+        "app_running": false,
+        "actions_queued": 0,
+        "total_security_events": 5,
+        "session_duration": 7.289596319198608
+      }
+    },
+    "security_level": "MAXIMUM"
+  }
+]
