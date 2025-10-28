@@ -145,16 +145,13 @@ def position_changed(self):
 
 ## 🎮 USAGE INSTRUCTIONS
 
-### **Quick Start (Recommended):**
+### **Recommended Usage:**
 ```bash
-# Start complete secure system
-.venv\Scripts\python.exe minimal_secure_startup.py
-```
+# Start Maximum Security AI MCP System (Complete Integration)
+.venv\Scripts\python.exe max_security_ai_mcp.py
 
-### **Advanced Start (Full MCP Integration):**
-```bash  
-# Start with full MCP server lifecycle management
-.venv\Scripts\python.exe secure_startup.py
+# Or start basic spaceship designer
+.venv\Scripts\python.exe main.py
 ```
 
 ### **Manual AI Testing:**
@@ -196,10 +193,11 @@ controller.move_to(-999, -999)                # Test edge-sticking
 
 ```
 📁 Spaceship Designer Project/
-├── universal_ai_controller.py     # 🤖 CORE AI AUTOMATION (ENHANCED)
-├── minimal_secure_startup.py      # 🚀 SIMPLE STARTUP SYSTEM  
-├── secure_startup.py             # 🔧 FULL MCP LIFECYCLE MANAGEMENT
+├── max_security_ai_mcp.py        # 🔒 MAXIMUM SECURITY AI MCP SYSTEM
+├── secure_mcp_client.py          # � SECURE MCP CLIENT
+├── universal_ai_controller.py    # 🤖 CORE AI AUTOMATION (ENHANCED)
 ├── src/spaceship_designer.py     # 🎮 ALWAYS-ON-TOP APP (FIXED COORDS)
+├── src/spaceship_utils.py        # 🔧 SHARED UTILITIES
 ├── ai_sessions/                  # 📸 SESSION LOGS & SCREENSHOTS
 ├── main.py                       # 🎯 ENTRY POINT
 └── .venv/                        # 🐍 VIRTUAL ENVIRONMENT

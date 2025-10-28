@@ -2,6 +2,9 @@
 """
 Simple Secure Spaceship Designer Startup Controller
 Basic version without win32gui dependency
+
+⚠️ LEGACY SYSTEM: For new projects, use max_security_ai_mcp.py instead
+This system is preserved for compatibility and reference.
 """
 
 import subprocess

@@ -2,6 +2,10 @@
 """
 Advanced Spaceship 3D Model Generator
 Creates sophisticated, connected spaceship meshes with real-time preview and editing.
+
+⚠️ LEGACY VERSION: For best performance, use spaceship_designer.py instead
+This version is preserved for full feature compatibility and reference.
+Features: Complete UI, advanced mesh generation, full export options
 """
 
 import sys
@@ -45,8 +49,8 @@ GRID_FILE = "spaceship_config.json"
 
 class SpaceshipModule:
     """Represents a single module in the spaceship grid"""
-    def __init__(self, mod_type="cylinder", radius=0.5, height=1.0, color=None):
-        self.type = mod_type
+    def __init__(self, module_type="cylinder", radius=0.5, height=1.0, color=None):
+        self.type = module_type
         self.radius = radius
         self.height = height
         self.color = color or [100, 150, 200]

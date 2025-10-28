@@ -21,40 +21,40 @@ from scipy import ndimage
 # ----------------------------
 # 1. Enhanced spaceship parameters
 # ----------------------------
-Nx, Ny, Nz = 8, 5, 12  # Larger grid for more detail
-grid_file = "spaceship_grid.json"
+GRID_NX, GRID_NY, GRID_NZ = 8, 5, 12  # Larger grid for more detail
+GRID_FILE = "spaceship_grid.json"
 
 def init_grid():
     """Initialize a sophisticated spaceship grid with varied geometry"""
-    grid = np.empty((Nx, Ny, Nz), dtype=object)
+    grid = np.empty((GRID_NX, GRID_NY, GRID_NZ), dtype=object)
     
     # Define spaceship sections
-    for x in range(Nx):
-        for y in range(Ny):
-            for z in range(Nz):
+    for x in range(GRID_NX):
+        for y in range(GRID_NY):
+            for z in range(GRID_NZ):
                 # Position factors
-                center_x = abs(x - Nx//2) / (Nx//2)
-                center_y = abs(y - Ny//2) / (Ny//2) if Ny > 1 else 0
-                front_z = z / Nz  # 0 = back, 1 = front
+                center_x = abs(x - GRID_NX//2) / (GRID_NX//2)
+                center_y = abs(y - GRID_NY//2) / (GRID_NY//2) if GRID_NY > 1 else 0
+                front_z = z / GRID_NZ  # 0 = back, 1 = front
                 
                 # Determine component type based on position
                 if z < 2:  # Engine section
-                    comp_type = "cylinder" if center_x < 0.6 else "cone"
+                    component_type = "cylinder" if center_x < 0.6 else "cone"
                     radius = 0.4 + 0.2 * (1 - center_x) * (1 - center_y)
                     height = 0.8 + 0.3 * np.random.rand()
                     color = [80, 40, 120]  # Purple engines
                 elif z < 4:  # Main body
-                    comp_type = "box"
+                    component_type = "box"
                     radius = 0.6 + 0.2 * (1 - center_x) * (1 - center_y)
                     height = 1.0 + 0.2 * np.random.rand()
                     color = [60, 80, 120]  # Blue hull
                 elif z < 8:  # Mid section with details
-                    comp_type = np.random.choice(["cylinder", "box", "cone"])
+                    component_type = np.random.choice(["cylinder", "box", "cone"])
                     radius = 0.3 + 0.3 * (1 - center_x) * (1 - center_y)
                     height = 0.6 + 0.4 * np.random.rand()
                     color = [70, 70, 90]  # Gray details
                 else:  # Front/cockpit
-                    comp_type = "cone" if z > 9 else "cylinder"
+                    component_type = "cone" if z > 9 else "cylinder"
                     radius = 0.2 + 0.4 * (1 - center_x) * (1 - center_y) * (1 - front_z)
                     height = 0.5 + 0.3 * np.random.rand()
                     color = [40, 60, 80]  # Dark blue cockpit
@@ -64,7 +64,7 @@ def init_grid():
                 height += 0.1 * np.random.randn()
                 
                 grid[x, y, z] = {
-                    "type": comp_type,
+                    "type": component_type,
                     "radius": max(0.1, radius),
                     "height": max(0.2, height),
                     "color": [max(10, min(255, c + 20*np.random.randn())) for c in color],
@@ -87,13 +87,13 @@ def save_grid(grid):
             x_row.append(y_row)
         serializable_grid.append(x_row)
     
-    with open(grid_file, "w") as f:
+    with open(GRID_FILE, "w") as f:
         json.dump(serializable_grid, f, indent=2)
 
 def load_grid():
     """Load grid from JSON or create new if not exists"""
     try:
-        with open(grid_file, "r") as f:
+        with open(GRID_FILE, "r") as f:
             data = json.load(f)
             grid = np.empty((len(data), len(data[0]), len(data[0][0])), dtype=object)
             for x in range(len(data)):

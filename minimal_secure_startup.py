@@ -2,6 +2,9 @@
 """
 Minimal Secure Spaceship Designer Startup Controller
 Only uses standard library modules
+
+⚠️ LEGACY SYSTEM: For new projects, use max_security_ai_mcp.py instead
+This system is preserved for compatibility and reference.
 """
 
 import subprocess

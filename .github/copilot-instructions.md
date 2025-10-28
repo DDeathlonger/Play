@@ -4,6 +4,17 @@
 
 This is a **3D spaceship modeling application** with **autonomous AI control capabilities** built with PyQt6, OpenGL, and advanced AI automation systems. The project includes both the core application and sophisticated AI testing/control systems.
 
+## 🎯 **UNIFIED NAMING CONVENTIONS - MANDATORY FOR ALL AGENTS**
+
+**ALL AI AGENTS MUST FOLLOW THE STANDARDIZED NAMING CONVENTIONS:**
+- **Files**: `snake_case.py` (e.g., `spaceship_designer.py`, `max_security_ai_mcp.py`)
+- **Classes**: `CamelCase` (e.g., `OptimizedSpaceshipGenerator`, `UniversalAIController`)
+- **Functions/Methods**: `snake_case()` (e.g., `generate_mesh()`, `secure_click()`)
+- **Variables**: `snake_case` (e.g., `grid_size`, `session_id`)
+- **Constants**: `SCREAMING_SNAKE_CASE` (e.g., `DEFAULT_GRID_SIZE`, `CONFIG_FILE`)
+
+**📋 Detailed conventions**: See `.github/ai-agents/UNIFIED_NAMING_CONVENTIONS.md`
+
 ### **CURRENT ARCHITECTURE (Updated October 28, 2025)**
 
 ```
@@ -37,18 +48,18 @@ This is a **3D spaceship modeling application** with **autonomous AI control cap
 - **Visual debugging** - Screenshots saved to `ai_sessions/` with timestamped filenames
 - **Window management** - Automatic app focus detection and foreground switching
 
-**Core Methods:**
+**Core Methods (Standardized Naming):**
 ```python
 from universal_ai_controller import UniversalAIController
-controller = UniversalAIController()
+ai_controller = UniversalAIController()
 
-# Visual Analysis
-screenshot_info = controller.see("context_description")  # Returns screenshot path and metadata
+# Visual Analysis (snake_case methods)
+screenshot_info = ai_controller.see("context_description")  # Returns screenshot path and metadata
 
-# Mouse Control
-controller.click(x, y, reason="description")           # Left click at coordinates
-controller.click(x, y, button="right", reason="...")   # Right click
-controller.drag(x1, y1, x2, y2, reason="...")         # Drag operation
+# Mouse Control (snake_case methods) 
+ai_controller.click(x_coord, y_coord, reason="description")           # Left click at coordinates
+ai_controller.click(x_coord, y_coord, button="right", reason="...")   # Right click
+ai_controller.drag(start_x, start_y, end_x, end_y, reason="...")      # Drag operation
 controller.move_to(x, y, reason="...")                # Move mouse without clicking
 
 # Keyboard Control  
