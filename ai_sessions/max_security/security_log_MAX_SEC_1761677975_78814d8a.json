@@ -1,0 +1,33 @@
+[
+  {
+    "timestamp": "2025-10-28T11:59:35.452633",
+    "session_id": "MAX_SEC_1761677975_78814d8a",
+    "event_type": "MAX_SECURITY_AI_MCP_INITIALIZED",
+    "data": {
+      "session_id": "MAX_SEC_1761677975_78814d8a",
+      "security_level": "MAXIMUM",
+      "timestamp": "2025-10-28T11:59:35.452617"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T11:59:41.963263",
+    "session_id": "MAX_SEC_1761677975_78814d8a",
+    "event_type": "SPACESHIP_APP_INITIALIZED",
+    "data": {
+      "pid": 27024,
+      "status": "running"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T11:59:42.402165",
+    "session_id": "MAX_SEC_1761677975_78814d8a",
+    "event_type": "AI_CONTROLLER_INITIALIZED",
+    "data": {
+      "whitelist_verified": true,
+      "screenshot": "ai_sessions\\s115942_001_max_security_initialization.png"
+    },
+    "security_level": "MAXIMUM"
+  }
+]

@@ -1,0 +1,621 @@
+{
+  "session_id": "121345",
+  "total_actions": 24,
+  "security_violations": 0,
+  "window_whitelist": [
+    "Spaceship Designer",
+    "Optimized Spaceship"
+  ],
+  "security_summary": {
+    "total_actions": 24,
+    "security_violations": 0,
+    "whitelist_size": 2,
+    "security_rate": "100.0%"
+  },
+  "start_time": "121345_88063",
+  "end_time": "121422_02694",
+  "actions": [
+    {
+      "action_id": 1,
+      "timestamp": "121345_88063",
+      "context": "max_security_initialization",
+      "screenshot_path": "ai_sessions\\s121345_001_max_security_initialization.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1313,
+        "y": 667
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 2,
+      "timestamp": "121350_00270",
+      "context": "detailed_analysis_1",
+      "screenshot_path": "ai_sessions\\s121345_002_detailed_analysis_1.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1313,
+        "y": 667
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 3,
+      "action_type": "click",
+      "position_requested": {
+        "x": 600,
+        "y": 400
+      },
+      "position_constrained": {
+        "x": 600,
+        "y": 400
+      },
+      "movement_info": {
+        "distance_pixels": 761.35,
+        "duration_seconds": 1.523,
+        "speed_pixels_per_second": 500.0,
+        "constrained_to_window": true,
+        "window_title": "Spaceship Designer - Optimized"
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "test_3d_viewport_interaction",
+      "success": true,
+      "timestamp": "121353_16647"
+    },
+    {
+      "action_id": 4,
+      "timestamp": "121353_16682",
+      "context": "result_analysis_1",
+      "screenshot_path": "ai_sessions\\s121345_004_result_analysis_1.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 600,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 5,
+      "timestamp": "121355_25681",
+      "context": "detailed_analysis_2",
+      "screenshot_path": "ai_sessions\\s121345_005_detailed_analysis_2.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 600,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 6,
+      "action_type": "click",
+      "position_requested": {
+        "x": 1200,
+        "y": 350
+      },
+      "position_constrained": {
+        "x": 1200,
+        "y": 350
+      },
+      "movement_info": {
+        "distance_pixels": 602.08,
+        "duration_seconds": 1.204,
+        "speed_pixels_per_second": 500.0,
+        "constrained_to_window": true,
+        "window_title": "Spaceship Designer - Optimized"
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "test_new_ship_button_location",
+      "success": true,
+      "timestamp": "121358_10332"
+    },
+    {
+      "action_id": 7,
+      "timestamp": "121358_10382",
+      "context": "result_analysis_2",
+      "screenshot_path": "ai_sessions\\s121345_007_result_analysis_2.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1200,
+        "y": 350
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 8,
+      "timestamp": "121400_18204",
+      "context": "detailed_analysis_3",
+      "screenshot_path": "ai_sessions\\s121345_008_detailed_analysis_3.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1200,
+        "y": 350
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 9,
+      "action_type": "key_press",
+      "key": "w",
+      "reason": "test_wireframe_toggle_and_mesh_visibility",
+      "success": true,
+      "timestamp": "121401_46611"
+    },
+    {
+      "action_id": 10,
+      "timestamp": "121401_46680",
+      "context": "result_analysis_3",
+      "screenshot_path": "ai_sessions\\s121345_010_result_analysis_3.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1200,
+        "y": 350
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 11,
+      "timestamp": "121403_53024",
+      "context": "detailed_analysis_4",
+      "screenshot_path": "ai_sessions\\s121345_011_detailed_analysis_4.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1200,
+        "y": 350
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 12,
+      "action_type": "key_press",
+      "key": "l",
+      "reason": "test_lighting_system_and_shading",
+      "success": true,
+      "timestamp": "121404_80501"
+    },
+    {
+      "action_id": 13,
+      "timestamp": "121404_80551",
+      "context": "result_analysis_4",
+      "screenshot_path": "ai_sessions\\s121345_013_result_analysis_4.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1200,
+        "y": 350
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 14,
+      "timestamp": "121406_89233",
+      "context": "detailed_analysis_5",
+      "screenshot_path": "ai_sessions\\s121345_014_detailed_analysis_5.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1200,
+        "y": 350
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 15,
+      "action_type": "click",
+      "position_requested": {
+        "x": 200,
+        "y": 300
+      },
+      "position_constrained": {
+        "x": 200,
+        "y": 300
+      },
+      "movement_info": {
+        "distance_pixels": 1001.25,
+        "duration_seconds": 2.002,
+        "speed_pixels_per_second": 500.0,
+        "constrained_to_window": true,
+        "window_title": "Spaceship Designer - Optimized"
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "examine_left_panel_parameter_controls",
+      "success": true,
+      "timestamp": "121410_56275"
+    },
+    {
+      "action_id": 16,
+      "timestamp": "121410_56326",
+      "context": "result_analysis_5",
+      "screenshot_path": "ai_sessions\\s121345_016_result_analysis_5.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 200,
+        "y": 300
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 17,
+      "timestamp": "121412_64979",
+      "context": "detailed_analysis_6",
+      "screenshot_path": "ai_sessions\\s121345_017_detailed_analysis_6.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 200,
+        "y": 300
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 18,
+      "action_type": "drag",
+      "start_requested": {
+        "x": 500,
+        "y": 300
+      },
+      "start_constrained": {
+        "x": 500,
+        "y": 300
+      },
+      "end_requested": {
+        "x": 650,
+        "y": 400
+      },
+      "end_constrained": {
+        "x": 650,
+        "y": 400
+      },
+      "movement_info": {
+        "drag_distance_pixels": 180.28,
+        "drag_duration_seconds": 0.541,
+        "drag_speed_pixels_per_second": 333.33,
+        "constrained_to_window": true,
+        "window_title": "Spaceship Designer - Optimized"
+      },
+      "reason": "test_3d_rotation_drag_interaction",
+      "success": true,
+      "timestamp": "121415_50183"
+    },
+    {
+      "action_id": 19,
+      "timestamp": "121415_50236",
+      "context": "result_analysis_6",
+      "screenshot_path": "ai_sessions\\s121345_019_result_analysis_6.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 650,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 20,
+      "timestamp": "121417_58834",
+      "context": "detailed_analysis_7",
+      "screenshot_path": "ai_sessions\\s121345_020_detailed_analysis_7.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 650,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 21,
+      "action_type": "key_press",
+      "key": "r",
+      "reason": "test_view_reset_and_default_positioning",
+      "success": true,
+      "timestamp": "121418_87163"
+    },
+    {
+      "action_id": 22,
+      "timestamp": "121418_87189",
+      "context": "result_analysis_7",
+      "screenshot_path": "ai_sessions\\s121345_022_result_analysis_7.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 650,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 23,
+      "timestamp": "121420_94058",
+      "context": "detailed_analysis_8",
+      "screenshot_path": "ai_sessions\\s121345_023_detailed_analysis_8.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 650,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 24,
+      "timestamp": "121422_02694",
+      "context": "result_analysis_8",
+      "screenshot_path": "ai_sessions\\s121345_024_result_analysis_8.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 1377394,
+        "title": "Spaceship Designer - Optimized",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 650,
+        "y": 400
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    }
+  ]
+}

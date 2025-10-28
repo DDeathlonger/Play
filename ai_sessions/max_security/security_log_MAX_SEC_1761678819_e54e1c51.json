@@ -1,0 +1,54 @@
+[
+  {
+    "timestamp": "2025-10-28T12:13:39.146889",
+    "session_id": "MAX_SEC_1761678819_1e0efa19",
+    "event_type": "MAX_SECURITY_AI_MCP_INITIALIZED",
+    "data": {
+      "session_id": "MAX_SEC_1761678819_1e0efa19",
+      "security_level": "MAXIMUM",
+      "timestamp": "2025-10-28T12:13:39.146873"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:13:45.655129",
+    "session_id": "MAX_SEC_1761678819_e54e1c51",
+    "event_type": "SPACESHIP_APP_INITIALIZED",
+    "data": {
+      "pid": 29292,
+      "status": "running"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:13:46.000217",
+    "session_id": "MAX_SEC_1761678819_e54e1c51",
+    "event_type": "AI_CONTROLLER_INITIALIZED",
+    "data": {
+      "whitelist_verified": true,
+      "screenshot": "ai_sessions\\s121345_001_max_security_initialization.png"
+    },
+    "security_level": "MAXIMUM"
+  },
+  {
+    "timestamp": "2025-10-28T12:14:24.101282",
+    "session_id": "MAX_SEC_1761678819_e54e1c51",
+    "event_type": "EMERGENCY_SHUTDOWN_COMPLETE",
+    "data": {
+      "reason": "emergency_shutdown_called",
+      "final_status": {
+        "session_id": "MAX_SEC_1761678819_e54e1c51",
+        "is_running": false,
+        "security_level": "MAXIMUM",
+        "whitelist_verified": true,
+        "containment_verified": false,
+        "mcp_authenticated": false,
+        "app_running": false,
+        "actions_queued": 0,
+        "total_security_events": 3,
+        "session_duration": 45.10126829147339
+      }
+    },
+    "security_level": "MAXIMUM"
+  }
+]

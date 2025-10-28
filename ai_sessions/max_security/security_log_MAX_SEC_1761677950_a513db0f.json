@@ -1,0 +1,13 @@
+[
+  {
+    "timestamp": "2025-10-28T11:59:10.600629",
+    "session_id": "MAX_SEC_1761677950_a513db0f",
+    "event_type": "MAX_SECURITY_AI_MCP_INITIALIZED",
+    "data": {
+      "session_id": "MAX_SEC_1761677950_a513db0f",
+      "security_level": "MAXIMUM",
+      "timestamp": "2025-10-28T11:59:10.600611"
+    },
+    "security_level": "MAXIMUM"
+  }
+]
