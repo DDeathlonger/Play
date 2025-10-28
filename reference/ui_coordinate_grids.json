@@ -1,0 +1,675 @@
+{
+    "coordinate_grids": {
+        "1920x1080": {
+            "description": "Standard 1080p desktop resolution",
+            "screen_size": {
+                "width": 1920,
+                "height": 1080
+            },
+            "app_window_estimate": {
+                "x": 100,
+                "y": 50,
+                "width": 800,
+                "height": 600
+            },
+            "ui_zones": {
+                "left_panel": {
+                    "description": "Typical control panel area",
+                    "coordinates": [
+                        {
+                            "x": 120,
+                            "y": 100,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 100,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 200,
+                            "y": 100,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 120,
+                            "y": 140,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 140,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 200,
+                            "y": 140,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 120,
+                            "y": 180,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 180,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 200,
+                            "y": 180,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 120,
+                            "y": 220,
+                            "zone": "bottom_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 220,
+                            "zone": "bottom_controls"
+                        },
+                        {
+                            "x": 200,
+                            "y": 220,
+                            "zone": "bottom_controls"
+                        }
+                    ]
+                },
+                "viewport_center": {
+                    "description": "3D rendering viewport area",
+                    "coordinates": [
+                        {
+                            "x": 450,
+                            "y": 300,
+                            "zone": "center"
+                        },
+                        {
+                            "x": 400,
+                            "y": 250,
+                            "zone": "upper_left"
+                        },
+                        {
+                            "x": 500,
+                            "y": 250,
+                            "zone": "upper_right"
+                        },
+                        {
+                            "x": 400,
+                            "y": 350,
+                            "zone": "lower_left"
+                        },
+                        {
+                            "x": 500,
+                            "y": 350,
+                            "zone": "lower_right"
+                        }
+                    ]
+                },
+                "bottom_toolbar": {
+                    "description": "Bottom button bar",
+                    "coordinates": [
+                        {
+                            "x": 120,
+                            "y": 520,
+                            "zone": "btn_1"
+                        },
+                        {
+                            "x": 180,
+                            "y": 520,
+                            "zone": "btn_2"
+                        },
+                        {
+                            "x": 240,
+                            "y": 520,
+                            "zone": "btn_3"
+                        },
+                        {
+                            "x": 300,
+                            "y": 520,
+                            "zone": "btn_4"
+                        },
+                        {
+                            "x": 360,
+                            "y": 520,
+                            "zone": "btn_5"
+                        },
+                        {
+                            "x": 420,
+                            "y": 520,
+                            "zone": "btn_6"
+                        }
+                    ]
+                },
+                "right_panel": {
+                    "description": "Right side controls",
+                    "coordinates": [
+                        {
+                            "x": 700,
+                            "y": 100,
+                            "zone": "right_top"
+                        },
+                        {
+                            "x": 750,
+                            "y": 100,
+                            "zone": "right_top"
+                        },
+                        {
+                            "x": 700,
+                            "y": 150,
+                            "zone": "right_mid"
+                        },
+                        {
+                            "x": 750,
+                            "y": 150,
+                            "zone": "right_mid"
+                        },
+                        {
+                            "x": 700,
+                            "y": 200,
+                            "zone": "right_bottom"
+                        },
+                        {
+                            "x": 750,
+                            "y": 200,
+                            "zone": "right_bottom"
+                        }
+                    ]
+                }
+            },
+            "systematic_grid": {
+                "description": "Comprehensive testing grid",
+                "step_size": 50,
+                "bounds": {
+                    "x_min": 100,
+                    "x_max": 800,
+                    "y_min": 80,
+                    "y_max": 600
+                },
+                "coordinates": []
+            }
+        },
+        "1366x768": {
+            "description": "Common laptop resolution",
+            "screen_size": {
+                "width": 1366,
+                "height": 768
+            },
+            "app_window_estimate": {
+                "x": 50,
+                "y": 30,
+                "width": 700,
+                "height": 500
+            },
+            "ui_zones": {
+                "left_panel": {
+                    "description": "Compact control panel",
+                    "coordinates": [
+                        {
+                            "x": 80,
+                            "y": 80,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 120,
+                            "y": 80,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 80,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 80,
+                            "y": 110,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 120,
+                            "y": 110,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 110,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 80,
+                            "y": 140,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 120,
+                            "y": 140,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 160,
+                            "y": 140,
+                            "zone": "lower_controls"
+                        }
+                    ]
+                },
+                "viewport_center": {
+                    "description": "Compact viewport area",
+                    "coordinates": [
+                        {
+                            "x": 350,
+                            "y": 250,
+                            "zone": "center"
+                        },
+                        {
+                            "x": 320,
+                            "y": 220,
+                            "zone": "upper_left"
+                        },
+                        {
+                            "x": 380,
+                            "y": 220,
+                            "zone": "upper_right"
+                        },
+                        {
+                            "x": 320,
+                            "y": 280,
+                            "zone": "lower_left"
+                        },
+                        {
+                            "x": 380,
+                            "y": 280,
+                            "zone": "lower_right"
+                        }
+                    ]
+                },
+                "bottom_toolbar": {
+                    "description": "Compact bottom buttons",
+                    "coordinates": [
+                        {
+                            "x": 80,
+                            "y": 420,
+                            "zone": "btn_1"
+                        },
+                        {
+                            "x": 130,
+                            "y": 420,
+                            "zone": "btn_2"
+                        },
+                        {
+                            "x": 180,
+                            "y": 420,
+                            "zone": "btn_3"
+                        },
+                        {
+                            "x": 230,
+                            "y": 420,
+                            "zone": "btn_4"
+                        }
+                    ]
+                }
+            }
+        },
+        "2560x1440": {
+            "description": "2K/QHD resolution",
+            "screen_size": {
+                "width": 2560,
+                "height": 1440
+            },
+            "app_window_estimate": {
+                "x": 200,
+                "y": 100,
+                "width": 1000,
+                "height": 800
+            },
+            "ui_zones": {
+                "left_panel": {
+                    "description": "High-res control panel",
+                    "coordinates": [
+                        {
+                            "x": 240,
+                            "y": 150,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 300,
+                            "y": 150,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 360,
+                            "y": 150,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 240,
+                            "y": 200,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 300,
+                            "y": 200,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 360,
+                            "y": 200,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 240,
+                            "y": 250,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 300,
+                            "y": 250,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 360,
+                            "y": 250,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 240,
+                            "y": 300,
+                            "zone": "bottom_controls"
+                        },
+                        {
+                            "x": 300,
+                            "y": 300,
+                            "zone": "bottom_controls"
+                        },
+                        {
+                            "x": 360,
+                            "y": 300,
+                            "zone": "bottom_controls"
+                        }
+                    ]
+                },
+                "viewport_center": {
+                    "description": "Large viewport area",
+                    "coordinates": [
+                        {
+                            "x": 700,
+                            "y": 500,
+                            "zone": "center"
+                        },
+                        {
+                            "x": 600,
+                            "y": 400,
+                            "zone": "upper_left"
+                        },
+                        {
+                            "x": 800,
+                            "y": 400,
+                            "zone": "upper_right"
+                        },
+                        {
+                            "x": 600,
+                            "y": 600,
+                            "zone": "lower_left"
+                        },
+                        {
+                            "x": 800,
+                            "y": 600,
+                            "zone": "lower_right"
+                        }
+                    ]
+                },
+                "bottom_toolbar": {
+                    "description": "Spacious bottom bar",
+                    "coordinates": [
+                        {
+                            "x": 240,
+                            "y": 750,
+                            "zone": "btn_1"
+                        },
+                        {
+                            "x": 320,
+                            "y": 750,
+                            "zone": "btn_2"
+                        },
+                        {
+                            "x": 400,
+                            "y": 750,
+                            "zone": "btn_3"
+                        },
+                        {
+                            "x": 480,
+                            "y": 750,
+                            "zone": "btn_4"
+                        },
+                        {
+                            "x": 560,
+                            "y": 750,
+                            "zone": "btn_5"
+                        },
+                        {
+                            "x": 640,
+                            "y": 750,
+                            "zone": "btn_6"
+                        },
+                        {
+                            "x": 720,
+                            "y": 750,
+                            "zone": "btn_7"
+                        },
+                        {
+                            "x": 800,
+                            "y": 750,
+                            "zone": "btn_8"
+                        }
+                    ]
+                }
+            }
+        },
+        "3840x2160": {
+            "description": "4K UHD resolution",
+            "screen_size": {
+                "width": 3840,
+                "height": 2160
+            },
+            "app_window_estimate": {
+                "x": 400,
+                "y": 200,
+                "width": 1600,
+                "height": 1200
+            },
+            "ui_zones": {
+                "left_panel": {
+                    "description": "4K control panel",
+                    "coordinates": [
+                        {
+                            "x": 480,
+                            "y": 280,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 560,
+                            "y": 280,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 640,
+                            "y": 280,
+                            "zone": "top_controls"
+                        },
+                        {
+                            "x": 480,
+                            "y": 360,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 560,
+                            "y": 360,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 640,
+                            "y": 360,
+                            "zone": "mid_controls"
+                        },
+                        {
+                            "x": 480,
+                            "y": 440,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 560,
+                            "y": 440,
+                            "zone": "lower_controls"
+                        },
+                        {
+                            "x": 640,
+                            "y": 440,
+                            "zone": "lower_controls"
+                        }
+                    ]
+                },
+                "viewport_center": {
+                    "description": "Large 4K viewport",
+                    "coordinates": [
+                        {
+                            "x": 1200,
+                            "y": 800,
+                            "zone": "center"
+                        },
+                        {
+                            "x": 1000,
+                            "y": 600,
+                            "zone": "upper_left"
+                        },
+                        {
+                            "x": 1400,
+                            "y": 600,
+                            "zone": "upper_right"
+                        },
+                        {
+                            "x": 1000,
+                            "y": 1000,
+                            "zone": "lower_left"
+                        },
+                        {
+                            "x": 1400,
+                            "y": 1000,
+                            "zone": "lower_right"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "adaptive_grids": {
+        "description": "Dynamic coordinate generation based on detected screen size",
+        "algorithms": {
+            "left_panel_generator": {
+                "description": "Generate left panel coordinates based on screen size",
+                "formula": {
+                    "start_x": "screen_width * 0.05",
+                    "start_y": "screen_height * 0.1",
+                    "step_x": "40",
+                    "step_y": "40",
+                    "columns": "3",
+                    "rows": "screen_height < 800 ? 6 : 8"
+                }
+            },
+            "viewport_generator": {
+                "description": "Generate viewport coordinates for 3D area",
+                "formula": {
+                    "center_x": "screen_width * 0.4",
+                    "center_y": "screen_height * 0.4",
+                    "radius": "min(screen_width, screen_height) * 0.1"
+                }
+            },
+            "bottom_toolbar_generator": {
+                "description": "Generate bottom toolbar coordinates",
+                "formula": {
+                    "start_x": "screen_width * 0.05",
+                    "y_position": "screen_height * 0.8",
+                    "button_width": "60",
+                    "button_count": "screen_width > 1920 ? 8 : 6"
+                }
+            }
+        }
+    },
+    "movement_patterns": {
+        "description": "Common interaction movement patterns",
+        "click_sequences": {
+            "left_to_right_scan": {
+                "description": "Systematic left-to-right UI scanning",
+                "pattern": [
+                    {
+                        "x": "start_x",
+                        "y": "start_y",
+                        "delay": 0.5
+                    },
+                    {
+                        "x": "start_x + 60",
+                        "y": "start_y",
+                        "delay": 0.5
+                    },
+                    {
+                        "x": "start_x + 120",
+                        "y": "start_y",
+                        "delay": 0.5
+                    },
+                    {
+                        "x": "start_x",
+                        "y": "start_y + 40",
+                        "delay": 0.5
+                    }
+                ]
+            },
+            "viewport_exploration": {
+                "description": "3D viewport interaction pattern",
+                "pattern": [
+                    {
+                        "x": "center_x",
+                        "y": "center_y",
+                        "action": "click",
+                        "delay": 1.0
+                    },
+                    {
+                        "x": "center_x - 50",
+                        "y": "center_y",
+                        "action": "drag_start",
+                        "delay": 0.2
+                    },
+                    {
+                        "x": "center_x + 50",
+                        "y": "center_y",
+                        "action": "drag_end",
+                        "delay": 1.0
+                    }
+                ]
+            }
+        }
+    },
+    "usage_instructions": {
+        "python_example": {
+            "description": "How to use coordinate grids in Python",
+            "code": [
+                "import json",
+                "with open('reference/ui_coordinate_grids.json') as f:",
+                "    grids = json.load(f)",
+                "",
+                "# Auto-detect screen resolution",
+                "import pyautogui",
+                "screen_size = pyautogui.size()",
+                "resolution_key = f'{screen_size.width}x{screen_size.height}'",
+                "",
+                "# Get appropriate coordinate set",
+                "if resolution_key in grids['coordinate_grids']:",
+                "    coords = grids['coordinate_grids'][resolution_key]",
+                "    left_panel = coords['ui_zones']['left_panel']['coordinates']",
+                "",
+                "# Test all left panel positions",
+                "for coord in left_panel:",
+                "    controller.click(coord['x'], coord['y'], reason=coord['zone'])"
+            ]
+        }
+    }
+}

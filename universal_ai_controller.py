@@ -107,6 +107,39 @@ class UniversalAIController:
         
         print(f"Security check passed: '{active_window}' is whitelisted")
         return True, {"allowed_window": active_window}
+    
+    def _get_target_window_bounds(self):
+        """Get bounds of target application window for cropping"""
+        try:
+            def enum_window_callback(hwnd, windows):
+                if win32gui.IsWindowVisible(hwnd):
+                    window_text = win32gui.GetWindowText(hwnd)
+                    if window_text:
+                        windows.append((hwnd, window_text))
+                return True
+            
+            windows = []
+            win32gui.EnumWindows(enum_window_callback, windows)
+            
+            # Look for whitelisted windows
+            for hwnd, title in windows:
+                if any(allowed.lower() in title.lower() for allowed in self.window_whitelist):
+                    rect = win32gui.GetWindowRect(hwnd)
+                    return {
+                        "hwnd": hwnd,
+                        "title": title,
+                        "left": rect[0],
+                        "top": rect[1],
+                        "right": rect[2], 
+                        "bottom": rect[3],
+                        "width": rect[2] - rect[0],
+                        "height": rect[3] - rect[1]
+                    }
+            
+            return None
+            
+        except Exception:
+            return None
         
     def see(self, context="observation"):
         """AI VISION: Take screenshot with security validation"""
@@ -129,7 +162,23 @@ class UniversalAIController:
             return violation_response
         
         # Proceed with screenshot if allowed
+        # STEP 1: Capture full screen immediately
         screenshot = pyautogui.screenshot()
+        
+        # STEP 2: Crop immediately after capture if window found
+        window_info = self._get_target_window_bounds()
+        screenshot_type = "full_screen"
+        
+        if window_info and context != "full_screen":
+            # Crop to application window bounds immediately
+            screenshot = screenshot.crop((
+                window_info["left"],
+                window_info["top"],
+                window_info["right"], 
+                window_info["bottom"]
+            ))
+            screenshot_type = "cropped_to_window"
+        
         filename = f"s{self.session_id}_{self.action_count:03d}_{context}.png"
         filepath = self.session_dir / filename
         screenshot.save(filepath)
@@ -143,6 +192,8 @@ class UniversalAIController:
             "timestamp": timestamp,
             "context": context,
             "screenshot_path": str(filepath),
+            "screenshot_type": screenshot_type,
+            "window_info": window_info,
             "mouse_position": {"x": mouse_pos.x, "y": mouse_pos.y},
             "screen_size": {"width": screen_size.width, "height": screen_size.height},
             "action_type": "observe",

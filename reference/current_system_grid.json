@@ -1,0 +1,223 @@
+{
+  "resolution": "1920x1200",
+  "screen_size": {
+    "width": 1920,
+    "height": 1200
+  },
+  "generated_timestamp": [
+    150,
+    150
+  ],
+  "ui_zones": {
+    "left_panel": {
+      "description": "Adaptive left panel controls",
+      "coordinates": [
+        {
+          "x": 96,
+          "y": 120,
+          "zone": "left_panel_r0_c0"
+        },
+        {
+          "x": 156,
+          "y": 120,
+          "zone": "left_panel_r0_c1"
+        },
+        {
+          "x": 216,
+          "y": 120,
+          "zone": "left_panel_r0_c2"
+        },
+        {
+          "x": 96,
+          "y": 160,
+          "zone": "left_panel_r1_c0"
+        },
+        {
+          "x": 156,
+          "y": 160,
+          "zone": "left_panel_r1_c1"
+        },
+        {
+          "x": 216,
+          "y": 160,
+          "zone": "left_panel_r1_c2"
+        },
+        {
+          "x": 96,
+          "y": 200,
+          "zone": "left_panel_r2_c0"
+        },
+        {
+          "x": 156,
+          "y": 200,
+          "zone": "left_panel_r2_c1"
+        },
+        {
+          "x": 216,
+          "y": 200,
+          "zone": "left_panel_r2_c2"
+        },
+        {
+          "x": 96,
+          "y": 240,
+          "zone": "left_panel_r3_c0"
+        },
+        {
+          "x": 156,
+          "y": 240,
+          "zone": "left_panel_r3_c1"
+        },
+        {
+          "x": 216,
+          "y": 240,
+          "zone": "left_panel_r3_c2"
+        },
+        {
+          "x": 96,
+          "y": 280,
+          "zone": "left_panel_r4_c0"
+        },
+        {
+          "x": 156,
+          "y": 280,
+          "zone": "left_panel_r4_c1"
+        },
+        {
+          "x": 216,
+          "y": 280,
+          "zone": "left_panel_r4_c2"
+        },
+        {
+          "x": 96,
+          "y": 320,
+          "zone": "left_panel_r5_c0"
+        },
+        {
+          "x": 156,
+          "y": 320,
+          "zone": "left_panel_r5_c1"
+        },
+        {
+          "x": 216,
+          "y": 320,
+          "zone": "left_panel_r5_c2"
+        },
+        {
+          "x": 96,
+          "y": 360,
+          "zone": "left_panel_r6_c0"
+        },
+        {
+          "x": 156,
+          "y": 360,
+          "zone": "left_panel_r6_c1"
+        },
+        {
+          "x": 216,
+          "y": 360,
+          "zone": "left_panel_r6_c2"
+        },
+        {
+          "x": 96,
+          "y": 400,
+          "zone": "left_panel_r7_c0"
+        },
+        {
+          "x": 156,
+          "y": 400,
+          "zone": "left_panel_r7_c1"
+        },
+        {
+          "x": 216,
+          "y": 400,
+          "zone": "left_panel_r7_c2"
+        }
+      ]
+    },
+    "viewport_center": {
+      "description": "Adaptive 3D viewport area",
+      "coordinates": [
+        {
+          "x": 768,
+          "y": 480,
+          "zone": "viewport_center"
+        },
+        {
+          "x": 648,
+          "y": 360,
+          "zone": "viewport_upper_left"
+        },
+        {
+          "x": 888,
+          "y": 360,
+          "zone": "viewport_upper_right"
+        },
+        {
+          "x": 648,
+          "y": 600,
+          "zone": "viewport_lower_left"
+        },
+        {
+          "x": 888,
+          "y": 600,
+          "zone": "viewport_lower_right"
+        },
+        {
+          "x": 708,
+          "y": 480,
+          "zone": "viewport_mid_left"
+        },
+        {
+          "x": 828,
+          "y": 480,
+          "zone": "viewport_mid_right"
+        },
+        {
+          "x": 768,
+          "y": 420,
+          "zone": "viewport_mid_top"
+        },
+        {
+          "x": 768,
+          "y": 540,
+          "zone": "viewport_mid_bottom"
+        }
+      ]
+    },
+    "bottom_toolbar": {
+      "description": "Adaptive bottom toolbar",
+      "coordinates": [
+        {
+          "x": 96,
+          "y": 960,
+          "zone": "bottom_btn_1"
+        },
+        {
+          "x": 176,
+          "y": 960,
+          "zone": "bottom_btn_2"
+        },
+        {
+          "x": 256,
+          "y": 960,
+          "zone": "bottom_btn_3"
+        },
+        {
+          "x": 336,
+          "y": 960,
+          "zone": "bottom_btn_4"
+        },
+        {
+          "x": 416,
+          "y": 960,
+          "zone": "bottom_btn_5"
+        },
+        {
+          "x": 496,
+          "y": 960,
+          "zone": "bottom_btn_6"
+        }
+      ]
+    }
+  }
+}
