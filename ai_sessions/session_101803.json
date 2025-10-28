@@ -1,0 +1,576 @@
+{
+  "session_id": "101803",
+  "total_actions": 38,
+  "security_violations": 0,
+  "window_whitelist": [
+    "Spaceship Designer",
+    "Optimized Spaceship"
+  ],
+  "security_summary": {
+    "total_actions": 38,
+    "security_violations": 0,
+    "whitelist_size": 2,
+    "security_rate": "100.0%"
+  },
+  "start_time": "101803_46463",
+  "end_time": "101828_09461",
+  "actions": [
+    {
+      "action_id": 1,
+      "timestamp": "101803_46463",
+      "context": "final_test_start",
+      "screenshot_path": "ai_sessions\\s101803_001_final_test_start.png",
+      "mouse_position": {
+        "x": 200,
+        "y": 160
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 2,
+      "action_type": "click",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_0",
+      "success": true,
+      "timestamp": "101804_46329"
+    },
+    {
+      "action_id": 3,
+      "timestamp": "101804_46335",
+      "context": "btn_result_0",
+      "screenshot_path": "ai_sessions\\s101803_003_btn_result_0.png",
+      "mouse_position": {
+        "x": 100,
+        "y": 100
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 4,
+      "action_type": "click",
+      "position": {
+        "x": 150,
+        "y": 100
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_1",
+      "success": true,
+      "timestamp": "101805_84574"
+    },
+    {
+      "action_id": 5,
+      "timestamp": "101805_84580",
+      "context": "btn_result_1",
+      "screenshot_path": "ai_sessions\\s101803_005_btn_result_1.png",
+      "mouse_position": {
+        "x": 150,
+        "y": 100
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 6,
+      "action_type": "click",
+      "position": {
+        "x": 200,
+        "y": 100
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_2",
+      "success": true,
+      "timestamp": "101807_23152"
+    },
+    {
+      "action_id": 7,
+      "timestamp": "101807_23205",
+      "context": "btn_result_2",
+      "screenshot_path": "ai_sessions\\s101803_007_btn_result_2.png",
+      "mouse_position": {
+        "x": 350,
+        "y": 200
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 8,
+      "action_type": "click",
+      "position": {
+        "x": 100,
+        "y": 140
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_3",
+      "success": true,
+      "timestamp": "101808_62059"
+    },
+    {
+      "action_id": 9,
+      "timestamp": "101808_62065",
+      "context": "btn_result_3",
+      "screenshot_path": "ai_sessions\\s101803_009_btn_result_3.png",
+      "mouse_position": {
+        "x": 340,
+        "y": 228
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 10,
+      "action_type": "click",
+      "position": {
+        "x": 150,
+        "y": 140
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_4",
+      "success": true,
+      "timestamp": "101809_99735"
+    },
+    {
+      "action_id": 11,
+      "timestamp": "101809_99741",
+      "context": "btn_result_4",
+      "screenshot_path": "ai_sessions\\s101803_011_btn_result_4.png",
+      "mouse_position": {
+        "x": 150,
+        "y": 140
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 12,
+      "action_type": "click",
+      "position": {
+        "x": 200,
+        "y": 140
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_5",
+      "success": true,
+      "timestamp": "101811_37891"
+    },
+    {
+      "action_id": 13,
+      "timestamp": "101811_37897",
+      "context": "btn_result_5",
+      "screenshot_path": "ai_sessions\\s101803_013_btn_result_5.png",
+      "mouse_position": {
+        "x": 150,
+        "y": 150
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 14,
+      "action_type": "click",
+      "position": {
+        "x": 100,
+        "y": 180
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_6",
+      "success": true,
+      "timestamp": "101812_72904"
+    },
+    {
+      "action_id": 15,
+      "timestamp": "101812_72909",
+      "context": "btn_result_6",
+      "screenshot_path": "ai_sessions\\s101803_015_btn_result_6.png",
+      "mouse_position": {
+        "x": 340,
+        "y": 192
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 16,
+      "action_type": "click",
+      "position": {
+        "x": 150,
+        "y": 180
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_7",
+      "success": true,
+      "timestamp": "101814_12005"
+    },
+    {
+      "action_id": 17,
+      "timestamp": "101814_12033",
+      "context": "btn_result_7",
+      "screenshot_path": "ai_sessions\\s101803_017_btn_result_7.png",
+      "mouse_position": {
+        "x": 150,
+        "y": 180
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 18,
+      "action_type": "click",
+      "position": {
+        "x": 200,
+        "y": 180
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_8",
+      "success": true,
+      "timestamp": "101815_48968"
+    },
+    {
+      "action_id": 19,
+      "timestamp": "101815_48974",
+      "context": "btn_result_8",
+      "screenshot_path": "ai_sessions\\s101803_019_btn_result_8.png",
+      "mouse_position": {
+        "x": 300,
+        "y": 215
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 20,
+      "action_type": "click",
+      "position": {
+        "x": 100,
+        "y": 360
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_9",
+      "success": true,
+      "timestamp": "101816_88314"
+    },
+    {
+      "action_id": 21,
+      "timestamp": "101816_88322",
+      "context": "btn_result_9",
+      "screenshot_path": "ai_sessions\\s101803_021_btn_result_9.png",
+      "mouse_position": {
+        "x": 100,
+        "y": 360
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 22,
+      "action_type": "click",
+      "position": {
+        "x": 200,
+        "y": 360
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_10",
+      "success": true,
+      "timestamp": "101818_27515"
+    },
+    {
+      "action_id": 23,
+      "timestamp": "101818_27521",
+      "context": "btn_result_10",
+      "screenshot_path": "ai_sessions\\s101803_023_btn_result_10.png",
+      "mouse_position": {
+        "x": 342,
+        "y": 264
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 24,
+      "action_type": "click",
+      "position": {
+        "x": 300,
+        "y": 360
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "btn_11",
+      "success": true,
+      "timestamp": "101819_66860"
+    },
+    {
+      "action_id": 25,
+      "timestamp": "101819_66865",
+      "context": "btn_result_11",
+      "screenshot_path": "ai_sessions\\s101803_025_btn_result_11.png",
+      "mouse_position": {
+        "x": 300,
+        "y": 360
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 26,
+      "action_type": "key_press",
+      "key": "w",
+      "reason": "test_w",
+      "success": true,
+      "timestamp": "101820_39848"
+    },
+    {
+      "action_id": 27,
+      "timestamp": "101820_39856",
+      "context": "key_w",
+      "screenshot_path": "ai_sessions\\s101803_027_key_w.png",
+      "mouse_position": {
+        "x": 100,
+        "y": 150
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 28,
+      "action_type": "key_press",
+      "key": "l",
+      "reason": "test_l",
+      "success": true,
+      "timestamp": "101821_69285"
+    },
+    {
+      "action_id": 29,
+      "timestamp": "101821_69291",
+      "context": "key_l",
+      "screenshot_path": "ai_sessions\\s101803_029_key_l.png",
+      "mouse_position": {
+        "x": 200,
+        "y": 200
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 30,
+      "action_type": "key_press",
+      "key": "r",
+      "reason": "test_r",
+      "success": true,
+      "timestamp": "101823_02684"
+    },
+    {
+      "action_id": 31,
+      "timestamp": "101823_02693",
+      "context": "key_r",
+      "screenshot_path": "ai_sessions\\s101803_031_key_r.png",
+      "mouse_position": {
+        "x": 200,
+        "y": 200
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 32,
+      "action_type": "key_press",
+      "key": "space",
+      "reason": "test_space",
+      "success": true,
+      "timestamp": "101824_33835"
+    },
+    {
+      "action_id": 33,
+      "timestamp": "101824_33841",
+      "context": "key_space",
+      "screenshot_path": "ai_sessions\\s101803_033_key_space.png",
+      "mouse_position": {
+        "x": 200,
+        "y": 200
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 34,
+      "action_type": "click",
+      "position": {
+        "x": 400,
+        "y": 250
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "viewport_test",
+      "success": true,
+      "timestamp": "101826_30434"
+    },
+    {
+      "action_id": 35,
+      "timestamp": "101826_30444",
+      "context": "viewport_test",
+      "screenshot_path": "ai_sessions\\s101803_035_viewport_test.png",
+      "mouse_position": {
+        "x": 400,
+        "y": 250
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 36,
+      "action_type": "drag",
+      "start": {
+        "x": 350,
+        "y": 200
+      },
+      "end": {
+        "x": 450,
+        "y": 250
+      },
+      "duration": 1.0,
+      "reason": "drag_test",
+      "success": true,
+      "timestamp": "101827_99847"
+    },
+    {
+      "action_id": 37,
+      "timestamp": "101827_99854",
+      "context": "drag_test",
+      "screenshot_path": "ai_sessions\\s101803_037_drag_test.png",
+      "mouse_position": {
+        "x": 450,
+        "y": 250
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    },
+    {
+      "action_id": 38,
+      "timestamp": "101828_09461",
+      "context": "final_comprehensive_done",
+      "screenshot_path": "ai_sessions\\s101803_038_final_comprehensive_done.png",
+      "mouse_position": {
+        "x": 450,
+        "y": 250
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized"
+    }
+  ]
+}

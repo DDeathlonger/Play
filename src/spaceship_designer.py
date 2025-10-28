@@ -438,13 +438,40 @@ class SimplifiedControlPanel(QWidget):
         actions_layout = QVBoxLayout()
         
         self.update_btn = QPushButton("Update Module")
-        self.generate_btn = QPushButton("New Random Ship")
-        self.save_btn = QPushButton("Save Design")
-        self.load_btn = QPushButton("Load Design") 
-        self.export_btn = QPushButton("Export STL")
+        self.generate_btn = QPushButton("🎲 Generate")
+        self.random_btn = QPushButton("🔀 Random")
+        self.clear_btn = QPushButton("🗑️ Clear")
+        self.save_btn = QPushButton("💾 Save Design")
+        self.load_btn = QPushButton("📁 Load Design") 
+        self.export_btn = QPushButton("📤 Export STL")
+        
+        # Enhanced button styling
+        button_style = """
+            QPushButton {
+                font-weight: bold;
+                padding: 8px 16px;
+                border: 2px solid #555;
+                border-radius: 4px;
+                background-color: #f0f0f0;
+                min-height: 20px;
+            }
+            QPushButton:hover {
+                background-color: #e0e0e0;
+                border-color: #333;
+            }
+            QPushButton:pressed {
+                background-color: #d0d0d0;
+            }
+        """
+        
+        for btn in [self.update_btn, self.generate_btn, self.random_btn, self.clear_btn, 
+                    self.save_btn, self.load_btn, self.export_btn]:
+            btn.setStyleSheet(button_style)
         
         actions_layout.addWidget(self.update_btn)
         actions_layout.addWidget(self.generate_btn)
+        actions_layout.addWidget(self.random_btn)
+        actions_layout.addWidget(self.clear_btn)
         actions_layout.addWidget(self.save_btn)
         actions_layout.addWidget(self.load_btn)
         actions_layout.addWidget(self.export_btn)
@@ -494,7 +521,9 @@ class SimplifiedControlPanel(QWidget):
         self.pos_y.valueChanged.connect(self.position_changed)
         self.pos_z.valueChanged.connect(self.position_changed)
         self.update_btn.clicked.connect(self.update_module)
-        self.generate_btn.clicked.connect(self.generate_new_ship)
+        self.generate_btn.clicked.connect(self.generate_default_ship)
+        self.random_btn.clicked.connect(self.generate_new_ship)
+        self.clear_btn.clicked.connect(self.clear_ship)
         self.save_btn.clicked.connect(self.save_design)
         self.load_btn.clicked.connect(self.load_design)
         self.export_btn.clicked.connect(self.export_stl)
@@ -606,6 +635,26 @@ class SimplifiedControlPanel(QWidget):
         self.position_changed()
         
         print(f"Jumped to enabled module at {next_position} ({next_index + 1}/{len(enabled_positions)})")
+
+    def generate_default_ship(self):
+        """Generate a new default spaceship configuration"""
+        print("Generating new default spaceship...")
+        self.generator.grid = ConfigUtils.create_default_grid(self.generator.grid_size)
+        self.generator.mesh_dirty = True
+        self.refresh_mesh()
+        self.position_changed()  # Refresh UI
+        print("Default spaceship generated!")
+        
+    def clear_ship(self):
+        """Clear all modules from the spaceship"""
+        print("Clearing spaceship...")
+        # Set all modules to disabled
+        for pos in self.generator.grid:
+            self.generator.grid[pos].enabled = False
+        self.generator.mesh_dirty = True
+        self.refresh_mesh()
+        self.position_changed()  # Refresh UI
+        print("Spaceship cleared!")
 
     def generate_new_ship(self):
         """Generate a new random spaceship"""
