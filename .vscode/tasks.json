@@ -1,0 +1,126 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Optimized Spaceship Designer",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "main.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder};${workspaceFolder}\\src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Legacy Spaceship App",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "src/spaceship_advanced.py"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder};${workspaceFolder}\\src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "tests/test_spaceship.py"
+            ],
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder};${workspaceFolder}\\src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Export Demo",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "examples/export_demo.py"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "env": {
+                    "PYTHONPATH": "${workspaceFolder};${workspaceFolder}\\src"
+                }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate Flowcharts",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "args": [
+                "generate_flowcharts.py"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Install Dependencies",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/pip.exe",
+            "args": [
+                "install",
+                "-r",
+                "requirements.txt"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

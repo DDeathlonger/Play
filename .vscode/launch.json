@@ -1,0 +1,54 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Spaceship Designer (Optimized)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/src",
+                "QT_AUTO_SCREEN_SCALE_FACTOR": "1"
+            },
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe"
+        },
+        {
+            "name": "Legacy Spaceship App",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/spaceship_advanced.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe"
+        },
+        {
+            "name": "Export Demo",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/examples/export_demo.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe"
+        },
+        {
+            "name": "Run Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test_spaceship.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe"
+        }
+    ]
+}
