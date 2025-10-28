@@ -552,9 +552,77 @@ class SimplifiedControlPanel(QWidget):
             self.enabled_check.setChecked(module.enabled)
             self.radius_spin.setValue(module.radius)
             
-            # Visual feedback: Change spinbox style based on enabled state
-            style = "background-color: #e8f5e8;" if module.enabled else "background-color: #f5f5f5;"
-            self.radius_spin.setStyleSheet(style)
+            # Enhanced visual feedback system
+            if module.enabled:
+                # Green background for enabled modules
+                coord_style = """
+                    QSpinBox { 
+                        background-color: #e8f5e8; 
+                        border: 2px solid #4CAF50;
+                        font-weight: bold;
+                    }
+                """
+                radius_style = "background-color: #e8f5e8; border: 2px solid #4CAF50;"
+                # Update position indicator
+                self.stats_label.setText(f"📍 Position: {self.current_position}\n✅ Module: {module.type.upper()}\n🟢 Status: ENABLED")
+            else:
+                # Gray background for disabled modules  
+                coord_style = """
+                    QSpinBox { 
+                        background-color: #f5f5f5; 
+                        border: 2px solid #ccc;
+                        font-weight: normal;
+                    }
+                """
+                radius_style = "background-color: #f5f5f5; border: 2px solid #ccc;"
+                # Update position indicator
+                self.stats_label.setText(f"📍 Position: {self.current_position}\n❌ Module: {module.type.upper()}\n🔴 Status: DISABLED")
+            
+            # Apply visual feedback to coordinate spinboxes
+            self.pos_x.setStyleSheet(coord_style)
+            self.pos_y.setStyleSheet(coord_style)
+            self.pos_z.setStyleSheet(coord_style)
+            self.radius_spin.setStyleSheet(radius_style)
+            
+            self.updating_ui = False
+            
+            # CRITICAL FIX: Refresh 3D view when coordinates change
+            # This was the missing piece - coordinate changes now update the visual display
+            self.refresh_mesh()
+        else:
+            # Position not in grid - show empty state
+            print(f"Position {self.current_position} not in grid - creating empty module")
+            
+            # Create a default disabled module for positions not in grid
+            default_module = SpaceshipModule(
+                type="cylinder",
+                enabled=False,
+                radius=0.5,
+                height=0.6,
+                color=[100, 100, 100]
+            )
+            self.generator.grid[self.current_position] = default_module
+            
+            # Update UI for empty position
+            self.updating_ui = True
+            self.type_combo.setCurrentText("cylinder")
+            self.enabled_check.setChecked(False)
+            self.radius_spin.setValue(0.5)
+            
+            # Gray styling for empty positions
+            empty_style = """
+                QSpinBox { 
+                    background-color: #fff5f5; 
+                    border: 2px solid #ff9999;
+                    font-weight: bold;
+                }
+            """
+            self.pos_x.setStyleSheet(empty_style)
+            self.pos_y.setStyleSheet(empty_style)
+            self.pos_z.setStyleSheet(empty_style)
+            self.radius_spin.setStyleSheet("background-color: #fff5f5; border: 2px solid #ff9999;")
+            
+            self.stats_label.setText(f"📍 Position: {self.current_position}\n⚪ Module: EMPTY\n🔘 Status: NEW POSITION")
             
             self.updating_ui = False
             
@@ -562,41 +630,50 @@ class SimplifiedControlPanel(QWidget):
         """Update the current module"""
         print(f"Updating module at position {self.current_position}")
         
-        if self.current_position in self.generator.grid:
-            # Auto-enable module when user makes changes (better UX)
-            is_enabled = self.enabled_check.isChecked()
-            if not is_enabled:
-                # If user is modifying a disabled module, auto-enable it for immediate feedback
-                old_module = self.generator.grid[self.current_position]
-                current_type = self.type_combo.currentText()
-                current_radius = self.radius_spin.value()
-                
-                # Check if user changed anything from defaults
-                if (current_type != old_module.type or 
-                    abs(current_radius - old_module.radius) > 0.01):
-                    is_enabled = True
-                    self.enabled_check.setChecked(True)
-                    print(f"Auto-enabled module due to user modifications")
+        # Always allow updating - create module if it doesn't exist
+        # Auto-enable module when user makes changes (better UX)
+        is_enabled = self.enabled_check.isChecked()
+        
+        if self.current_position in self.generator.grid and not is_enabled:
+            # If user is modifying a disabled module, auto-enable it for immediate feedback
+            old_module = self.generator.grid[self.current_position]
+            current_type = self.type_combo.currentText()
+            current_radius = self.radius_spin.value()
             
-            # Create new module with current UI values
-            module = SpaceshipModule(
-                type=self.type_combo.currentText(),
-                enabled=is_enabled,
-                radius=self.radius_spin.value(),
-                height=self.radius_spin.value() * 1.2,  # Height proportional to radius
-                color=[
-                    120 + (hash(self.current_position) % 100), 
-                    140 + (hash(self.current_position) % 100), 
-                    160 + (hash(self.current_position) % 80)
-                ]  # Position-based color variation
-            )
-            
-            print(f"Created module: type={module.type}, enabled={module.enabled}, radius={module.radius}")
-            
-            self.generator.update_module(self.current_position, module)
-            self.refresh_mesh()
+            # Check if user changed anything from defaults
+            if (current_type != old_module.type or 
+                abs(current_radius - old_module.radius) > 0.01):
+                is_enabled = True
+                self.enabled_check.setChecked(True)
+                print(f"Auto-enabled module due to user modifications")
+        
+        # Create new module with current UI values
+        module = SpaceshipModule(
+            type=self.type_combo.currentText(),
+            enabled=is_enabled,
+            radius=self.radius_spin.value(),
+            height=self.radius_spin.value() * 1.2,  # Height proportional to radius
+            color=[
+                120 + (hash(self.current_position) % 100), 
+                140 + (hash(self.current_position) % 100), 
+                160 + (hash(self.current_position) % 80)
+            ]  # Position-based color variation
+        )
+        
+        print(f"Updated module: type={module.type}, enabled={module.enabled}, radius={module.radius}")
+        
+        # Store the module and update display
+        self.generator.update_module(self.current_position, module)
+        self.refresh_mesh()
+        
+        # Refresh the position display to show the update
+        self.position_changed()
+        
+        # Visual feedback for successful update
+        if is_enabled:
+            print(f"✅ Module at {self.current_position} updated and enabled!")
         else:
-            print(f"Position {self.current_position} not found in grid!")
+            print(f"💾 Module at {self.current_position} saved but disabled.")
             
     def find_enabled_module(self):
         """Find and jump to the next enabled module position"""
@@ -712,12 +789,21 @@ class SimplifiedControlPanel(QWidget):
             QMessageBox.warning(self, "Error", f"Export failed: {e}")
 
 class OptimizedSpaceshipApp(QMainWindow):
-    """Main application window with optimizations"""
+    """Main application window with optimizations and ALWAYS ON TOP focus control"""
     
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Spaceship Designer - Optimized")
         self.setGeometry(100, 100, 1200, 800)
+        
+        # CRITICAL: Always on top and focused
+        self.setWindowFlags(
+            Qt.WindowType.Window | 
+            Qt.WindowType.WindowStaysOnTopHint |
+            Qt.WindowType.WindowCloseButtonHint |
+            Qt.WindowType.WindowMinimizeButtonHint |
+            Qt.WindowType.WindowMaximizeButtonHint
+        )
         
         # Create generator and viewer
         self.generator = OptimizedSpaceshipGenerator()
@@ -727,8 +813,25 @@ class OptimizedSpaceshipApp(QMainWindow):
         self.setup_ui()
         self.setup_menu()
         
+        # Focus management timer
+        self.focus_timer = QTimer()
+        self.focus_timer.timeout.connect(self.maintain_focus)
+        self.focus_timer.start(100)  # Check focus every 100ms
+        
         # Initial mesh generation
         QTimer.singleShot(500, self.initial_mesh_generation)  # Longer delay to avoid startup issues
+        
+    def maintain_focus(self):
+        """Ensure app stays on top and in focus"""
+        if not self.isActiveWindow():
+            self.raise_()
+            self.activateWindow()
+            self.setFocus()
+        
+    def closeEvent(self, event):
+        """Override close event to stop focus timer"""
+        self.focus_timer.stop()
+        event.accept()
         
     def setup_ui(self):
         """Set up the main UI layout"""

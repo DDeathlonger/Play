@@ -253,15 +253,24 @@ class UniversalAIController:
         return duration
 
     def move_to(self, x, y, smooth=True, reason="navigation"):
-        """AI ACTION: Move mouse to coordinates with window constraints and speed limits"""
+        """AI ACTION: Move mouse to coordinates with STRICT window constraints - CANNOT leave app"""
         self.action_count += 1
         
         try:
             # Get current position for speed calculation
             current_pos = pyautogui.position()
             
-            # Constrain target coordinates to window bounds
+            # CRITICAL: Constrain target coordinates to window bounds - NO EXCEPTIONS
             constrained_x, constrained_y, window_info = self._constrain_coordinates_to_window(x, y)
+            
+            # SECURITY: If no window info, keep mouse at current position (stick to edge)
+            if not window_info:
+                print(f"� MOUSE CONTAINMENT: No target window - keeping current position")
+                return
+            
+            # Mouse sticks to window edges instead of blocking movement
+            if constrained_x != x or constrained_y != y:
+                print(f"� MOUSE STICK: Constrained ({x},{y}) → ({constrained_x},{constrained_y})")
             
             # Calculate appropriate movement duration
             duration = self._calculate_movement_duration(
@@ -337,8 +346,17 @@ class UniversalAIController:
             return violation_response
         
         try:
-            # Constrain click coordinates to window bounds
+            # CRITICAL: Constrain click coordinates to window bounds - NO CLICKS OUTSIDE APP
             constrained_x, constrained_y, window_info = self._constrain_coordinates_to_window(x, y)
+            
+            # SECURITY: Stick click to window edge if no bounds available
+            if not window_info:
+                print(f"� CLICK CONTAINMENT: No target window - click at current mouse position")
+                constrained_x, constrained_y = pyautogui.position()
+            
+            # Clicks stick to window edges instead of being blocked
+            if constrained_x != x or constrained_y != y:
+                print(f"� CLICK STICK: Constrained ({x},{y}) → ({constrained_x},{constrained_y})")
             
             # Move to constrained position with appropriate speed
             current_pos = pyautogui.position()
