@@ -1,0 +1,244 @@
+{
+  "summary": {
+    "total_tests": 11,
+    "total_time": 22.332816123962402,
+    "status_counts": {
+      "PASS": 7,
+      "SKIP": 2,
+      "ERROR": 2
+    },
+    "pass_rate": 63.63636363636363
+  },
+  "results": [
+    {
+      "test_name": "setup_module",
+      "module": "mcp_tools",
+      "duration": 0.005241870880126953,
+      "status": "PASS",
+      "message": "Module setup completed",
+      "details": [
+        "Module mcp_tools imported successfully"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591672"
+    },
+    {
+      "test_name": "test_client_connection",
+      "module": "mcp_tools",
+      "duration": 7.510185241699219e-05,
+      "status": "SKIP",
+      "message": "No test client available",
+      "details": [],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591679"
+    },
+    {
+      "test_name": "test_client_creation",
+      "module": "mcp_tools",
+      "duration": 0.0002639293670654297,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "MCPClient created successfully",
+        "Client properties configured correctly",
+        "Client base URL configured correctly"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591681"
+    },
+    {
+      "test_name": "test_error_handling",
+      "module": "mcp_tools",
+      "duration": 0.00020956993103027344,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Server port validation: MCPServer.__init__() got an unexpected keyword argument 'port'",
+        "Client connection validation: MCPClient.__init__() got an unexpected keyword argument 'host'",
+        "Session validation: 'MCPSessionManager' object has no attribute 'get_session'"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591683"
+    },
+    {
+      "test_name": "test_module_imports",
+      "module": "mcp_tools",
+      "duration": 0.00020837783813476562,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "All main classes importable",
+        "MCPServer has required methods",
+        "MCPClient has required methods",
+        "MCPSessionManager has required methods"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591685"
+    },
+    {
+      "test_name": "test_performance_metrics",
+      "module": "mcp_tools",
+      "duration": 0.0001895427703857422,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Performance testing error: MCPServer.__init__() got an unexpected keyword argument 'port'"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591689"
+    },
+    {
+      "test_name": "test_request_handling",
+      "module": "mcp_tools",
+      "duration": 0.00018644332885742188,
+      "status": "SKIP",
+      "message": "No test server available",
+      "details": [],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591690"
+    },
+    {
+      "test_name": "test_server_creation",
+      "module": "mcp_tools",
+      "duration": 20.143906831741333,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "MCPServer created successfully",
+        "Server has all required attributes",
+        "Server started on port 8765"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591692"
+    },
+    {
+      "test_name": "test_server_startup_shutdown",
+      "module": "mcp_tools",
+      "duration": 1.0062854290008545,
+      "status": "ERROR",
+      "message": "Unexpected error: 'MCPServer' object has no attribute 'running'",
+      "details": [],
+      "exception": "'MCPServer' object has no attribute 'running'",
+      "timestamp": "2025-10-28T15:46:10.591694"
+    },
+    {
+      "test_name": "test_session_manager_creation",
+      "module": "mcp_tools",
+      "duration": 0.00013589859008789062,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "MCPSessionManager created successfully",
+        "SessionManager has all required attributes",
+        "Session ID generated: bf293b09...",
+        "Command added to session history",
+        "Performance metrics updated correctly"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:46:10.591700"
+    },
+    {
+      "test_name": "test_session_persistence",
+      "module": "mcp_tools",
+      "duration": 5.340576171875e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: 'MCPSessionManager' object has no attribute 'create_session'",
+      "details": [
+        "Session persistence error: 'MCPSessionManager' object has no attribute 'create_session'"
+      ],
+      "exception": "'MCPSessionManager' object has no attribute 'create_session'",
+      "timestamp": "2025-10-28T15:46:10.591702"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting mcp_tools.setup_module...",
+    "\u2705 mcp_tools.setup_module: PASS (0.005s) - Module setup completed",
+    "    \u2139\ufe0f Module mcp_tools imported successfully",
+    "\ud83e\uddea Starting mcp_tools.test_client_connection...",
+    "\u23ed\ufe0f mcp_tools.test_client_connection: SKIP (0.000s) - No test client available",
+    "\ud83e\uddea Starting mcp_tools.test_client_creation...",
+    "\u2705 mcp_tools.test_client_creation: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f MCPClient created successfully",
+    "    \u2139\ufe0f Client properties configured correctly",
+    "    \u2139\ufe0f Client base URL configured correctly",
+    "\ud83e\uddea Starting mcp_tools.test_error_handling...",
+    "\u2705 mcp_tools.test_error_handling: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f Server port validation: MCPServer.__init__() got an unexpected keyword argument 'port'",
+    "    \u2139\ufe0f Client connection validation: MCPClient.__init__() got an unexpected keyword argument 'host'",
+    "    \u2139\ufe0f Session validation: 'MCPSessionManager' object has no attribute 'get_session'",
+    "\ud83e\uddea Starting mcp_tools.test_module_imports...",
+    "\u2705 mcp_tools.test_module_imports: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f All main classes importable",
+    "    \u2139\ufe0f MCPServer has required methods",
+    "    \u2139\ufe0f MCPClient has required methods",
+    "    \u2139\ufe0f MCPSessionManager has required methods",
+    "\ud83e\uddea Starting mcp_tools.test_performance_metrics...",
+    "\u2705 mcp_tools.test_performance_metrics: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f Performance testing error: MCPServer.__init__() got an unexpected keyword argument 'port'",
+    "\ud83e\uddea Starting mcp_tools.test_request_handling...",
+    "\u23ed\ufe0f mcp_tools.test_request_handling: SKIP (0.000s) - No test server available",
+    "\ud83e\uddea Starting mcp_tools.test_server_creation...",
+    "\u2705 mcp_tools.test_server_creation: PASS (20.144s) - Test completed successfully",
+    "    \u2139\ufe0f MCPServer created successfully",
+    "    \u2139\ufe0f Server has all required attributes",
+    "    \u2139\ufe0f Server started on port 8765",
+    "\ud83e\uddea Starting mcp_tools.test_server_startup_shutdown...",
+    "\ud83d\udca5 mcp_tools.test_server_startup_shutdown: ERROR (1.006s) - Unexpected error: 'MCPServer' object has no attribute 'running'",
+    "\ud83e\uddea Starting mcp_tools.test_session_manager_creation...",
+    "\u2705 mcp_tools.test_session_manager_creation: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f MCPSessionManager created successfully",
+    "    \u2139\ufe0f SessionManager has all required attributes",
+    "    \u2139\ufe0f Session ID generated: bf293b09...",
+    "    \u2139\ufe0f Command added to session history",
+    "    \u2139\ufe0f Performance metrics updated correctly",
+    "\ud83e\uddea Starting mcp_tools.test_session_persistence...",
+    "\ud83d\udca5 mcp_tools.test_session_persistence: ERROR (0.000s) - Unexpected error: 'MCPSessionManager' object has no attribute 'create_session'",
+    "    \u2139\ufe0f Session persistence error: 'MCPSessionManager' object has no attribute 'create_session'"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting mcp_tools.setup_module...",
+    "[TEST] \u2705 mcp_tools.setup_module: PASS (0.005s) - Module setup completed",
+    "[TEST]     \u2139\ufe0f Module mcp_tools imported successfully",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_client_connection...",
+    "[TEST] \u23ed\ufe0f mcp_tools.test_client_connection: SKIP (0.000s) - No test client available",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_client_creation...",
+    "[TEST] \u2705 mcp_tools.test_client_creation: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f MCPClient created successfully",
+    "[TEST]     \u2139\ufe0f Client properties configured correctly",
+    "[TEST]     \u2139\ufe0f Client base URL configured correctly",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_error_handling...",
+    "[TEST] \u2705 mcp_tools.test_error_handling: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Server port validation: MCPServer.__init__() got an unexpected keyword argument 'port'",
+    "[TEST]     \u2139\ufe0f Client connection validation: MCPClient.__init__() got an unexpected keyword argument 'host'",
+    "[TEST]     \u2139\ufe0f Session validation: 'MCPSessionManager' object has no attribute 'get_session'",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_module_imports...",
+    "[TEST] \u2705 mcp_tools.test_module_imports: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f All main classes importable",
+    "[TEST]     \u2139\ufe0f MCPServer has required methods",
+    "[TEST]     \u2139\ufe0f MCPClient has required methods",
+    "[TEST]     \u2139\ufe0f MCPSessionManager has required methods",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_performance_metrics...",
+    "[TEST] \u2705 mcp_tools.test_performance_metrics: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Performance testing error: MCPServer.__init__() got an unexpected keyword argument 'port'",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_request_handling...",
+    "[TEST] \u23ed\ufe0f mcp_tools.test_request_handling: SKIP (0.000s) - No test server available",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_server_creation...",
+    "[TEST] \u2705 mcp_tools.test_server_creation: PASS (20.144s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f MCPServer created successfully",
+    "[TEST]     \u2139\ufe0f Server has all required attributes",
+    "[TEST]     \u2139\ufe0f Server started on port 8765",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_server_startup_shutdown...",
+    "[TEST] \ud83d\udca5 mcp_tools.test_server_startup_shutdown: ERROR (1.006s) - Unexpected error: 'MCPServer' object has no attribute 'running'",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_session_manager_creation...",
+    "[TEST] \u2705 mcp_tools.test_session_manager_creation: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f MCPSessionManager created successfully",
+    "[TEST]     \u2139\ufe0f SessionManager has all required attributes",
+    "[TEST]     \u2139\ufe0f Session ID generated: bf293b09...",
+    "[TEST]     \u2139\ufe0f Command added to session history",
+    "[TEST]     \u2139\ufe0f Performance metrics updated correctly",
+    "[TEST] \ud83e\uddea Starting mcp_tools.test_session_persistence...",
+    "[TEST] \ud83d\udca5 mcp_tools.test_session_persistence: ERROR (0.000s) - Unexpected error: 'MCPSessionManager' object has no attribute 'create_session'",
+    "[TEST]     \u2139\ufe0f Session persistence error: 'MCPSessionManager' object has no attribute 'create_session'"
+  ],
+  "timestamp": "2025-10-28T15:46:10.591704"
+}

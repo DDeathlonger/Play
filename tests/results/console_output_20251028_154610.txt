@@ -1,0 +1,43 @@
+🧪 Starting mcp_tools.setup_module...
+✅ mcp_tools.setup_module: PASS (0.005s) - Module setup completed
+    ℹ️ Module mcp_tools imported successfully
+🧪 Starting mcp_tools.test_client_connection...
+⏭️ mcp_tools.test_client_connection: SKIP (0.000s) - No test client available
+🧪 Starting mcp_tools.test_client_creation...
+✅ mcp_tools.test_client_creation: PASS (0.000s) - Test completed successfully
+    ℹ️ MCPClient created successfully
+    ℹ️ Client properties configured correctly
+    ℹ️ Client base URL configured correctly
+🧪 Starting mcp_tools.test_error_handling...
+✅ mcp_tools.test_error_handling: PASS (0.000s) - Test completed successfully
+    ℹ️ Server port validation: MCPServer.__init__() got an unexpected keyword argument 'port'
+    ℹ️ Client connection validation: MCPClient.__init__() got an unexpected keyword argument 'host'
+    ℹ️ Session validation: 'MCPSessionManager' object has no attribute 'get_session'
+🧪 Starting mcp_tools.test_module_imports...
+✅ mcp_tools.test_module_imports: PASS (0.000s) - Test completed successfully
+    ℹ️ All main classes importable
+    ℹ️ MCPServer has required methods
+    ℹ️ MCPClient has required methods
+    ℹ️ MCPSessionManager has required methods
+🧪 Starting mcp_tools.test_performance_metrics...
+✅ mcp_tools.test_performance_metrics: PASS (0.000s) - Test completed successfully
+    ℹ️ Performance testing error: MCPServer.__init__() got an unexpected keyword argument 'port'
+🧪 Starting mcp_tools.test_request_handling...
+⏭️ mcp_tools.test_request_handling: SKIP (0.000s) - No test server available
+🧪 Starting mcp_tools.test_server_creation...
+✅ mcp_tools.test_server_creation: PASS (20.144s) - Test completed successfully
+    ℹ️ MCPServer created successfully
+    ℹ️ Server has all required attributes
+    ℹ️ Server started on port 8765
+🧪 Starting mcp_tools.test_server_startup_shutdown...
+💥 mcp_tools.test_server_startup_shutdown: ERROR (1.006s) - Unexpected error: 'MCPServer' object has no attribute 'running'
+🧪 Starting mcp_tools.test_session_manager_creation...
+✅ mcp_tools.test_session_manager_creation: PASS (0.000s) - Test completed successfully
+    ℹ️ MCPSessionManager created successfully
+    ℹ️ SessionManager has all required attributes
+    ℹ️ Session ID generated: bf293b09...
+    ℹ️ Command added to session history
+    ℹ️ Performance metrics updated correctly
+🧪 Starting mcp_tools.test_session_persistence...
+💥 mcp_tools.test_session_persistence: ERROR (0.000s) - Unexpected error: 'MCPSessionManager' object has no attribute 'create_session'
+    ℹ️ Session persistence error: 'MCPSessionManager' object has no attribute 'create_session'

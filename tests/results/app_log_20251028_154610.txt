@@ -1,0 +1,43 @@
+[TEST] 🧪 Starting mcp_tools.setup_module...
+[TEST] ✅ mcp_tools.setup_module: PASS (0.005s) - Module setup completed
+[TEST]     ℹ️ Module mcp_tools imported successfully
+[TEST] 🧪 Starting mcp_tools.test_client_connection...
+[TEST] ⏭️ mcp_tools.test_client_connection: SKIP (0.000s) - No test client available
+[TEST] 🧪 Starting mcp_tools.test_client_creation...
+[TEST] ✅ mcp_tools.test_client_creation: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ MCPClient created successfully
+[TEST]     ℹ️ Client properties configured correctly
+[TEST]     ℹ️ Client base URL configured correctly
+[TEST] 🧪 Starting mcp_tools.test_error_handling...
+[TEST] ✅ mcp_tools.test_error_handling: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ Server port validation: MCPServer.__init__() got an unexpected keyword argument 'port'
+[TEST]     ℹ️ Client connection validation: MCPClient.__init__() got an unexpected keyword argument 'host'
+[TEST]     ℹ️ Session validation: 'MCPSessionManager' object has no attribute 'get_session'
+[TEST] 🧪 Starting mcp_tools.test_module_imports...
+[TEST] ✅ mcp_tools.test_module_imports: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ All main classes importable
+[TEST]     ℹ️ MCPServer has required methods
+[TEST]     ℹ️ MCPClient has required methods
+[TEST]     ℹ️ MCPSessionManager has required methods
+[TEST] 🧪 Starting mcp_tools.test_performance_metrics...
+[TEST] ✅ mcp_tools.test_performance_metrics: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ Performance testing error: MCPServer.__init__() got an unexpected keyword argument 'port'
+[TEST] 🧪 Starting mcp_tools.test_request_handling...
+[TEST] ⏭️ mcp_tools.test_request_handling: SKIP (0.000s) - No test server available
+[TEST] 🧪 Starting mcp_tools.test_server_creation...
+[TEST] ✅ mcp_tools.test_server_creation: PASS (20.144s) - Test completed successfully
+[TEST]     ℹ️ MCPServer created successfully
+[TEST]     ℹ️ Server has all required attributes
+[TEST]     ℹ️ Server started on port 8765
+[TEST] 🧪 Starting mcp_tools.test_server_startup_shutdown...
+[TEST] 💥 mcp_tools.test_server_startup_shutdown: ERROR (1.006s) - Unexpected error: 'MCPServer' object has no attribute 'running'
+[TEST] 🧪 Starting mcp_tools.test_session_manager_creation...
+[TEST] ✅ mcp_tools.test_session_manager_creation: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ MCPSessionManager created successfully
+[TEST]     ℹ️ SessionManager has all required attributes
+[TEST]     ℹ️ Session ID generated: bf293b09...
+[TEST]     ℹ️ Command added to session history
+[TEST]     ℹ️ Performance metrics updated correctly
+[TEST] 🧪 Starting mcp_tools.test_session_persistence...
+[TEST] 💥 mcp_tools.test_session_persistence: ERROR (0.000s) - Unexpected error: 'MCPSessionManager' object has no attribute 'create_session'
+[TEST]     ℹ️ Session persistence error: 'MCPSessionManager' object has no attribute 'create_session'
