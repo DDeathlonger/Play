@@ -1,0 +1,53 @@
+[TEST] 🧪 Starting system_integration.setup_module...
+[TEST] ✅ system_integration.setup_module: PASS (0.183s) - Module setup completed
+[TEST]     ℹ️ Module system_integration imported successfully
+[TEST] 🧪 Starting system_integration.test_configuration_management...
+[TEST] ✅ system_integration.test_configuration_management: PASS (0.026s) - Test completed successfully
+[TEST] 🧪 Starting system_integration.test_error_propagation_and_handling...
+[TEST] ✅ system_integration.test_error_propagation_and_handling: PASS (0.001s) - Test completed successfully
+[TEST] 🧪 Starting system_integration.test_events...
+[TEST] 💥 system_integration.test_events: ERROR (0.000s) - Unexpected error: 'list' object is not callable
+[TEST] 🧪 Starting system_integration.test_integrated_spaceship_designer_creation...
+[TEST] ✅ system_integration.test_integrated_spaceship_designer_creation: PASS (0.001s) - Test completed successfully
+[TEST]     ℹ️ IntegratedSpaceshipDesigner created successfully
+[TEST]     ℹ️ Designer has event_bus
+[TEST]     ℹ️ System initialization error: 'IntegratedSpaceshipDesigner' object has no attribute 'initialize_system'
+[TEST] 🧪 Starting system_integration.test_inter_module_communication...
+[TEST] ✅ system_integration.test_inter_module_communication: PASS (0.202s) - Test completed successfully
+[TEST]     ℹ️ Communication event: ui_system -> ship_generation
+[TEST]     ℹ️ Communication event: ship_generation -> display_3d
+[TEST]     ℹ️ Communication event: display_3d -> ui_system
+[TEST]     ℹ️ Communication events processed: 3
+[TEST] 🧪 Starting system_integration.test_module_imports...
+[TEST] ❌ system_integration.test_module_imports: FAIL (0.000s) - Assertion failed: Class IntegratedSpaceshipDesigner missing method: initialize_system
+[TEST]     ℹ️ All main classes importable
+[TEST] 🧪 Starting system_integration.test_module_lifecycle_management...
+[TEST] ✅ system_integration.test_module_lifecycle_management: PASS (0.000s) - Test completed successfully
+[TEST] 🧪 Starting system_integration.test_module_registry...
+[TEST] ✅ system_integration.test_module_registry: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ ModuleRegistry created successfully
+[TEST]     ℹ️ Module registered: ui_system
+[TEST]     ℹ️ Module registered: ship_generation
+[TEST]     ℹ️ Module registered: mcp_tools
+[TEST]     ℹ️ Module retrieved: ui_system
+[TEST]     ℹ️ Module retrieved: ship_generation
+[TEST]     ℹ️ Module retrieved: mcp_tools
+[TEST]     ℹ️ Module unregistration error: 'ModuleRegistry' object has no attribute 'unregister_module'
+[TEST] 🧪 Starting system_integration.test_performance_monitoring...
+[TEST] ✅ system_integration.test_performance_monitoring: PASS (0.000s) - Test completed successfully
+[TEST] 🧪 Starting system_integration.test_plugin_system...
+[TEST] ✅ system_integration.test_plugin_system: PASS (0.000s) - Test completed successfully
+[TEST] 🧪 Starting system_integration.test_system_event_bus...
+[TEST] ✅ system_integration.test_system_event_bus: PASS (0.101s) - Test completed successfully
+[TEST]     ℹ️ SystemEventBus created successfully
+[TEST]     ℹ️ Event handlers subscribed
+[TEST]     ℹ️ Event published: ship_generated
+[TEST]     ℹ️ Event published: ui_updated
+[TEST]     ℹ️ Event published: system_ready
+[TEST]     ℹ️ Event handlers called: 4 times
+[TEST]     ℹ️ Unsubscription error: 'SystemEventBus' object has no attribute 'unsubscribe'
+[TEST] 🧪 Starting system_integration.test_system_shutdown_and_cleanup...
+[TEST] ✅ system_integration.test_system_shutdown_and_cleanup: PASS (0.042s) - Test completed successfully
+[TEST]     ℹ️ Potential memory leak: -761 objects
+[TEST] 🧪 Starting system_integration.test_systems...
+[TEST] 💥 system_integration.test_systems: ERROR (0.000s) - Unexpected error: 'list' object is not callable

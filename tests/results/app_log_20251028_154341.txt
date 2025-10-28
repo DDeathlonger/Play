@@ -1,0 +1,56 @@
+[TEST] 🧪 Starting ui_system.setup_module...
+[TEST] ✅ ui_system.setup_module: PASS (0.021s) - Module setup completed
+[TEST]     ℹ️ Module ui_system imported successfully
+[TEST] 🧪 Starting ui_system.test_accessibility_features...
+[TEST] ✅ ui_system.test_accessibility_features: PASS (0.036s) - Test completed successfully
+[TEST]     ℹ️ Accessibility properties set
+[TEST]     ℹ️ Keyboard navigation configured
+[TEST]     ℹ️ High contrast styling applied
+[TEST] 🧪 Starting ui_system.test_app...
+[TEST] 💥 ui_system.test_app: ERROR (0.000s) - Unexpected error: 'QApplication' object is not callable
+[TEST] 🧪 Starting ui_system.test_control_panel...
+[TEST] 💥 ui_system.test_control_panel: ERROR (0.000s) - Unexpected error: ControlPanel.__init__() missing 1 required positional argument: 'event_manager'
+[TEST] 🧪 Starting ui_system.test_event_handling...
+[TEST] ✅ ui_system.test_event_handling: PASS (0.001s) - Test completed successfully
+[TEST] 🧪 Starting ui_system.test_layout_manager...
+[TEST] ✅ ui_system.test_layout_manager: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ UILayoutManager created successfully
+[TEST]     ℹ️ Layout creation error: UILayoutManager.create_main_layout() missing 1 required positional argument: 'parent'
+[TEST] 🧪 Starting ui_system.test_layout_responsiveness...
+[TEST] ✅ ui_system.test_layout_responsiveness: PASS (0.001s) - Test completed successfully
+[TEST]     ℹ️ Layout types tested: VBoxLayout, HBoxLayout, GridLayout
+[TEST]     ℹ️ Size policies configured
+[TEST]     ℹ️ Minimum size set: 400x300
+[TEST] 🧪 Starting ui_system.test_module_imports...
+[TEST] ✅ ui_system.test_module_imports: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ All main classes importable
+[TEST]     ℹ️ UIEventManager has required methods
+[TEST]     ℹ️ StatusDisplay has required methods
+[TEST]     ℹ️ OperationsLog has required methods
+[TEST]     ℹ️ ControlPanel has required methods
+[TEST] 🧪 Starting ui_system.test_performance_and_memory...
+[TEST] ✅ ui_system.test_performance_and_memory: PASS (0.007s) - Test completed successfully
+[TEST]     ℹ️ Performance test error: 'UIApplication' object has no attribute 'setup_ui'
+[TEST] 🧪 Starting ui_system.test_qt_availability...
+[TEST] ✅ ui_system.test_qt_availability: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ PyQt6 core modules imported successfully
+[TEST]     ℹ️ QApplication already exists
+[TEST] 🧪 Starting ui_system.test_status_display...
+[TEST] ✅ ui_system.test_status_display: PASS (0.006s) - Test completed successfully
+[TEST]     ℹ️ StatusDisplay created successfully
+[TEST]     ℹ️ Status message updated
+[TEST] 🧪 Starting ui_system.test_theming_and_styling...
+[TEST] ✅ ui_system.test_theming_and_styling: PASS (0.000s) - Test completed successfully
+[TEST] 🧪 Starting ui_system.test_ui_application_creation...
+[TEST] ✅ ui_system.test_ui_application_creation: PASS (0.000s) - Test completed successfully
+[TEST]     ℹ️ UIApplication created successfully
+[TEST]     ℹ️ UIApplication has main_window
+[TEST]     ℹ️ UIApplication has layout_manager
+[TEST]     ℹ️ UI setup error: 'UIApplication' object has no attribute 'setup_ui'
+[TEST] 🧪 Starting ui_system.test_widget_interactions...
+[TEST] ✅ ui_system.test_widget_interactions: PASS (0.004s) - Test completed successfully
+[TEST]     ℹ️ Test widgets created
+[TEST]     ℹ️ Widget values configured
+[TEST]     ℹ️ Widget values verified
+[TEST] 🧪 Starting ui_system.test_widgets...
+[TEST] 💥 ui_system.test_widgets: ERROR (0.000s) - Unexpected error: 'list' object is not callable

@@ -1,0 +1,51 @@
+🧪 Starting display_3d.setup_module...
+✅ display_3d.setup_module: PASS (0.200s) - Module setup completed
+    ℹ️ Module display_3d imported successfully
+🧪 Starting display_3d.test_camera_controller...
+✅ display_3d.test_camera_controller: PASS (0.000s) - Test completed successfully
+    ℹ️ CameraController created successfully
+    ℹ️ Camera rotation applied
+    ℹ️ Camera panning applied
+    ℹ️ Camera transformation error: 'float' object is not callable
+🧪 Starting display_3d.test_error_handling_and_recovery...
+✅ display_3d.test_error_handling_and_recovery: PASS (0.000s) - Test completed successfully
+    ℹ️ Invalid mesh 0 error handled: MeshRenderer.render_mesh() missing 1 required posi
+    ℹ️ Invalid mesh 1 error handled: MeshRenderer.render_mesh() missing 1 required posi
+    ℹ️ Invalid mesh 2 error handled: MeshRenderer.render_mesh() missing 1 required posi
+    ℹ️ Invalid mesh 3 error handled: MeshRenderer.render_mesh() missing 1 required posi
+    ℹ️ Invalid mesh 4 error handled: MeshRenderer.render_mesh() missing 1 required posi
+🧪 Starting display_3d.test_export_and_screenshot...
+⏭️ display_3d.test_export_and_screenshot: SKIP (0.000s) - No viewer available
+🧪 Starting display_3d.test_lighting_and_materials...
+⏭️ display_3d.test_lighting_and_materials: SKIP (0.000s) - OpenGL not available for lighting testing
+🧪 Starting display_3d.test_mesh_renderer...
+✅ display_3d.test_mesh_renderer: PASS (0.000s) - Test completed successfully
+    ℹ️ MeshRenderer created successfully
+    ℹ️ Renderer has display_lists
+🧪 Starting display_3d.test_meshes...
+💥 display_3d.test_meshes: ERROR (0.000s) - Unexpected error: 'list' object is not callable
+🧪 Starting display_3d.test_module_imports...
+❌ display_3d.test_module_imports: FAIL (0.000s) - Assertion failed: Class MeshRenderer missing method: create_display_list
+    ℹ️ All main classes importable
+    ℹ️ RenderSettings has required methods
+    ℹ️ CameraController has required methods
+🧪 Starting display_3d.test_mouse_and_keyboard_input...
+⏭️ display_3d.test_mouse_and_keyboard_input: SKIP (0.000s) - No viewer available
+🧪 Starting display_3d.test_opengl_availability...
+⏭️ display_3d.test_opengl_availability: SKIP (0.000s) - PyQt6 OpenGL not available: cannot import name 'QOpenGLWidget' from 'PyQt6.QtOpenGL' (C:\Users\dante\OneDrive\Desktop\Play\.venv\Lib\site-packages\PyQt6\QtOpenGL.pyd)
+🧪 Starting display_3d.test_performance_optimization...
+⏭️ display_3d.test_performance_optimization: SKIP (0.000s) - OpenGL not available for performance testing
+🧪 Starting display_3d.test_render_settings...
+✅ display_3d.test_render_settings: PASS (0.000s) - Test completed successfully
+    ℹ️ RenderSettings created successfully
+    ℹ️ Setting wireframe_mode: False
+    ℹ️ Setting lighting_enabled: True
+    ℹ️ Setting background_color: (0.1, 0.1, 0.2, 1.0)
+    ℹ️ Wireframe mode toggled
+    ℹ️ Lighting toggled
+🧪 Starting display_3d.test_spaceship_3d_viewer_creation...
+⏭️ display_3d.test_spaceship_3d_viewer_creation: SKIP (0.000s) - OpenGL not available
+🧪 Starting display_3d.test_viewers...
+💥 display_3d.test_viewers: ERROR (0.000s) - Unexpected error: 'list' object is not callable
+🧪 Starting display_3d.test_viewport_and_projection...
+⏭️ display_3d.test_viewport_and_projection: SKIP (0.000s) - No viewer available

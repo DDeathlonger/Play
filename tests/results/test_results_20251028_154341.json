@@ -1,0 +1,316 @@
+{
+  "summary": {
+    "total_tests": 15,
+    "total_time": 1.1416900157928467,
+    "status_counts": {
+      "PASS": 12,
+      "ERROR": 3
+    },
+    "pass_rate": 80.0
+  },
+  "results": [
+    {
+      "test_name": "setup_module",
+      "module": "ui_system",
+      "duration": 0.020933866500854492,
+      "status": "PASS",
+      "message": "Module setup completed",
+      "details": [
+        "Module ui_system imported successfully"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895671"
+    },
+    {
+      "test_name": "test_accessibility_features",
+      "module": "ui_system",
+      "duration": 0.03633689880371094,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Accessibility properties set",
+        "Keyboard navigation configured",
+        "High contrast styling applied"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895684"
+    },
+    {
+      "test_name": "test_app",
+      "module": "ui_system",
+      "duration": 0.00013518333435058594,
+      "status": "ERROR",
+      "message": "Unexpected error: 'QApplication' object is not callable",
+      "details": [],
+      "exception": "'QApplication' object is not callable",
+      "timestamp": "2025-10-28T15:43:41.895688"
+    },
+    {
+      "test_name": "test_control_panel",
+      "module": "ui_system",
+      "duration": 7.891654968261719e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: ControlPanel.__init__() missing 1 required positional argument: 'event_manager'",
+      "details": [],
+      "exception": "ControlPanel.__init__() missing 1 required positional argument: 'event_manager'",
+      "timestamp": "2025-10-28T15:43:41.895691"
+    },
+    {
+      "test_name": "test_event_handling",
+      "module": "ui_system",
+      "duration": 0.0006258487701416016,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895694"
+    },
+    {
+      "test_name": "test_layout_manager",
+      "module": "ui_system",
+      "duration": 0.0001952648162841797,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "UILayoutManager created successfully",
+        "Layout creation error: UILayoutManager.create_main_layout() missing 1 required positional argument: 'parent'"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895698"
+    },
+    {
+      "test_name": "test_layout_responsiveness",
+      "module": "ui_system",
+      "duration": 0.0012023448944091797,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Layout types tested: VBoxLayout, HBoxLayout, GridLayout",
+        "Size policies configured",
+        "Minimum size set: 400x300"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895700"
+    },
+    {
+      "test_name": "test_module_imports",
+      "module": "ui_system",
+      "duration": 0.00019311904907226562,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "All main classes importable",
+        "UIEventManager has required methods",
+        "StatusDisplay has required methods",
+        "OperationsLog has required methods",
+        "ControlPanel has required methods"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895701"
+    },
+    {
+      "test_name": "test_performance_and_memory",
+      "module": "ui_system",
+      "duration": 0.006540775299072266,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Performance test error: 'UIApplication' object has no attribute 'setup_ui'"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895703"
+    },
+    {
+      "test_name": "test_qt_availability",
+      "module": "ui_system",
+      "duration": 0.0002422332763671875,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "PyQt6 core modules imported successfully",
+        "QApplication already exists"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895705"
+    },
+    {
+      "test_name": "test_status_display",
+      "module": "ui_system",
+      "duration": 0.006051063537597656,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "StatusDisplay created successfully",
+        "Status message updated"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895707"
+    },
+    {
+      "test_name": "test_theming_and_styling",
+      "module": "ui_system",
+      "duration": 0.00040912628173828125,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895708"
+    },
+    {
+      "test_name": "test_ui_application_creation",
+      "module": "ui_system",
+      "duration": 0.00033473968505859375,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "UIApplication created successfully",
+        "UIApplication has main_window",
+        "UIApplication has layout_manager",
+        "UI setup error: 'UIApplication' object has no attribute 'setup_ui'"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895710"
+    },
+    {
+      "test_name": "test_widget_interactions",
+      "module": "ui_system",
+      "duration": 0.004086732864379883,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Test widgets created",
+        "Widget values configured",
+        "Widget values verified"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:41.895712"
+    },
+    {
+      "test_name": "test_widgets",
+      "module": "ui_system",
+      "duration": 0.00013494491577148438,
+      "status": "ERROR",
+      "message": "Unexpected error: 'list' object is not callable",
+      "details": [],
+      "exception": "'list' object is not callable",
+      "timestamp": "2025-10-28T15:43:41.895714"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting ui_system.setup_module...",
+    "\u2705 ui_system.setup_module: PASS (0.021s) - Module setup completed",
+    "    \u2139\ufe0f Module ui_system imported successfully",
+    "\ud83e\uddea Starting ui_system.test_accessibility_features...",
+    "\u2705 ui_system.test_accessibility_features: PASS (0.036s) - Test completed successfully",
+    "    \u2139\ufe0f Accessibility properties set",
+    "    \u2139\ufe0f Keyboard navigation configured",
+    "    \u2139\ufe0f High contrast styling applied",
+    "\ud83e\uddea Starting ui_system.test_app...",
+    "\ud83d\udca5 ui_system.test_app: ERROR (0.000s) - Unexpected error: 'QApplication' object is not callable",
+    "\ud83e\uddea Starting ui_system.test_control_panel...",
+    "\ud83d\udca5 ui_system.test_control_panel: ERROR (0.000s) - Unexpected error: ControlPanel.__init__() missing 1 required positional argument: 'event_manager'",
+    "\ud83e\uddea Starting ui_system.test_event_handling...",
+    "\u2705 ui_system.test_event_handling: PASS (0.001s) - Test completed successfully",
+    "\ud83e\uddea Starting ui_system.test_layout_manager...",
+    "\u2705 ui_system.test_layout_manager: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f UILayoutManager created successfully",
+    "    \u2139\ufe0f Layout creation error: UILayoutManager.create_main_layout() missing 1 required positional argument: 'parent'",
+    "\ud83e\uddea Starting ui_system.test_layout_responsiveness...",
+    "\u2705 ui_system.test_layout_responsiveness: PASS (0.001s) - Test completed successfully",
+    "    \u2139\ufe0f Layout types tested: VBoxLayout, HBoxLayout, GridLayout",
+    "    \u2139\ufe0f Size policies configured",
+    "    \u2139\ufe0f Minimum size set: 400x300",
+    "\ud83e\uddea Starting ui_system.test_module_imports...",
+    "\u2705 ui_system.test_module_imports: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f All main classes importable",
+    "    \u2139\ufe0f UIEventManager has required methods",
+    "    \u2139\ufe0f StatusDisplay has required methods",
+    "    \u2139\ufe0f OperationsLog has required methods",
+    "    \u2139\ufe0f ControlPanel has required methods",
+    "\ud83e\uddea Starting ui_system.test_performance_and_memory...",
+    "\u2705 ui_system.test_performance_and_memory: PASS (0.007s) - Test completed successfully",
+    "    \u2139\ufe0f Performance test error: 'UIApplication' object has no attribute 'setup_ui'",
+    "\ud83e\uddea Starting ui_system.test_qt_availability...",
+    "\u2705 ui_system.test_qt_availability: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f PyQt6 core modules imported successfully",
+    "    \u2139\ufe0f QApplication already exists",
+    "\ud83e\uddea Starting ui_system.test_status_display...",
+    "\u2705 ui_system.test_status_display: PASS (0.006s) - Test completed successfully",
+    "    \u2139\ufe0f StatusDisplay created successfully",
+    "    \u2139\ufe0f Status message updated",
+    "\ud83e\uddea Starting ui_system.test_theming_and_styling...",
+    "\u2705 ui_system.test_theming_and_styling: PASS (0.000s) - Test completed successfully",
+    "\ud83e\uddea Starting ui_system.test_ui_application_creation...",
+    "\u2705 ui_system.test_ui_application_creation: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f UIApplication created successfully",
+    "    \u2139\ufe0f UIApplication has main_window",
+    "    \u2139\ufe0f UIApplication has layout_manager",
+    "    \u2139\ufe0f UI setup error: 'UIApplication' object has no attribute 'setup_ui'",
+    "\ud83e\uddea Starting ui_system.test_widget_interactions...",
+    "\u2705 ui_system.test_widget_interactions: PASS (0.004s) - Test completed successfully",
+    "    \u2139\ufe0f Test widgets created",
+    "    \u2139\ufe0f Widget values configured",
+    "    \u2139\ufe0f Widget values verified",
+    "\ud83e\uddea Starting ui_system.test_widgets...",
+    "\ud83d\udca5 ui_system.test_widgets: ERROR (0.000s) - Unexpected error: 'list' object is not callable"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting ui_system.setup_module...",
+    "[TEST] \u2705 ui_system.setup_module: PASS (0.021s) - Module setup completed",
+    "[TEST]     \u2139\ufe0f Module ui_system imported successfully",
+    "[TEST] \ud83e\uddea Starting ui_system.test_accessibility_features...",
+    "[TEST] \u2705 ui_system.test_accessibility_features: PASS (0.036s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Accessibility properties set",
+    "[TEST]     \u2139\ufe0f Keyboard navigation configured",
+    "[TEST]     \u2139\ufe0f High contrast styling applied",
+    "[TEST] \ud83e\uddea Starting ui_system.test_app...",
+    "[TEST] \ud83d\udca5 ui_system.test_app: ERROR (0.000s) - Unexpected error: 'QApplication' object is not callable",
+    "[TEST] \ud83e\uddea Starting ui_system.test_control_panel...",
+    "[TEST] \ud83d\udca5 ui_system.test_control_panel: ERROR (0.000s) - Unexpected error: ControlPanel.__init__() missing 1 required positional argument: 'event_manager'",
+    "[TEST] \ud83e\uddea Starting ui_system.test_event_handling...",
+    "[TEST] \u2705 ui_system.test_event_handling: PASS (0.001s) - Test completed successfully",
+    "[TEST] \ud83e\uddea Starting ui_system.test_layout_manager...",
+    "[TEST] \u2705 ui_system.test_layout_manager: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f UILayoutManager created successfully",
+    "[TEST]     \u2139\ufe0f Layout creation error: UILayoutManager.create_main_layout() missing 1 required positional argument: 'parent'",
+    "[TEST] \ud83e\uddea Starting ui_system.test_layout_responsiveness...",
+    "[TEST] \u2705 ui_system.test_layout_responsiveness: PASS (0.001s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Layout types tested: VBoxLayout, HBoxLayout, GridLayout",
+    "[TEST]     \u2139\ufe0f Size policies configured",
+    "[TEST]     \u2139\ufe0f Minimum size set: 400x300",
+    "[TEST] \ud83e\uddea Starting ui_system.test_module_imports...",
+    "[TEST] \u2705 ui_system.test_module_imports: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f All main classes importable",
+    "[TEST]     \u2139\ufe0f UIEventManager has required methods",
+    "[TEST]     \u2139\ufe0f StatusDisplay has required methods",
+    "[TEST]     \u2139\ufe0f OperationsLog has required methods",
+    "[TEST]     \u2139\ufe0f ControlPanel has required methods",
+    "[TEST] \ud83e\uddea Starting ui_system.test_performance_and_memory...",
+    "[TEST] \u2705 ui_system.test_performance_and_memory: PASS (0.007s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Performance test error: 'UIApplication' object has no attribute 'setup_ui'",
+    "[TEST] \ud83e\uddea Starting ui_system.test_qt_availability...",
+    "[TEST] \u2705 ui_system.test_qt_availability: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f PyQt6 core modules imported successfully",
+    "[TEST]     \u2139\ufe0f QApplication already exists",
+    "[TEST] \ud83e\uddea Starting ui_system.test_status_display...",
+    "[TEST] \u2705 ui_system.test_status_display: PASS (0.006s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f StatusDisplay created successfully",
+    "[TEST]     \u2139\ufe0f Status message updated",
+    "[TEST] \ud83e\uddea Starting ui_system.test_theming_and_styling...",
+    "[TEST] \u2705 ui_system.test_theming_and_styling: PASS (0.000s) - Test completed successfully",
+    "[TEST] \ud83e\uddea Starting ui_system.test_ui_application_creation...",
+    "[TEST] \u2705 ui_system.test_ui_application_creation: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f UIApplication created successfully",
+    "[TEST]     \u2139\ufe0f UIApplication has main_window",
+    "[TEST]     \u2139\ufe0f UIApplication has layout_manager",
+    "[TEST]     \u2139\ufe0f UI setup error: 'UIApplication' object has no attribute 'setup_ui'",
+    "[TEST] \ud83e\uddea Starting ui_system.test_widget_interactions...",
+    "[TEST] \u2705 ui_system.test_widget_interactions: PASS (0.004s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Test widgets created",
+    "[TEST]     \u2139\ufe0f Widget values configured",
+    "[TEST]     \u2139\ufe0f Widget values verified",
+    "[TEST] \ud83e\uddea Starting ui_system.test_widgets...",
+    "[TEST] \ud83d\udca5 ui_system.test_widgets: ERROR (0.000s) - Unexpected error: 'list' object is not callable"
+  ],
+  "timestamp": "2025-10-28T15:43:41.895716"
+}

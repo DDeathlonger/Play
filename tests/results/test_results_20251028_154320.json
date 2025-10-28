@@ -1,0 +1,296 @@
+{
+  "summary": {
+    "total_tests": 14,
+    "total_time": 1.281827449798584,
+    "status_counts": {
+      "PASS": 7,
+      "SKIP": 1,
+      "ERROR": 5,
+      "FAIL": 1
+    },
+    "pass_rate": 50.0
+  },
+  "results": [
+    {
+      "test_name": "setup_module",
+      "module": "ship_generation",
+      "duration": 0.0036079883575439453,
+      "status": "PASS",
+      "message": "Module setup completed",
+      "details": [
+        "Module ship_generation imported successfully"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238111"
+    },
+    {
+      "test_name": "test_error_handling_and_recovery",
+      "module": "ship_generation",
+      "duration": 0.007880210876464844,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Invalid grid size handled gracefully",
+        "Invalid export path handled",
+        "Corrupted data error: 'ShipGenerator' object has no attribute 'create_mesh'"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238118"
+    },
+    {
+      "test_name": "test_export_functionality",
+      "module": "ship_generation",
+      "duration": 0.00026345252990722656,
+      "status": "SKIP",
+      "message": "No test ships available for export",
+      "details": [],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238121"
+    },
+    {
+      "test_name": "test_memory_management",
+      "module": "ship_generation",
+      "duration": 0.006808280944824219,
+      "status": "ERROR",
+      "message": "Unexpected error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+      "details": [
+        "Initial objects: 87275"
+      ],
+      "exception": "cannot use 'tuple' as a set element (unhashable type: 'list')",
+      "timestamp": "2025-10-28T15:43:20.238128"
+    },
+    {
+      "test_name": "test_mesh_cache_functionality",
+      "module": "ship_generation",
+      "duration": 9.202957153320312e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: 'MeshCache' object has no attribute 'cache_mesh'",
+      "details": [
+        "MeshCache created successfully"
+      ],
+      "exception": "'MeshCache' object has no attribute 'cache_mesh'",
+      "timestamp": "2025-10-28T15:43:20.238131"
+    },
+    {
+      "test_name": "test_mesh_creation_and_validation",
+      "module": "ship_generation",
+      "duration": 0.00037932395935058594,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Mesh creation error: cannot use 'tuple' as a set element (unhashable type: 'list')"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238133"
+    },
+    {
+      "test_name": "test_meshes",
+      "module": "ship_generation",
+      "duration": 9.822845458984375e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: 'list' object is not callable",
+      "details": [],
+      "exception": "'list' object is not callable",
+      "timestamp": "2025-10-28T15:43:20.238134"
+    },
+    {
+      "test_name": "test_module_imports",
+      "module": "ship_generation",
+      "duration": 6.127357482910156e-05,
+      "status": "FAIL",
+      "message": "Assertion failed: Class ShipGenerator missing method: create_mesh",
+      "details": [
+        "All main classes importable"
+      ],
+      "exception": "Class ShipGenerator missing method: create_mesh",
+      "timestamp": "2025-10-28T15:43:20.238136"
+    },
+    {
+      "test_name": "test_performance_optimization",
+      "module": "ship_generation",
+      "duration": 0.00016498565673828125,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "Ship 1 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+        "Ship 2 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+        "Ship 3 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+        "Generated 3 ships in 0.000s"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238138"
+    },
+    {
+      "test_name": "test_primitive_generation",
+      "module": "ship_generation",
+      "duration": 0.0032265186309814453,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "PrimitiveGenerator created successfully",
+        "Cylinder primitive created",
+        "Box creation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+        "Sphere primitive created",
+        "Primitive caching working"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238139"
+    },
+    {
+      "test_name": "test_ship_architecture",
+      "module": "ship_generation",
+      "duration": 0.00014209747314453125,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "ShipArchitecture created successfully"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238141"
+    },
+    {
+      "test_name": "test_ship_generation_complete",
+      "module": "ship_generation",
+      "duration": 0.00021266937255859375,
+      "status": "ERROR",
+      "message": "Unexpected error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+      "details": [
+        "Ship generation error: cannot use 'tuple' as a set element (unhashable type: 'list')"
+      ],
+      "exception": "cannot use 'tuple' as a set element (unhashable type: 'list')",
+      "timestamp": "2025-10-28T15:43:20.238143"
+    },
+    {
+      "test_name": "test_ship_generator_creation",
+      "module": "ship_generation",
+      "duration": 0.00011992454528808594,
+      "status": "PASS",
+      "message": "Test completed successfully",
+      "details": [
+        "ShipGenerator created successfully",
+        "Generator has all required attributes",
+        "Component materials configured: 6 types",
+        "Generation statistics initialized"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:43:20.238144"
+    },
+    {
+      "test_name": "test_ships",
+      "module": "ship_generation",
+      "duration": 0.00015544891357421875,
+      "status": "ERROR",
+      "message": "Unexpected error: 'list' object is not callable",
+      "details": [],
+      "exception": "'list' object is not callable",
+      "timestamp": "2025-10-28T15:43:20.238146"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting ship_generation.setup_module...",
+    "\u2705 ship_generation.setup_module: PASS (0.004s) - Module setup completed",
+    "    \u2139\ufe0f Module ship_generation imported successfully",
+    "\ud83e\uddea Starting ship_generation.test_error_handling_and_recovery...",
+    "\u2705 ship_generation.test_error_handling_and_recovery: PASS (0.008s) - Test completed successfully",
+    "    \u2139\ufe0f Invalid grid size handled gracefully",
+    "    \u2139\ufe0f Invalid export path handled",
+    "    \u2139\ufe0f Corrupted data error: 'ShipGenerator' object has no attribute 'create_mesh'",
+    "\ud83e\uddea Starting ship_generation.test_export_functionality...",
+    "\u23ed\ufe0f ship_generation.test_export_functionality: SKIP (0.000s) - No test ships available for export",
+    "\ud83e\uddea Starting ship_generation.test_memory_management...",
+    "\ud83d\udca5 ship_generation.test_memory_management: ERROR (0.007s) - Unexpected error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "    \u2139\ufe0f Initial objects: 87275",
+    "\ud83e\uddea Starting ship_generation.test_mesh_cache_functionality...",
+    "\ud83d\udca5 ship_generation.test_mesh_cache_functionality: ERROR (0.000s) - Unexpected error: 'MeshCache' object has no attribute 'cache_mesh'",
+    "    \u2139\ufe0f MeshCache created successfully",
+    "\ud83e\uddea Starting ship_generation.test_mesh_creation_and_validation...",
+    "\u2705 ship_generation.test_mesh_creation_and_validation: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f Mesh creation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "\ud83e\uddea Starting ship_generation.test_meshes...",
+    "\ud83d\udca5 ship_generation.test_meshes: ERROR (0.000s) - Unexpected error: 'list' object is not callable",
+    "\ud83e\uddea Starting ship_generation.test_module_imports...",
+    "\u274c ship_generation.test_module_imports: FAIL (0.000s) - Assertion failed: Class ShipGenerator missing method: create_mesh",
+    "    \u2139\ufe0f All main classes importable",
+    "\ud83e\uddea Starting ship_generation.test_performance_optimization...",
+    "\u2705 ship_generation.test_performance_optimization: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f Ship 1 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "    \u2139\ufe0f Ship 2 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "    \u2139\ufe0f Ship 3 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "    \u2139\ufe0f Generated 3 ships in 0.000s",
+    "\ud83e\uddea Starting ship_generation.test_primitive_generation...",
+    "\u2705 ship_generation.test_primitive_generation: PASS (0.003s) - Test completed successfully",
+    "    \u2139\ufe0f PrimitiveGenerator created successfully",
+    "    \u2139\ufe0f Cylinder primitive created",
+    "    \u2139\ufe0f Box creation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "    \u2139\ufe0f Sphere primitive created",
+    "    \u2139\ufe0f Primitive caching working",
+    "\ud83e\uddea Starting ship_generation.test_ship_architecture...",
+    "\u2705 ship_generation.test_ship_architecture: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f ShipArchitecture created successfully",
+    "\ud83e\uddea Starting ship_generation.test_ship_generation_complete...",
+    "\ud83d\udca5 ship_generation.test_ship_generation_complete: ERROR (0.000s) - Unexpected error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "    \u2139\ufe0f Ship generation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "\ud83e\uddea Starting ship_generation.test_ship_generator_creation...",
+    "\u2705 ship_generation.test_ship_generator_creation: PASS (0.000s) - Test completed successfully",
+    "    \u2139\ufe0f ShipGenerator created successfully",
+    "    \u2139\ufe0f Generator has all required attributes",
+    "    \u2139\ufe0f Component materials configured: 6 types",
+    "    \u2139\ufe0f Generation statistics initialized",
+    "\ud83e\uddea Starting ship_generation.test_ships...",
+    "\ud83d\udca5 ship_generation.test_ships: ERROR (0.000s) - Unexpected error: 'list' object is not callable"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting ship_generation.setup_module...",
+    "[TEST] \u2705 ship_generation.setup_module: PASS (0.004s) - Module setup completed",
+    "[TEST]     \u2139\ufe0f Module ship_generation imported successfully",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_error_handling_and_recovery...",
+    "[TEST] \u2705 ship_generation.test_error_handling_and_recovery: PASS (0.008s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Invalid grid size handled gracefully",
+    "[TEST]     \u2139\ufe0f Invalid export path handled",
+    "[TEST]     \u2139\ufe0f Corrupted data error: 'ShipGenerator' object has no attribute 'create_mesh'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_export_functionality...",
+    "[TEST] \u23ed\ufe0f ship_generation.test_export_functionality: SKIP (0.000s) - No test ships available for export",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_memory_management...",
+    "[TEST] \ud83d\udca5 ship_generation.test_memory_management: ERROR (0.007s) - Unexpected error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST]     \u2139\ufe0f Initial objects: 87275",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_mesh_cache_functionality...",
+    "[TEST] \ud83d\udca5 ship_generation.test_mesh_cache_functionality: ERROR (0.000s) - Unexpected error: 'MeshCache' object has no attribute 'cache_mesh'",
+    "[TEST]     \u2139\ufe0f MeshCache created successfully",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_mesh_creation_and_validation...",
+    "[TEST] \u2705 ship_generation.test_mesh_creation_and_validation: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Mesh creation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_meshes...",
+    "[TEST] \ud83d\udca5 ship_generation.test_meshes: ERROR (0.000s) - Unexpected error: 'list' object is not callable",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_module_imports...",
+    "[TEST] \u274c ship_generation.test_module_imports: FAIL (0.000s) - Assertion failed: Class ShipGenerator missing method: create_mesh",
+    "[TEST]     \u2139\ufe0f All main classes importable",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_performance_optimization...",
+    "[TEST] \u2705 ship_generation.test_performance_optimization: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f Ship 1 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST]     \u2139\ufe0f Ship 2 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST]     \u2139\ufe0f Ship 3 error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST]     \u2139\ufe0f Generated 3 ships in 0.000s",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_primitive_generation...",
+    "[TEST] \u2705 ship_generation.test_primitive_generation: PASS (0.003s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f PrimitiveGenerator created successfully",
+    "[TEST]     \u2139\ufe0f Cylinder primitive created",
+    "[TEST]     \u2139\ufe0f Box creation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST]     \u2139\ufe0f Sphere primitive created",
+    "[TEST]     \u2139\ufe0f Primitive caching working",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ship_architecture...",
+    "[TEST] \u2705 ship_generation.test_ship_architecture: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f ShipArchitecture created successfully",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ship_generation_complete...",
+    "[TEST] \ud83d\udca5 ship_generation.test_ship_generation_complete: ERROR (0.000s) - Unexpected error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST]     \u2139\ufe0f Ship generation error: cannot use 'tuple' as a set element (unhashable type: 'list')",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ship_generator_creation...",
+    "[TEST] \u2705 ship_generation.test_ship_generator_creation: PASS (0.000s) - Test completed successfully",
+    "[TEST]     \u2139\ufe0f ShipGenerator created successfully",
+    "[TEST]     \u2139\ufe0f Generator has all required attributes",
+    "[TEST]     \u2139\ufe0f Component materials configured: 6 types",
+    "[TEST]     \u2139\ufe0f Generation statistics initialized",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ships...",
+    "[TEST] \ud83d\udca5 ship_generation.test_ships: ERROR (0.000s) - Unexpected error: 'list' object is not callable"
+  ],
+  "timestamp": "2025-10-28T15:43:20.238148"
+}

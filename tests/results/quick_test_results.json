@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "total_tests": 1,
+    "total_time": 0.0,
+    "status_counts": {
+      "PASS": 1
+    },
+    "pass_rate": 100.0
+  },
+  "results": [
+    {
+      "test_name": "quick_test",
+      "module": "framework",
+      "duration": 0.0,
+      "status": "PASS",
+      "message": "Quick test successful",
+      "details": [
+        "Framework validation test"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T15:10:55.693396"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting framework.quick_test...",
+    "\u2705 framework.quick_test: PASS (0.000s) - Quick test successful",
+    "    \u2139\ufe0f Framework validation test"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting framework.quick_test...",
+    "[TEST] \u2705 framework.quick_test: PASS (0.000s) - Quick test successful",
+    "[TEST]     \u2139\ufe0f Framework validation test"
+  ],
+  "timestamp": "2025-10-28T15:10:55.693396"
+}
