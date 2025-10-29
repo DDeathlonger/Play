@@ -22,24 +22,24 @@ def test_spaceship_geometry_node():
     
     # Test creation
     geometry_node = SpaceshipGeometryNode("cylinder", 0.5, 1.0, [255, 0, 0])
-    assert module.type == "cylinder"
-    assert module.radius == 0.5
-    assert module.height == 1.0
-    assert module.color == [255, 0, 0]
+    assert geometry_node.type == "cylinder"
+    assert geometry_node.radius == 0.5
+    assert geometry_node.height == 1.0
+    assert geometry_node.color == [255, 0, 0]
     
     # Test enabled state
-    assert module.enabled == True
-    module.enabled = False
-    assert module.enabled == False
+    assert geometry_node.enabled == True
+    geometry_node.enabled = False
+    assert geometry_node.enabled == False
     
     # Test rotation and scale
-    assert module.rotation == [0, 0, 0]
-    assert module.scale == [1.0, 1.0, 1.0]
+    assert geometry_node.rotation == [0, 0, 0]
+    assert geometry_node.scale == [1.0, 1.0, 1.0]
     
-    module.rotation = [90, 0, 0]
-    module.scale = [2.0, 1.0, 1.0]
-    assert module.rotation == [90, 0, 0]
-    assert module.scale == [2.0, 1.0, 1.0]
+    geometry_node.rotation = [90, 0, 0]
+    geometry_node.scale = [2.0, 1.0, 1.0]
+    assert geometry_node.rotation == [90, 0, 0]
+    assert geometry_node.scale == [2.0, 1.0, 1.0]
     
     print("✓ SpaceshipGeometryNode tests passed")
 
@@ -169,7 +169,7 @@ def main():
     print("=" * 50)
     
     try:
-        test_spaceship_module()
+        test_spaceship_geometry_node()
         test_spaceship_generator()
         test_mesh_utilities()
         test_config_management()

@@ -86,11 +86,19 @@ class SpaceshipMCPIntegration:
                 print("⚠️ Failed to register legacy AI controller service")
                 
             # Register AI memory control service
+            print("🔧 Creating AI Memory Control Service...")
             self.memory_service = AIMemoryControlService()
+            print(f"🔧 Memory service created: {self.memory_service}")
+            print(f"🔧 Memory service initialized: {self.memory_service.is_initialized}")
+            
+            print("🔧 Registering memory service with /memory prefix...")
             memory_registered = self.mcp_server.register_service('/memory', self.memory_service)
+            print(f"🔧 Memory registration result: {memory_registered}")
             
             if not memory_registered:
                 print("⚠️ Failed to register AI memory control service")
+            else:
+                print("✅ AI Memory Control Service registered successfully")
                 
             self.is_running = success
             

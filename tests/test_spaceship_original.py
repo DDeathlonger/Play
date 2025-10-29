@@ -50,11 +50,11 @@ def test_spaceship_generator():
     print("Testing SpaceshipGenerator...")
     
     # Use the optimized spaceship designer instead of legacy version
-    from spaceship_designer import OptimizedSpaceshipGenerator, GRID_SIZE
+    from spaceship_designer import OptimizedSpaceshipGenerator, DEFAULT_GRID_SIZE
     
     # Test creation
     generator = OptimizedSpaceshipGenerator()
-    assert generator.grid_size == GRID_SIZE
+    assert generator.grid_size == DEFAULT_GRID_SIZE
     assert len(generator.grid) > 0
     
     # Test mesh generation

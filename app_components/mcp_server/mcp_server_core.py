@@ -273,7 +273,7 @@ class MCPServerCore:
         """Get singleton instance of MCP server"""
         return cls()
         
-    def start(self, port: int = 8765, host: str = '0.0.0.0') -> bool:
+    def start(self, port: int = 8765, host: str = '127.0.0.1') -> bool:
         """
         Start the MCP server with service registry support.
         
@@ -323,22 +323,52 @@ class MCPServerCore:
                 def handler(*args, **kwargs):
                     return MCPRequestHandler(self, *args, **kwargs)
                 
+                print(f"🔧 Creating server on {host}:{self.port}")
                 self.server = ThreadedHTTPServer((host, self.port), handler)
                 self.server.allow_reuse_address = True
+                print(f"🔧 Server created, starting thread...")
                 
                 # Start server in background thread
+                def server_runner():
+                    try:
+                        print(f"🔧 Server thread starting on {host}:{self.port}")
+                        self.server.serve_forever()
+                    except Exception as e:
+                        print(f"❌ Server thread error: {e}")
+                        import traceback
+                        traceback.print_exc()
+                        
                 self.server_thread = threading.Thread(
-                    target=self.server.serve_forever,
+                    target=server_runner,
                     daemon=True,
                     name=f"MCPServer-{self.port}"
                 )
                 
                 self.server_thread.start()
+                
+                # Wait a moment for thread to start and verify socket
+                time.sleep(0.2)
+                
+                # Test socket connectivity
+                try:
+                    import socket
+                    test_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                    test_socket.settimeout(1)
+                    result = test_socket.connect_ex((host, self.port))
+                    test_socket.close()
+                    if result == 0:
+                        print(f"✅ Socket verification: Port {self.port} is accessible")
+                    else:
+                        print(f"⚠️ Socket verification: Port {self.port} connection failed (code {result})")
+                except Exception as e:
+                    print(f"⚠️ Socket verification error: {e}")
+                
                 self.is_running = True
                 self.start_time = time.time()
                 
                 print(f"🚀 Shared MCP Server started on http://{host}:{self.port}")
                 print(f"📡 Service registry ready for endpoint registration")
+                print(f"🔧 Server thread active: {self.server_thread.is_alive()}")
                 
                 return True
                 
