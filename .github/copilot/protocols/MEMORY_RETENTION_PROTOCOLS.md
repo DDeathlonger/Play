@@ -167,4 +167,30 @@
 - [ ] Date and trigger documented
 - [ ] User acknowledgment received
 
-The Memory Retention Protocols ensure that the CoPilot Memory System captures and maintains all critical user statements, preferences, and decisions to eliminate frustrating repetition and improve AI effectiveness over time.
+## 🔄 **STATISTICAL MEMORY WEIGHTING INTEGRATION**
+
+### **Enhanced Memory Management (2025-10-28)**
+**New Feature**: Memory system now tracks theme repetition and applies statistical weighting to prevent bloat while preserving high-priority memories.
+
+**Weighting Integration Process**:
+1. **Track Theme Occurrences**: Count repeated mentions of same topics in "Remember..." statements
+2. **Calculate Intensity Scores**: Use repetition frequency + recency bonuses to measure user emphasis  
+3. **Apply Weight Factors**: Range 0.0-1.0 based on user intensity patterns
+4. **Intelligent Pruning**: Archive low-weight memories when files become long (>500 lines)
+5. **Preserve High-Priority**: Never archive memories with weight 0.75+ (user emphasized topics)
+
+**Weight Categories**:
+- **VERY HIGH (0.90-1.0)**: 4+ "Remember..." occurrences = permanent retention
+- **HIGH (0.75-0.89)**: 3 occurrences = high priority, never archived  
+- **MEDIUM (0.50-0.74)**: 2 occurrences = maintained, may be condensed
+- **LOW (0.25-0.49)**: 1 occurrence = archive candidate if unreinforced
+- **ARCHIVE (0.0-0.24)**: Deprecated or outdated = move to archive folder
+
+**Reference**: Complete statistical tracking system documented in `protocols/MEMORY_WEIGHTING_SYSTEM.md`
+
+### **File Size Management**
+- **Trigger Threshold**: Begin selective archiving when USER_PREFERENCES.md exceeds 400 lines
+- **Mandatory Pruning**: Required when any .md file exceeds 800 lines  
+- **Monthly Review**: Recalculate weights with updated recency bonuses
+
+The Memory Retention Protocols with Statistical Weighting ensure that the CoPilot Memory System captures and maintains all critical user statements while intelligently managing file size and relevance to eliminate both frustrating repetition and memory bloat over time.

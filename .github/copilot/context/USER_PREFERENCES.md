@@ -109,6 +109,30 @@ User Statement: "Now please remember all ai's should, when I ask you to commit i
 7. **Attempt to use flowchart tool** if it works
 8. **Wait for additional instructions** after completion
 
+**2025-10-28**: **MEMORY TRACKING AND WEIGHTING SYSTEM**  
+User Statement: "next, in the memory system, the ai should track the number of repeated occurances in themes to reflect the users' intensity of feeling and the ai should then use these tracked statistics to weigh the weight and relevancy of the memories. (this is to ensure the memory files never get too long or bloated)"
+
+**ESTABLISHED MEMORY WEIGHTING PROTOCOL:**
+1. **Track repeated theme occurrences** to measure user intensity
+2. **Use statistical weighting** based on repetition frequency
+3. **Apply relevancy scoring** using tracked statistics
+4. **Prevent memory file bloat** through intelligent pruning
+5. **Maintain high-priority memories** based on user emphasis patterns
+6. **Archive low-weight memories** when files become too long
+
+**2025-10-28**: **CRITICAL - DESTRUCTIVE AI BEHAVIOR PREVENTION**  
+User Statement: "well to update some of my most annoying things with ai is unnecessarily destructive or dismissive edits or outright deletion, with no regard to the large scope of the project as a whole, already likely containing the necessary tooling as ai would otherwise just try to recreate for the 5th time in a row. ultimately leading to bloat and confusing projects. mismatching naming conventions, directories, duplicate functions, conflicting functions, duplicate dependancies, conflicting dependancies, and so many more common issues I fight with ai over so often because ai usually fails to consider the larger context without taking forever or losing track of focus."
+
+**CRITICAL ANTI-DESTRUCTIVE PROTOCOLS (WEIGHT: 1.0 - MAXIMUM PRIORITY):**
+1. **NEVER make destructive edits** without understanding project scope
+2. **ALWAYS check for existing tooling** before recreating functionality
+3. **MAINTAIN consistent naming conventions** across entire project
+4. **PREVENT duplicate functions** by searching codebase first
+5. **AVOID conflicting dependencies** by checking existing requirements
+6. **CONSIDER larger context** before making ANY significant changes
+7. **PRESERVE existing working systems** rather than rebuilding
+8. **RESEARCH project structure** thoroughly before proposing changes
+
 ## 🎨 **USER INTERFACE AND VISUAL PREFERENCES**
 
 ### **Enhanced Visual Output**

@@ -593,7 +593,18 @@ The project now provides **THE definitive intelligent AI development system** wi
 
 ## 🚫 CRITICAL RESTRICTIONS FOR ALL AI AGENTS
 
-### **📋 NO COMPLETION REPORTS**
+### **� ANTI-DESTRUCTIVE BEHAVIOR MANDATE - MAXIMUM PRIORITY**
+- ✅ **ALWAYS SEARCH** for existing functionality before creating new implementations
+- ✅ **PRESERVE EXISTING SYSTEMS** and enhance rather than replace
+- ✅ **MAINTAIN CONSISTENT NAMING** conventions across entire project
+- ✅ **PREVENT DUPLICATE FUNCTIONS** by thorough codebase research
+- ✅ **AVOID DEPENDENCY CONFLICTS** by checking all requirements files
+- ✅ **CONSIDER PROJECT SCOPE** before making ANY significant changes
+- ❌ **NEVER MAKE DESTRUCTIVE EDITS** without complete understanding
+- ❌ **NEVER RECREATE EXISTING TOOLING** - enhance what already works
+- ❌ **NEVER IGNORE ESTABLISHED PATTERNS** - follow project conventions
+
+### **�📋 NO COMPLETION REPORTS**
 - ❌ **DO NOT CREATE** completion reports at end of debugging sessions
 - ❌ **DO NOT CREATE** summary documents unless specifically requested
 - ✅ **USE ONLY** debug logs and console output for debugging information
@@ -615,6 +626,8 @@ The project now provides **THE definitive intelligent AI development system** wi
 ### **🧠 MEMORY RETENTION MANDATE**
 - ✅ **IMMEDIATELY RETAIN** any user statement preceded by "Remember...", "I've already said before...", or similar frustration
 - ✅ **STORE IN COPILOT MEMORY SYSTEM** (.github/copilot/ .md files) to prevent repeated questions
+- ✅ **TRACK THEME REPETITION** using statistical weighting to measure user intensity
+- ✅ **APPLY INTELLIGENT PRUNING** to prevent memory file bloat while preserving high-priority memories
 - ✅ **CHECK USER_PREFERENCES.md** before asking clarifying questions
 - ❌ **NEVER REPEAT REQUESTS** for information already documented in memory system
 
