@@ -13,7 +13,7 @@ The VS Code workspace has been fully integrated with the organized Spaceship Des
 📁 Tests                       # tests/ - Test files and benchmarks
 📁 Examples                    # examples/ - Demo scripts
 📁 Exports                     # exports/ - Generated 3D models
-📁 AI Agents                   # .github/ai-agents/ - AI Documentation
+📁 AI Documentation             # .github/copilot/ - AI Documentation
 ```
 
 ### Launch Configurations (F5 Debug)

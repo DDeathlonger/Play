@@ -81,3 +81,24 @@ This directory contains all AI agent reference materials, documentation, and too
 - **Historical context** belongs in `context/`
 
 This structure ensures all AI documentation is centralized, organized, and optimized for both human developers and AI agents.
+
+## 🚫 **CRITICAL AI AGENT RESTRICTIONS**
+
+### **📋 NO COMPLETION REPORTS - ZERO TOLERANCE**
+- ❌ **NEVER CREATE** completion reports, summary documents, or status reports at end of debugging/development sessions
+- ✅ **USE ONLY** debug logs, console output, and existing terminal logs for debugging information
+- ✅ **RELY ON** built-in logging systems rather than generating new documentation
+
+### **🏗️ STRUCTURE MAINTENANCE IS MANDATORY**
+- ✅ **UPDATE ALL .md REFERENCES IMMEDIATELY** when making ANY project structure changes
+- ✅ **VERIFY CROSS-REFERENCES** after any file moves, renames, or structural modifications
+- ❌ **NEVER LEAVE BROKEN LINKS** or outdated path references in ANY documentation file
+
+### **📁 PREVENT DOCUMENTATION CLUTTER** 
+- ❌ **DO NOT CREATE** unnecessary .md files, duplicate documentation, or redundant guides
+- ❌ **DO NOT CREATE** new scripts or tools when existing ones can be modified
+- ✅ **MODIFY EXISTING FILES** rather than creating new ones whenever possible
+- ✅ **USE THE ESTABLISHED** copilot directory structure without deviation
+
+### **⚡ ZERO TOLERANCE ENFORCEMENT**
+Any violation of these restrictions requires immediate correction. The copilot structure must remain clean, organized, and current at ALL TIMES.

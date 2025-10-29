@@ -311,7 +311,7 @@ class ConfigUtils:
                 color=[120, 140, 180],  # Bluish hull
                 enabled=True
             )
-            grid[(center_x, center_y, z)] = module
+            grid[(center_x, center_y, z)] = geometry_node
         
         # Engine section (rear) - multiple engines
         if nz >= 4:
@@ -410,7 +410,7 @@ class ConfigUtils:
                     ],
                     enabled=True
                 )
-                grid[(center_x, center_y, z)] = module
+                grid[(center_x, center_y, z)] = geometry_node
         
         # Random engines (rear)
         engine_positions = [

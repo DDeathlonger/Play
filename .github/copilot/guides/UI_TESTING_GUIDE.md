@@ -19,10 +19,10 @@ This system provides fully automated development iterations with screenshot pers
 The following components are now installed and ready:
 
 ### Core Components:
-1. **AI Development Cycle Controller** (`ai_development_cycle.py`) - **PRIMARY TOOL**
+1. **Universal AI Controller** (`true_intelligent_demo.py`) - **ONLY PROVEN WORKING SYSTEM**
 2. **UI Testing System** (`src/ui_testing_system.py`) - Screenshots and UI automation
 3. **AI Testing Controller** (`src/ai_testing_controller.py`) - Development iteration management  
-4. **Development Helper** (`dev_helper.py`) - Simple command interface
+4. **Intelligent Demo System** (`true_intelligent_demo.py`) - Proven working AI automation
 
 ### Required Packages Installed:
 - `pyautogui` - Screenshot and UI automation
@@ -34,8 +34,8 @@ The following components are now installed and ready:
 ### 🔥 PRIMARY COMMAND - AI Development Cycle:
 
 ```bash
-# MAIN COMMAND: Full automated development cycle
-python ai_development_cycle.py cycle
+# MAIN COMMAND: Intelligent visual testing with proven AI system
+python true_intelligent_demo.py
 ```
 
 **This command automatically:**
@@ -50,22 +50,20 @@ python ai_development_cycle.py cycle
 ### Additional Commands:
 
 ```bash
-# Quick screenshot test
-python ai_development_cycle.py screenshot
+# Direct AI Controller usage for custom automation
+from universal_ai_controller import UniversalAIController
+controller = UniversalAIController()
 
-# Start app only (for manual testing)
-python ai_development_cycle.py start
+# Focus app and capture screenshots
+controller.focus_app()
+controller.see("current_state")
 
-# Close app only  
-python ai_development_cycle.py close
+# Perform interactions with visual validation
+controller.click(x, y, reason="test_interaction")
+controller.see("interaction_result")
 
-# Show latest screenshot for AI analysis
-python ai_development_cycle.py latest
-
-# Legacy commands (still available)
-python dev_helper.py screenshot
-python dev_helper.py test_ui
-python dev_helper.py flowcharts
+# PROVEN WORKING SYSTEM - THE ONLY APPROVED METHOD:
+python true_intelligent_demo.py
 ```
 
 ### Manual Testing:
@@ -114,7 +112,7 @@ python src/ai_testing_controller.py full
 
 **CRITICAL: All AI agents must follow this workflow:**
 
-1. **Start Development Cycle**: `python ai_development_cycle.py cycle`
+1. **Start Intelligent Testing**: `python true_intelligent_demo.py`
 2. **Review Latest Screenshots**: AI analyzes most recent images only
 3. **Identify Issues**: Based on test results and visual evidence
 4. **Update Code**: Make necessary fixes/improvements
@@ -148,7 +146,7 @@ Based on test results, the system provides:
 ### During Each Iteration:
 - `ui_testing_screenshots/` - All captured screenshots
 - `ai_testing_log.json` - Test results and recommendations
-- `.github/ai-agents/reference/flowcharts/` - Updated flowcharts
+- `.github/copilot/reference/flowcharts/` - Updated flowcharts
 
 ### Log Format:
 ```json
@@ -180,20 +178,19 @@ Based on test results, the system provides:
 
 ```bash
 # 1. Start development iteration
-python dev_helper.py iterate
+python true_intelligent_demo.py
 
 # 2. Make code changes to spaceship_designer.py
 
 # 3. Test changes
-python dev_helper.py screenshot
-python dev_helper.py test_ui
+python true_intelligent_demo.py
 
 # 4. Review results
 # Check ui_testing_screenshots/ folder
 # Check ai_testing_log.json recommendations
 
 # 5. Update flowcharts if needed
-python dev_helper.py flowcharts
+python true_intelligent_demo.py  # Includes intelligent visual validation
 ```
 
 ## Troubleshooting

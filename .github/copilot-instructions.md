@@ -219,12 +219,12 @@ controller.save_session()
 
 #### **🔄 AUTOMATED TESTING INTEGRATION:**
 
-The **AI Development Cycle** (`ai_development_cycle.py`) provides automated testing using the Universal AI Controller:
+The **Universal AI Controller** (`true_intelligent_demo.py`) provides proven intelligent testing using visual analysis:
 
 ```bash
-# The PRIMARY command for continuous UI testing:
-python ai_development_cycle.py cycle    # Complete test cycle with visual validation
-python ai_development_cycle.py latest   # View latest screenshot results
+# The ONLY PROVEN WORKING SYSTEM for UI testing:
+python true_intelligent_demo.py        # Complete intelligent test cycle with visual validation
+# OR use UniversalAIController directly in code for custom automation
 ```
 
 **What this system does:**
@@ -295,12 +295,12 @@ python ai_development_cycle.py latest   # View latest screenshot results
 1. **Read Current State**: `.github/copilot/context/CODEBASE_CLEANUP_COMPLETE.md`
 2. **Check File Structure**: `.github/copilot/COPILOT_STRUCTURE.md`  
 3. **Review Patterns**: `.github/copilot/context/development_patterns.md`
-4. **Use AI Cycle**: `python ai_development_cycle.py cycle`
+4. **Use AI Testing**: `python true_intelligent_demo.py`
 
 ### **Import Rules (CRITICAL):**
 ```python
 # ✅ CORRECT - Within src/ package (relative imports):
-from .spaceship_utils import SpaceshipModule, MeshUtils
+from .spaceship_utils import SpaceshipGeometryNode, MeshUtils
 
 # ✅ CORRECT - From main.py or external (add src to path):
 sys.path.insert(0, 'src')
@@ -491,11 +491,11 @@ screenshot = screenshot.crop(rect)  # Focus on app only
 
 ### **Automated Testing Commands:**
 ```bash
-# Full development cycle test
-python ai_development_cycle.py cycle
+# Intelligent visual testing (ONLY WORKING SYSTEM)
+python true_intelligent_demo.py
 
-# Autonomous goal achievement
-python autonomous_ai_controller.py achieve "Generate new ship"
+# Direct AI controller usage for custom automation
+from universal_ai_controller import UniversalAIController
 
 # Strategic UI testing
 python strategic_ui_controller.py test_functionality
@@ -567,7 +567,7 @@ python strategic_ui_controller.py test_functionality
 3. **Make decisions based on visual evidence** and intelligent analysis
 4. **Repeat until perfect visual outcome** achieved  
 5. **Follow established import patterns** and file structure
-6. **Update documentation** after significant changes
+6. **Update ALL relevant .md references IMMEDIATELY** when making ANY project structure changes
 
 ### **NEVER DO:**
 - Use hardcoded coordinates without visual analysis
@@ -575,6 +575,10 @@ python strategic_ui_controller.py test_functionality
 - Skip visual validation steps
 - Use non-working systems (ai_development_cycle, autonomous_ai_controller, etc.)
 - Ignore intelligent visual analysis requirements
+- **CREATE COMPLETION REPORTS** - Use debug logs and console logs ONLY
+- **CREATE UNNECESSARY .md FILES** - Avoid cluttering with duplicate documentation
+- **CREATE UNNECESSARY SCRIPTS** - Use existing tools and systems
+- **MODIFY STRUCTURE WITHOUT UPDATING DOCS** - All .md references must stay current
 
 ## 🎉 READY FOR INTELLIGENT AI DEVELOPMENT
 
@@ -586,3 +590,45 @@ The project now provides **THE definitive intelligent AI development system** wi
 - **Domain knowledge application** for UI interaction patterns
 
 **The AI can now intelligently develop, test, debug, and optimize through PROVEN visual analysis and smart UI interaction!**
+
+## 🚫 CRITICAL RESTRICTIONS FOR ALL AI AGENTS
+
+### **📋 NO COMPLETION REPORTS**
+- ❌ **DO NOT CREATE** completion reports at end of debugging sessions
+- ❌ **DO NOT CREATE** summary documents unless specifically requested
+- ✅ **USE ONLY** debug logs and console output for debugging information
+- ✅ **RELY ON** existing logging systems and terminal output
+
+### **🏗️ STRUCTURE MAINTENANCE MANDATORY**
+- ✅ **UPDATE ALL .md REFERENCES IMMEDIATELY** when making ANY structure changes
+- ✅ **MAINTAIN CONSISTENCY** across all documentation files
+- ✅ **CHECK CROSS-REFERENCES** after any file moves or renames
+- ❌ **NEVER LEAVE BROKEN LINKS** or outdated path references
+
+### **📁 AVOID FILE CLUTTER**
+- ❌ **DO NOT CREATE** unnecessary .md files
+- ❌ **DO NOT CREATE** duplicate scripts or tools
+- ❌ **DO NOT CREATE** redundant documentation
+- ✅ **USE EXISTING** documentation structure and files
+- ✅ **MODIFY EXISTING** files rather than creating new ones
+
+### **🧠 MEMORY RETENTION MANDATE**
+- ✅ **IMMEDIATELY RETAIN** any user statement preceded by "Remember...", "I've already said before...", or similar frustration
+- ✅ **STORE IN COPILOT MEMORY SYSTEM** (.github/copilot/ .md files) to prevent repeated questions
+- ✅ **CHECK USER_PREFERENCES.md** before asking clarifying questions
+- ❌ **NEVER REPEAT REQUESTS** for information already documented in memory system
+
+### **💻 TERMINAL COMMAND RESTRICTIONS**
+- ❌ **NEVER USE `&&`** in cmd console commands (causes failures)
+- ✅ **USE VENV PYTHON PATH**: `C:\Users\dante\OneDrive\Desktop\Play\.venv\Scripts\python.exe`
+- ✅ **USE POWERSHELL** for multi-command sequences when needed
+- ✅ **SINGLE CMD COMMANDS** acceptable one at a time only
+
+### **🧪 ENHANCED TESTING MANDATE**
+- ✅ **USE ENHANCED PYTEST TESTING SYSTEM** frequently for debugging and issue resolution
+- ✅ **UPDATE TESTS AUTOMATICALLY** during iterations when corruption detected
+- ✅ **RUN PYTEST BEFORE AND AFTER** major code changes for validation
+- ✅ **LEVERAGE EMOJI VISUAL FEEDBACK** for rapid issue identification
+
+### **⚡ ENFORCEMENT**
+**ANY** violation of these restrictions requires immediate correction and cleanup. The unified documentation structure must remain clean, organized, and current at ALL TIMES. The CoPilot Memory System must be consulted and updated to prevent frustrating repetition.

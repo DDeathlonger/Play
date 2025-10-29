@@ -42,14 +42,12 @@
 
 ### **PRIMARY COMMANDS:**
 ```bash
-# Main AI development cycle (MANDATORY for all agents)
-python ai_development_cycle.py cycle
+# ONLY PROVEN WORKING SYSTEM for AI UI testing
+python true_intelligent_demo.py
 
-# Autonomous goal achievement
-python autonomous_ai_controller.py achieve "Generate a new random spaceship"
-
-# Strategic UI testing
-python strategic_ui_controller.py test_functionality
+# Direct Universal AI Controller usage for custom automation
+from universal_ai_controller import UniversalAIController
+controller = UniversalAIController()
 ```
 
 ### **CRITICAL READING ORDER FOR NEW AI AGENTS:**
@@ -61,22 +59,18 @@ python strategic_ui_controller.py test_functionality
 
 ## 🎯 AI Agent Capabilities
 
-### **Autonomous AI Controller** (`autonomous_ai_controller.py`)
-- **Full autonomous control** with infinite iteration until goals achieved
-- **Screenshot capture and analysis** with image processing
-- **UI interaction automation** with strategic decision making
-- **Visual change detection** between before/after states
+### **Universal AI Controller** (`true_intelligent_demo.py`)
+- **Intelligent visual analysis** with screenshot-driven decision making
+- **Screenshot capture and analysis** with complete visual validation
+- **Secure UI interaction automation** with whitelist protection and boundary enforcement
+- **Visual change detection** with before/after state comparison
+- **Complete audit trails** with session logging and security validation
 
-### **Development Cycle Controller** (`ai_development_cycle.py`)  
-- **Screenshot → Check → Close → Adjust → Repeat** automation
-- **Clears old screenshots** each cycle (AI sees current iteration only)
-- **Full UI testing** with before/after capture
-- **Automatic app start/stop** with process management
-
-### **Strategic UI Controller** (`strategic_ui_controller.py`)
-- **Goal-based UI interaction** with strategic planning
-- **Visual analysis integration** for decision making  
-- **Multi-action coordination** for complex tasks
+### **Direct Controller Integration** (`UniversalAIController class`)
+- **Real-time screenshot analysis** with intelligent coordinate calculation
+- **Security-first design** with app whitelist and violation tracking
+- **Human-like interaction patterns** with smooth movement and timing
+- **Session management** with complete action logging and audit trails
 
 ## 🔗 Quick Navigation
 
@@ -91,7 +85,7 @@ python strategic_ui_controller.py test_functionality
 ## 🚨 CRITICAL FOR ALL AI AGENTS
 
 ### **ALWAYS DO:**
-1. **Use the development cycle**: `python ai_development_cycle.py cycle`
+1. **Use the proven AI system**: `python true_intelligent_demo.py`
 2. **Analyze latest screenshots only** (current cycle evidence)
 3. **Make decisions based on visual evidence** and test results
 4. **Repeat cycles until SUCCESS status** achieved

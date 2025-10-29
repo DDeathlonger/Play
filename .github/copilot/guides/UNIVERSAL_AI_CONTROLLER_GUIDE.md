@@ -221,7 +221,7 @@ def analyze_ui_responsiveness():
 
 ### With AI Development Cycle
 ```python
-# In ai_development_cycle.py integration:
+# In true_intelligent_demo.py integration:
 controller = UniversalAIController()
 
 def visual_test_cycle():

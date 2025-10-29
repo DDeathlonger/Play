@@ -50,7 +50,7 @@ code .  # From the project directory
 
 ### Code Organization
 - ✅ **Modular utilities** - `spaceship_utils.py` consolidates common functions
-- ✅ **Shared components** - `SpaceshipModule`, `MeshUtils`, `ConfigUtils`
+- ✅ **Shared components** - `SpaceshipGeometryNode`, `MeshUtils`, `ConfigUtils`
 - ✅ **Performance monitoring** - Built-in stats and benchmarks
 - ✅ **Error handling** - Graceful fallbacks for all operations
 

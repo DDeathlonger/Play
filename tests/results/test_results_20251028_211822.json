@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "total_tests": 1,
+    "total_time": 0.868217945098877,
+    "status_counts": {
+      "FAIL": 1
+    },
+    "pass_rate": 0.0
+  },
+  "results": [
+    {
+      "test_name": "setup_module",
+      "module": "ship_generation",
+      "duration": 0.002284526824951172,
+      "status": "FAIL",
+      "message": "Module setup failed: No module named 'ship_generation'",
+      "details": [],
+      "exception": "No module named 'ship_generation'",
+      "timestamp": "2025-10-28T21:18:22.616742"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting ship_generation.setup_module...",
+    "\u274c ship_generation.setup_module: FAIL (0.002s) - Module setup failed: No module named 'ship_generation'"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting ship_generation.setup_module...",
+    "[TEST] \u274c ship_generation.setup_module: FAIL (0.002s) - Module setup failed: No module named 'ship_generation'"
+  ],
+  "timestamp": "2025-10-28T21:18:22.616749"
+}

@@ -51,7 +51,7 @@ def create_functionality_flowchart():
         {'name': 'PerformanceUtils\n(Optimization)', 'pos': (8, 3.5), 'color': colors['utils']},
         
         # Data Layer
-        {'name': 'SpaceshipModule\n(Data Class)', 'pos': (1, 2), 'color': colors['data']},
+        {'name': 'SpaceshipGeometryNode\n(Data Class)', 'pos': (1, 2), 'color': colors['data']},
         {'name': 'Grid Configuration\n(JSON)', 'pos': (5, 2), 'color': colors['data']},
         {'name': 'Trimesh Objects\n(3D Geometry)', 'pos': (9, 2), 'color': colors['data']},
         
@@ -136,10 +136,10 @@ def create_functionality_flowchart():
     ax.legend(handles=legend_elements, loc='upper right', bbox_to_anchor=(1.0, 1.0))
     
     plt.tight_layout()
-    plt.savefig('references/flowcharts/functionality_flow.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../reference/flowcharts/functionality_flow.png', dpi=300, bbox_inches='tight')
     plt.close()
     
-    print("✓ Functionality flowchart saved: references/flowcharts/functionality_flow.png")
+    print("✓ Functionality flowchart saved: .github/copilot/reference/flowcharts/functionality_flow.png")
 
 def create_ai_iteration_flowchart():
     """Create flowchart showing AI iteration process with context checking"""
@@ -167,7 +167,7 @@ def create_ai_iteration_flowchart():
         # Context Check Phase
         {'name': 'Check Current\nContext', 'pos': (5, 8.5), 'color': colors['context']},
         {'name': 'Read .github/\ncopilot-instructions.md', 'pos': (2, 7.5), 'color': colors['reference']},
-        {'name': 'Scan references/\nai-context/', 'pos': (8, 7.5), 'color': colors['reference']},
+        {'name': 'Scan .github/copilot/\nreference/', 'pos': (8, 7.5), 'color': colors['reference']},
         {'name': 'Check File\nStructure', 'pos': (5, 7), 'color': colors['context']},
         
         # Decision Phase
@@ -180,9 +180,9 @@ def create_ai_iteration_flowchart():
         {'name': 'Generate New\nContent', 'pos': (7, 3.5), 'color': colors['action']},
         
         # Update Phase
-        {'name': 'Update AI Context\nreferences/', 'pos': (5, 2.5), 'color': colors['update']},
+        {'name': 'Update Copilot Context\n.github/copilot/', 'pos': (5, 2.5), 'color': colors['update']},
         {'name': 'Update .github/\ncopilot-instructions.md', 'pos': (2, 1.5), 'color': colors['update']},
-        {'name': 'Update Flowcharts\nreferences/flowcharts/', 'pos': (8, 1.5), 'color': colors['update']},
+        {'name': 'Update Flowcharts\n.github/copilot/reference/flowcharts/', 'pos': (8, 1.5), 'color': colors['update']},
         
         # End
         {'name': 'Ready for Next\nIteration', 'pos': (5, 0.5), 'color': colors['start'], 'shape': 'oval'},
@@ -294,10 +294,10 @@ def create_ai_iteration_flowchart():
            rotation=90, fontweight='bold', color=colors['update'])
     
     plt.tight_layout()
-    plt.savefig('references/flowcharts/ai_iteration_process.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../reference/flowcharts/ai_iteration_process.png', dpi=300, bbox_inches='tight')
     plt.close()
     
-    print("✓ AI iteration flowchart saved: references/flowcharts/ai_iteration_process.png")
+    print("✓ AI iteration flowchart saved: .github/copilot/reference/flowcharts/ai_iteration_process.png")
 
 def create_data_flow_diagram():
     """Create a data flow diagram showing how data moves through the system"""
@@ -322,7 +322,7 @@ def create_data_flow_diagram():
         {'name': 'Configuration\n(JSON Files)', 'pos': (1, 5), 'color': colors['input']},
         
         # Processing
-        {'name': 'SpaceshipModule\n(Validation)', 'pos': (3, 6), 'color': colors['process']},
+        {'name': 'SpaceshipGeometryNode\n(Validation)', 'pos': (3, 6), 'color': colors['process']},
         {'name': 'Grid Management\n(Position Logic)', 'pos': (5, 7), 'color': colors['process']},
         {'name': 'Mesh Generation\n(Primitives)', 'pos': (5, 5), 'color': colors['process']},
         {'name': 'Mesh Combination\n(Trimesh)', 'pos': (7, 6), 'color': colors['process']},
@@ -399,10 +399,10 @@ def create_data_flow_diagram():
            fontweight='bold', color=colors['output'])
     
     plt.tight_layout()
-    plt.savefig('references/flowcharts/data_flow_diagram.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../reference/flowcharts/data_flow_diagram.png', dpi=300, bbox_inches='tight')
     plt.close()
     
-    print("✓ Data flow diagram saved: references/flowcharts/data_flow_diagram.png")
+    print("✓ Data flow diagram saved: .github/copilot/reference/flowcharts/data_flow_diagram.png")
 
 if __name__ == "__main__":
     print("Generating Spaceship Designer Reference Flowcharts...")
@@ -420,7 +420,7 @@ if __name__ == "__main__":
         
         print("=" * 60)
         print("✓ All flowcharts generated successfully!")
-        print("Files created in references/flowcharts/:")
+        print("Files created in .github/copilot/reference/flowcharts/:")
         print("  - functionality_flow.png")
         print("  - ai_iteration_process.png") 
         print("  - data_flow_diagram.png")

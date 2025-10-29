@@ -336,3 +336,25 @@ def record_successful_patterns():
 ```
 
 This comprehensive guide enables both automated AI development and manual AI-assisted debugging with complete security and audit compliance.
+
+## 🚫 **MANDATORY AI AGENT RESTRICTIONS**
+
+### **❌ NO COMPLETION REPORTS - STRICTLY FORBIDDEN**
+- **Never create** completion reports, summary documents, or session wrap-ups
+- **Use only** debug logs, console output, and terminal logs for debugging
+- **Rely on** existing logging systems rather than generating new documentation
+- **Avoid** unnecessary status reports unless explicitly requested
+
+### **🏗️ STRUCTURE INTEGRITY MANDATORY**  
+- **Update ALL .md references immediately** when making ANY structure changes
+- **Verify cross-references** after file moves, renames, or structural changes
+- **Never leave broken links** or outdated paths in documentation
+- **Maintain consistency** across all copilot documentation files
+
+### **📁 PREVENT FILE PROLIFERATION**
+- **Do not create** unnecessary .md files or duplicate documentation
+- **Do not create** redundant scripts when existing tools can be modified  
+- **Modify existing files** rather than creating new ones
+- **Use established** copilot structure without unauthorized expansion
+
+**These restrictions ensure the AI development system remains clean, organized, and maintainable.**

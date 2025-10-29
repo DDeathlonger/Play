@@ -13,7 +13,7 @@ spaceship-designer/
 ├── tests/                  # Test files
 ├── examples/              # Example scripts and demos
 ├── exports/               # Generated 3D models and configs
-├── .github/ai-agents/     # Documentation and AI context
+├── .github/copilot/       # AI documentation and context
 │   ├── ai-context/       # AI-specific documentation
 │   └── flowcharts/       # Process diagrams
 ├── .vscode/              # VS Code configuration
@@ -151,7 +151,7 @@ class SimplifiedControlPanel(QWidget):
 ```python
 def update_module(self):
     """Update module and refresh display"""
-    module = SpaceshipModule(
+    geometry_node = SpaceshipGeometryNode(
         type=self.type_combo.currentText(),
         enabled=self.enabled_check.isChecked(),
         radius=self.radius_spin.value()
@@ -236,24 +236,24 @@ def create_default_grid(grid_size):
     for x in range(nx):
         for y in range(ny):
             for z in range(nz):
-                grid[(x, y, z)] = SpaceshipModule(enabled=False)
+                grid[(x, y, z)] = SpaceshipGeometryNode(enabled=False)
     
     # Main fuselage - creates recognizable ship shape
     for z in range(1, nz - 1):
         size_factor = 1.0 - abs(z - nz//2) / (nz//2) * 0.3
-        grid[(center_x, center_y, z)] = SpaceshipModule(
+        grid[(center_x, center_y, z)] = SpaceshipGeometryNode(
             type="cylinder", radius=0.5 * size_factor, 
             color=[120, 140, 180], enabled=True
         )
     
     # Engines at rear
-    grid[(center_x, center_y, 0)] = SpaceshipModule(
+    grid[(center_x, center_y, 0)] = SpaceshipGeometryNode(
         type="cylinder", radius=0.7, height=0.6,
         color=[255, 100, 50], enabled=True
     )
     
     # Nose/cockpit at front
-    grid[(center_x, center_y, nz-1)] = SpaceshipModule(
+    grid[(center_x, center_y, nz-1)] = SpaceshipGeometryNode(
         type="cone", radius=0.4, height=0.8,
         color=[100, 150, 200], enabled=True
     )

@@ -1077,7 +1077,7 @@ class OptimizedSpaceshipGenerator:
                 
                 # Apply transformations
                 world_pos = self._grid_to_world_position(position)
-                mesh = MeshUtils.apply_module_transform(mesh, module, world_pos)
+                mesh = MeshUtils.apply_geometry_node_transform(mesh, module, world_pos)
                 
                 # Add vertex colors
                 if hasattr(mesh.visual, 'vertex_colors'):
@@ -1154,9 +1154,9 @@ class OptimizedSpaceshipGenerator:
         return connectors
     
     def update_geometry_node(self, position: Tuple[int, int, int], geometry_node: SpaceshipGeometryNode):
-        """Update a module and mark mesh as dirty"""
+        """Update a geometry node and mark mesh as dirty"""
         if position in self.grid:
-            self.grid[position] = module
+            self.grid[position] = geometry_node
             self.mesh_dirty = True
     
     def save_configuration(self, filename: str = CONFIG_FILE) -> bool:
@@ -1974,7 +1974,7 @@ class SimplifiedControlPanel(QWidget):
         self.pos_x.valueChanged.connect(self.position_changed)
         self.pos_y.valueChanged.connect(self.position_changed)
         self.pos_z.valueChanged.connect(self.position_changed)
-        self.update_btn.clicked.connect(self.update_module)
+        self.update_btn.clicked.connect(self.update_geometry_node)
         self.generate_btn.clicked.connect(self.generate_default_ship)
         self.random_btn.clicked.connect(self.generate_new_ship)
         self.clear_btn.clicked.connect(self.clear_ship)
@@ -1987,7 +1987,7 @@ class SimplifiedControlPanel(QWidget):
         self.export_glb_btn.clicked.connect(self.export_glb)
         
         # Navigation and view controls
-        self.find_enabled_btn.clicked.connect(self.find_enabled_module)
+        self.find_enabled_btn.clicked.connect(self.find_enabled_geometry_node)
         self.wireframe_btn.clicked.connect(self.toggle_wireframe)
         self.lighting_btn.clicked.connect(self.toggle_lighting)
         self.reset_view_btn.clicked.connect(self.reset_view)
@@ -2186,10 +2186,10 @@ class SimplifiedControlPanel(QWidget):
             ]  # Position-based color variation
         )
         
-        print(f"Updated module: type={module.type}, enabled={module.enabled}, radius={module.radius}")
+        print(f"Updated geometry_node: type={geometry_node.type}, enabled={geometry_node.enabled}, radius={geometry_node.radius}")
         
-        # Store the module and update display
-        self.generator.update_module(self.current_position, module)
+        # Store the geometry_node and update display
+        self.generator.update_geometry_node(self.current_position, geometry_node)
         self.refresh_mesh()
         
         # Refresh the position display to show the update

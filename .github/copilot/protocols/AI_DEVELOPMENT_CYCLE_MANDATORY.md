@@ -11,7 +11,7 @@ This is the **ONLY** approved method for AI development iterations.
 ## 🎯 **PRIMARY COMMAND:**
 
 ```bash
-python ai_development_cycle.py cycle
+python true_intelligent_demo.py
 ```
 
 ### What This Does Automatically:
@@ -31,13 +31,13 @@ python ai_development_cycle.py cycle
 - ✅ **Screenshots persist** until next cycle starts
 - ✅ **AI only analyzes** most recent screenshots (current cycle)
 - ✅ **Old screenshots cleared** automatically on new cycle
-- ✅ **Latest screenshot command**: `python ai_development_cycle.py latest`
+- ✅ **Complete visual validation**: Screenshots captured and analyzed automatically
 
 ---
 
 ## 🔧 **When Functionality Fails:**
 
-1. **Run Cycle**: `python ai_development_cycle.py cycle`
+1. **Run Intelligent Test**: `python true_intelligent_demo.py`
 2. **Review Screenshots**: Check `current_iteration_screenshots/`
 3. **Check Console Output**: Look for error messages during testing
 4. **Update Code**: Fix issues based on visual + console evidence
@@ -49,7 +49,7 @@ python ai_development_cycle.py cycle
 
 - **Screenshots**: `current_iteration_screenshots/` (cleared each cycle)
 - **Cycle Data**: `development_cycle.json` (test results + recommendations)
-- **Latest Screenshot**: Use `ai_development_cycle.py latest` to see most recent
+- **Session Screenshots**: Automatically saved to `ai_sessions/` with complete audit trail
 
 ---
 
