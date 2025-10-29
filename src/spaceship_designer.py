@@ -19,12 +19,38 @@ from pathlib import Path
 from datetime import datetime
 import uuid
 
+# Safe print function for Unicode emojis
+def safe_print(text):
+    """Print with fallback for Unicode encoding issues"""
+    try:
+        print(text)
+    except UnicodeEncodeError:
+        # Strip emojis and use safe text
+        safe_text = text.encode('ascii', 'ignore').decode('ascii')
+        print(safe_text)
+
 # Import shared utilities
 try:
     from .spaceship_utils import SpaceshipGeometryNode, MeshUtils, ConfigUtils, PerformanceUtils
 except ImportError:
     # Fallback for standalone execution
     from spaceship_utils import SpaceshipGeometryNode, MeshUtils, ConfigUtils, PerformanceUtils
+
+# Import modular MCP server integration
+try:
+    # Add app_components to path for modular MCP integration
+    current_file_dir = Path(__file__).parent.parent
+    app_components_path = current_file_dir / 'app_components'
+    if str(app_components_path) not in sys.path:
+        sys.path.insert(0, str(app_components_path))
+    
+    from mcp_server.integration_patch import integrate_mcp_server, SpaceshipMCPIntegration
+    MODULAR_MCP_AVAILABLE = True
+    safe_print("✅ Modular MCP system available")
+except ImportError as e:
+    MODULAR_MCP_AVAILABLE = False
+    safe_print(f"⚠️ Modular MCP system not available: {e}")
+    print("   Falling back to embedded MCP server")
 
 # Try to import Qt libraries with fallback
 try:
@@ -2812,8 +2838,13 @@ class OptimizedSpaceshipApp(QMainWindow):
             Qt.WindowType.WindowMaximizeButtonHint
         )
         
-        # Initialize integrated MCP manager
-        self.mcp_manager = IntegratedMCPManager()
+        # Initialize MCP manager (modular or fallback)
+        if MODULAR_MCP_AVAILABLE:
+            safe_print("🔗 Using modular MCP system")
+            self.mcp_manager = integrate_mcp_server(self)
+        else:
+            print("🔄 Using embedded MCP system")
+            self.mcp_manager = IntegratedMCPManager()
         
         # MCP server will be started after UI is fully ready
         self.mcp_startup_thread = None
@@ -2860,8 +2891,11 @@ class OptimizedSpaceshipApp(QMainWindow):
                     return
             
             print("🔧 Starting MCP server in background thread...")
-            self.mcp_manager.start_mcp_server()
-            print("✅ Background MCP startup completed")
+            if MODULAR_MCP_AVAILABLE:
+                success = self.mcp_manager.start()
+            else:
+                success = self.mcp_manager.start_mcp_server()
+            print("✅ Background MCP startup completed" if success else "⚠️ MCP startup failed")
             
             # Refresh UI to show MCP server status after startup
             QTimer.singleShot(500, self.refresh_mcp_displays)
@@ -2905,7 +2939,10 @@ class OptimizedSpaceshipApp(QMainWindow):
         self.focus_timer.stop()
         
         # Stop MCP server
-        self.mcp_manager.stop_mcp_server()
+        if MODULAR_MCP_AVAILABLE:
+            self.mcp_manager.stop()
+        else:
+            self.mcp_manager.stop_mcp_server()
         
         print("Application shutdown complete")
         event.accept()

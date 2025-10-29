@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠 AI Memory Control Panel</title>
+    <link rel="stylesheet" href="/memory/static/css/memory-control.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🧠 AI Memory Control Panel</h1>
+            <div class="status-bar">
+                <span class="status-indicator" id="connection-status">🔴 Connecting...</span>
+                <span class="file-count" id="file-count">0 files</span>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- Sidebar with file tree -->
+            <aside class="sidebar">
+                <div class="search-box">
+                    <input type="text" id="file-search" placeholder="🔍 Search files...">
+                </div>
+
+                <div class="file-tree" id="file-tree">
+                    <div class="loading">Loading memory files...</div>
+                </div>
+
+                <div class="actions">
+                    <button class="btn-refresh" id="refresh-files">🔄 Refresh</button>
+                    <button class="btn-graph" id="show-graph">📊 View Graph</button>
+                </div>
+            </aside>
+
+            <!-- Main content area -->
+            <main class="content">
+                <div class="tabs">
+                    <button class="tab active" data-tab="viewer">📖 Viewer</button>
+                    <button class="tab" data-tab="editor">✏️ Editor</button>
+                    <button class="tab" data-tab="graph">🕸️ Cross-References</button>
+                </div>
+
+                <!-- Viewer Tab -->
+                <div class="tab-content active" id="tab-viewer">
+                    <div class="file-header">
+                        <h2 id="current-file-name">Select a file to view</h2>
+                        <div class="file-info">
+                            <span id="file-category"></span>
+                            <span id="file-size"></span>
+                            <span id="file-modified"></span>
+                        </div>
+                    </div>
+                    <div class="markdown-content" id="markdown-viewer">
+                        <div class="welcome-message">
+                            <h3>Welcome to AI Memory Control Panel</h3>
+                            <p>Select a .md file from the sidebar to view its contents.</p>
+                            <p>This panel manages all documentation in the <code>.github/copilot/</code> directory.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Editor Tab -->
+                <div class="tab-content" id="tab-editor">
+                    <div class="editor-toolbar">
+                        <button class="btn-save" id="save-file" disabled>💾 Save</button>
+                        <button class="btn-preview" id="toggle-preview">👁️ Preview</button>
+                        <select id="emoji-picker">
+                            <option value="">➕ Add Emoji</option>
+                            <option value="🎯">🎯 Target</option>
+                            <option value="✅">✅ Success</option>
+                            <option value="❌">❌ Error</option>
+                            <option value="🚀">🚀 Launch</option>
+                            <option value="🔧">🔧 Tools</option>
+                            <option value="📋">📋 List</option>
+                            <option value="💡">💡 Idea</option>
+                            <option value="⚠️">⚠️ Warning</option>
+                            <option value="📊">📊 Chart</option>
+                            <option value="🧠">🧠 Memory</option>
+                        </select>
+                    </div>
+                    <div class="editor-layout">
+                        <textarea id="markdown-editor" placeholder="Select a file to edit..."></textarea>
+                        <div class="preview-pane" id="editor-preview"></div>
+                    </div>
+                </div>
+
+                <!-- Graph Tab -->
+                <div class="tab-content" id="tab-graph">
+                    <div class="graph-controls">
+                        <button class="btn-refresh" id="refresh-graph">🔄 Refresh Graph</button>
+                        <select id="graph-filter">
+                            <option value="all">All Files</option>
+                            <option value="protocol">Protocols</option>
+                            <option value="guide">Guides</option>
+                            <option value="context">Context</option>
+                            <option value="reference">Reference</option>
+                        </select>
+                    </div>
+                    <div class="graph-container" id="cross-reference-graph">
+                        <div class="graph-placeholder">
+                            <h3>📊 Cross-Reference Visualization</h3>
+                            <p>Loading relationship graph...</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="/memory/static/js/memory-control.js"></script>
+</body>
+
+</html>

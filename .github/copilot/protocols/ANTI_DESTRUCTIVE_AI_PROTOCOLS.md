@@ -105,7 +105,34 @@ grep -r "def.*test\|class.*Test" . --include="*.py"
 
 ❌ BAD: "I'll add pytest as a dependency..."
 ✅ GOOD: "I see pytest is already configured in pytest.ini, let me use the existing setup..."
+
+❌ BAD: "I'll create a new web server for this interface..."
+✅ GOOD: "I see there's already an MCP server on localhost:8765, let me add endpoints to it..."
+
+❌ BAD: "I'll build separate components in their own directories..."
+✅ GOOD: "Let me follow the 'back to front' methodology and integrate with existing architecture..."
 ```
+
+### **🏗️ "BACK TO FRONT" METHODOLOGY - MANDATORY**
+**This is the user's mandated approach for ALL new feature development:**
+
+1. **REFLECT on existing architecture** - Never jump into creation
+2. **ANALYZE current systems** - Understand what already works  
+3. **IDENTIFY integration points** - Find where new features belong
+4. **BLEND with existing app** - Use predesignated locations
+5. **GROUP related dependencies** - Keep associated scripts together
+6. **WORK through entry points** - Follow standard application flow
+7. **COMPARTMENTALIZE components** - Based on functional relationships
+
+### **🔗 MODULAR INTEGRATION REQUIREMENTS**
+**Based on successful AI Memory Control Panel development:**
+
+- ✅ **USE existing MCP server infrastructure** - Never create separate servers
+- ✅ **IMPLEMENT service registration patterns** - Follow singleton architecture  
+- ✅ **MAINTAIN backward compatibility** - Preserve existing endpoints
+- ✅ **CREATE proper abstractions** - Use abstract base classes
+- ✅ **FOLLOW thread-safe patterns** - Use established registry systems
+- ✅ **VALIDATE through integration** - Never create components without integration
 
 ### **📁 Directory Respect Protocol**
 - ✅ **Use established directories** (src/, tests/, app_components/, .github/copilot/)

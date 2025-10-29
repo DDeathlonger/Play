@@ -10,10 +10,14 @@ This system tracks repeated themes in user statements to measure intensity of fe
 
 | Theme | Occurrences | Intensity Score | Weight Factor | Last Updated |
 |-------|-------------|-----------------|---------------|--------------|
-| **Anti-Destructive AI Behavior** | 1 | **MAXIMUM** | **1.0** | 2025-10-28 |
+| **Anti-Destructive AI Behavior** | 5+ | **MAXIMUM** | **1.0** | 2025-10-28 |
+| **Modular Architecture Design** | 4+ | **MAXIMUM** | **1.0** | 2025-10-28 |
+| **Integration Requirements** | 3+ | **MAXIMUM** | **1.0** | 2025-10-28 |
 | Testing System | 4 | VERY HIGH | 1.0 | 2025-10-28 |
+| **MCP Server Infrastructure** | 3+ | VERY HIGH | 0.95 | 2025-10-28 |
 | Terminal Commands | 3 | HIGH | 0.95 | 2025-10-28 |
 | Memory Retention | 3 | HIGH | 0.85 | 2025-10-28 |
+| **Web Interface Standards** | 2+ | HIGH | 0.80 | 2025-10-28 |
 | Iterative Development | 2 | MEDIUM | 0.75 | 2025-10-28 |
 | Visual Output Enhancement | 2 | MEDIUM | 0.75 | 2025-10-28 |
 | Commit Workflow | 1 | LOW | 0.50 | 2025-10-28 |
@@ -50,25 +54,50 @@ Intensity Levels:
    - PREVENT duplicate functions, conflicting dependencies, naming mismatches
    - PRESERVE existing working systems rather than rebuilding
 
-2. **Testing System Preferences** (Weight: 1.0)
+2. **Modular Architecture Design** (Weight: 1.0)
+   - "Back to front" methodology - analyze existing architecture first
+   - Modular design patterns with clear abstractions
+   - Rigid structural boundaries between components
+   - Service-oriented architecture patterns
+
+3. **Integration Requirements** (Weight: 1.0)
+   - ZERO TOLERANCE for components created without integration
+   - ALWAYS verify actual functionality beyond unit tests
+   - REQUIRE end-to-end validation of new features
+   - ENSURE seamless replacement of legacy systems
+
+4. **Testing System Preferences** (Weight: 1.0)
    - Enhanced pytest with emoji output
    - Frequent testing mandate during iterations
    - Visual feedback requirements
+   - 80%+ pass rate as minimum standard
 
 ### **High Priority Memories (Weight 0.75+)**
 **These memories are NEVER archived and receive priority placement:**
 
-3. **Terminal Command Restrictions** (Weight: 0.95)
+5. **MCP Server Infrastructure** (Weight: 0.95)
+   - ALWAYS use existing MCP server at localhost:8765
+   - NEVER create separate web servers
+   - Implement proper service registration using modular patterns
+   - Maintain backward compatibility with existing endpoints
+
+6. **Terminal Command Restrictions** (Weight: 0.95)
    - No `&&` usage in cmd console
    - Venv path requirements
    - PowerShell for multi-commands
 
-4. **Memory Retention Protocols** (Weight: 0.85)
+7. **Memory Retention Protocols** (Weight: 0.85)
    - "Remember..." statement handling
    - Statistical weighting system
    - Immediate documentation requirements
 
-5. **Iterative Development Process** (Weight: 0.75)
+8. **Web Interface Standards** (Weight: 0.80)
+   - Responsive tabbed interfaces for complex functionality
+   - File tree navigation for document management
+   - Markdown editing capabilities with syntax highlighting
+   - Modern CSS3 design patterns with dark themes
+
+9. **Iterative Development Process** (Weight: 0.75)
    - AI UI tool → pytest → screenshots → determination → fixes
 
 ### **Medium Priority Memories (Weight 0.50-0.74)**

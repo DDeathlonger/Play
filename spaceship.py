@@ -11,7 +11,10 @@ from pathlib import Path
 def main():
     """Launch the working spaceship designer"""
     
-    print("🚀 SPACESHIP DESIGNER")
+    try:
+        print("🚀 SPACESHIP DESIGNER")
+    except UnicodeEncodeError:
+        print("SPACESHIP DESIGNER")
     print("=" * 30)
     
     # Add src to path
@@ -24,7 +27,10 @@ def main():
         os.chdir(src_path)
         from spaceship_designer import main as spaceship_main
         
-        print("✅ Loading MCP-integrated spaceship designer...")
+        try:
+            print("✅ Loading MCP-integrated spaceship designer...")
+        except UnicodeEncodeError:
+            print("Loading MCP-integrated spaceship designer...")
         return spaceship_main()
         
     except Exception as e:
