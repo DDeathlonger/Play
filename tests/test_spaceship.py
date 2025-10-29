@@ -13,15 +13,15 @@ import json
 # Add the src directory to Python path for imports
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'src'))
 
-def test_spaceship_module():
-    """Test SpaceshipModule class functionality"""
-    print("Testing SpaceshipModule...")
+def test_spaceship_geometry_node():
+    """Test SpaceshipGeometryNode class functionality"""
+    print("Testing SpaceshipGeometryNode...")
     
     # Import from working modules
-    from spaceship_utils import SpaceshipModule
+    from spaceship_utils import SpaceshipGeometryNode
     
     # Test creation
-    module = SpaceshipModule("cylinder", 0.5, 1.0, [255, 0, 0])
+    geometry_node = SpaceshipGeometryNode("cylinder", 0.5, 1.0, [255, 0, 0])
     assert module.type == "cylinder"
     assert module.radius == 0.5
     assert module.height == 1.0
@@ -41,7 +41,7 @@ def test_spaceship_module():
     assert module.rotation == [90, 0, 0]
     assert module.scale == [2.0, 1.0, 1.0]
     
-    print("✓ SpaceshipModule tests passed")
+    print("✓ SpaceshipGeometryNode tests passed")
 
 def test_spaceship_generator():
     """Test OptimizedSpaceshipGenerator class functionality"""

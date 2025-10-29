@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-10-28T16:52:53.099793",
+    "session_id": "INTEGRATED_MCP_1761695573_2cabfcee",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761695573_2cabfcee",
+      "timestamp": "2025-10-28T16:52:53.099773"
+    }
+  }
+]

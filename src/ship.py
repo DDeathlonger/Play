@@ -179,7 +179,7 @@ def create_primitive(module_type, radius, height, sections=16):
     else:  # box
         return trimesh.creation.box(extents=[radius*2, height, radius*2])
 
-def connect_modules(mesh1, mesh2, pos1, pos2):
+def connect_geometry_nodes(mesh1, mesh2, pos1, pos2):
     """Create connecting geometry between two modules"""
     direction = np.array(pos2) - np.array(pos1)
     distance = np.linalg.norm(direction)
@@ -218,7 +218,7 @@ def generate_mesh(grid):
     meshes = []
     positions = {}
     
-    # First pass: create all modules and store positions
+    # First pass: create all geometry nodes and store positions
     for x in range(Nx):
         for y in range(Ny):
             for z in range(Nz):
@@ -648,7 +648,7 @@ class ControlPanel(QWidget):
         if c.isValid():
             self.color = c
 
-    def update_module(self):
+    def update_geometry_node(self):
         """Update the currently selected module with UI values"""
         module = grid[self.current_x, self.current_y, self.current_z]
         
@@ -871,7 +871,7 @@ FEATURES:
 
 WORKFLOW:
 1. Select a position in the grid (X,Y,Z)
-2. Choose module type and properties
+2. Choose geometry node type and properties
 3. Click "Update Module" to apply changes
 4. Use view controls for better visualization
 5. Generate reference images for documentation

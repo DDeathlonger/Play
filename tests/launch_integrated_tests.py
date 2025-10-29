@@ -246,7 +246,7 @@ class IntegratedTestLauncher:
         print("=" * 65)
         print("This workflow will:")
         print("1. Check modular application status")
-        print("2. Run comprehensive tests on all modules")
+        print("2. Run comprehensive tests on all geometry nodes")
         print("3. Integrate results with the main application")
         print("4. Launch the application with test data")
         print()

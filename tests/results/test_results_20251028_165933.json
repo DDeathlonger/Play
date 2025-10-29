@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "total_tests": 1,
+    "total_time": 1.0309338569641113,
+    "status_counts": {
+      "FAIL": 1
+    },
+    "pass_rate": 0.0
+  },
+  "results": [
+    {
+      "test_name": "setup_module",
+      "module": "mcp_tools",
+      "duration": 0.0011448860168457031,
+      "status": "FAIL",
+      "message": "Module setup failed: No module named 'mcp_tools'",
+      "details": [],
+      "exception": "No module named 'mcp_tools'",
+      "timestamp": "2025-10-28T16:59:33.600279"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting mcp_tools.setup_module...",
+    "\u274c mcp_tools.setup_module: FAIL (0.001s) - Module setup failed: No module named 'mcp_tools'"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting mcp_tools.setup_module...",
+    "[TEST] \u274c mcp_tools.setup_module: FAIL (0.001s) - Module setup failed: No module named 'mcp_tools'"
+  ],
+  "timestamp": "2025-10-28T16:59:33.600287"
+}

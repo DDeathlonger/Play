@@ -16,15 +16,15 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(
 # Add the current directory to path to import our modules
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-def test_spaceship_module():
-    """Test SpaceshipModule class functionality"""
-    print("Testing SpaceshipModule...")
+def test_spaceship_geometry_node():
+    """Test SpaceshipGeometryNode class functionality"""
+    print("Testing SpaceshipGeometryNode...")
     
     # Import after adding to path
-    from spaceship_utils import SpaceshipModule
+    from spaceship_utils import SpaceshipGeometryNode
     
     # Test creation
-    module = SpaceshipModule("cylinder", 0.5, 1.0, [255, 0, 0])
+    geometry_node = SpaceshipGeometryNode("cylinder", 0.5, 1.0, [255, 0, 0])
     assert module.type == "cylinder"
     assert module.radius == 0.5
     assert module.height == 1.0
@@ -38,12 +38,12 @@ def test_spaceship_module():
     assert "height" in data
     
     # Test deserialization
-    module2 = SpaceshipModule.from_dict(data)
+    module2 = SpaceshipGeometryNode.from_dict(data)
     assert module2.type == module.type
     assert module2.radius == module.radius
     assert module2.height == module.height
     
-    print("✓ SpaceshipModule tests passed")
+    print("✓ SpaceshipGeometryNode tests passed")
 
 def test_spaceship_generator():
     """Test SpaceshipGenerator class functionality - Uses optimized version"""
@@ -68,8 +68,8 @@ def test_spaceship_generator():
     print(f"✓ Generated mesh with {len(mesh.vertices)} vertices, {len(mesh.faces)} faces")
     
     # Test primitive creation
-    from spaceship_utils import SpaceshipModule
-    test_module = SpaceshipModule("cylinder", 0.5, 1.0)
+    from spaceship_utils import SpaceshipGeometryNode
+    test_module = SpaceshipGeometryNode("cylinder", 0.5, 1.0)
     primitive = generator.create_primitive(test_module)
     assert primitive is not None
     assert hasattr(primitive, 'vertices')

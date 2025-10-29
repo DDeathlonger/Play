@@ -9,6 +9,9 @@ import time
 import tempfile
 from pathlib import Path
 
+# Add modules to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent / "modules"))
+
 # Import test framework
 from test_framework import ModuleTestSuite, TestResult, assert_module_function_exists, assert_class_has_method, assert_instance_created
 

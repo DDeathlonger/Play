@@ -53,25 +53,25 @@ class ModuleRegistry:
         self.module_status = {}
         self.dependencies_checked = False
     
-    def register_module(self, name: str, instance: Any, status: str = "available"):
+    def register_geometry_node(self, name: str, instance: Any, status: str = "available"):
         """Register a system module"""
         self.modules[name] = instance
         self.module_status[name] = status
     
-    def get_module(self, name: str) -> Optional[Any]:
+    def get_geometry_node(self, name: str) -> Optional[Any]:
         """Get module by name"""
         return self.modules.get(name)
     
-    def is_module_available(self, name: str) -> bool:
+    def is_geometry_node_available(self, name: str) -> bool:
         """Check if module is available"""
         return self.module_status.get(name) == "available"
     
-    def get_available_modules(self) -> List[str]:
+    def get_available_geometry_nodes(self) -> List[str]:
         """Get list of available module names"""
         return [name for name, status in self.module_status.items() if status == "available"]
     
-    def get_module_status(self) -> Dict[str, str]:
-        """Get status of all modules"""
+    def get_geometry_node_status(self) -> Dict[str, str]:
+        """Get status of all geometry nodes"""
         return self.module_status.copy()
 
 class SystemEventBus:
@@ -135,7 +135,7 @@ class IntegratedSpaceshipDesigner:
         self.is_running = False
         self.startup_time = None
     
-    def _initialize_modules(self):
+    def _initialize_geometry_nodes(self):
         """Initialize all available modules"""
         print("🔧 Initializing modular systems...")
         

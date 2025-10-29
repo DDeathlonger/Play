@@ -4,6 +4,28 @@
 
 This is a **3D spaceship modeling application** with **autonomous AI control capabilities** built with PyQt6, OpenGL, and advanced AI automation systems. The project includes both the core application and sophisticated AI testing/control systems.
 
+## 📚 CONSOLIDATED DOCUMENTATION
+
+**Primary References:**
+- **[Master Documentation Index](copilot/MASTER_DOCUMENTATION_INDEX.md)** - **COMPLETE ACCESS** to ALL 25 documentation files
+- **[Project Documentation](copilot/CONSOLIDATED_PROJECT_DOCUMENTATION.md)** - Complete overview and quick start
+- **[Technical Reference](copilot/reference/TECHNICAL_REFERENCE.md)** - API, architecture, and implementation details  
+- **[AI Development Guide](copilot/AI_DEVELOPMENT_GUIDE.md)** - AI automation and visual testing system
+
+## �🔒 MANDATORY ENTRY POINT - NO EXCEPTIONS
+
+**ALL AI AGENTS MUST USE THIS EXACT COMMAND - NO VARIATIONS ALLOWED:**
+
+```bash
+C:/Users/dante/OneDrive/Desktop/Play/.venv/Scripts/python.exe spaceship.py
+```
+
+**ENFORCEMENT RULES:**
+- ✅ **ALWAYS** use exactly this command for app startup
+- ✅ **NEVER** change the entry point or use alternative methods
+- ✅ **TRUST** the virtual environment has all dependencies
+- ❌ **FORBIDDEN** to modify startup sequence or use system Python
+
 ## 🎯 **UNIFIED NAMING CONVENTIONS - MANDATORY FOR ALL AGENTS**
 
 **ALL AI AGENTS MUST FOLLOW THE STANDARDIZED NAMING CONVENTIONS:**
@@ -13,27 +35,46 @@ This is a **3D spaceship modeling application** with **autonomous AI control cap
 - **Variables**: `snake_case` (e.g., `grid_size`, `session_id`)
 - **Constants**: `SCREAMING_SNAKE_CASE` (e.g., `DEFAULT_GRID_SIZE`, `CONFIG_FILE`)
 
-**📋 Detailed conventions**: See `.github/ai-agents/UNIFIED_NAMING_CONVENTIONS.md`
+## 📚 **TERMINOLOGY CLARIFICATION - CRITICAL FOR CONSISTENCY**
+
+**Three distinct concepts must be clearly differentiated:**
+
+1. **Libraries/Modules** - Python libraries and imports only
+   - Standard Python import terminology: `import module`, `from module import class`
+   - Directory: Keep as `modules/` only for actual Python library code
+
+2. **App Components/Features** - Application functionality and systems
+   - MCP Server, UI System, AI Controller, Export System, etc.
+   - Directory: `app_components/` for application feature code
+   - Variables: `mcp_component`, `ui_component`, `ai_feature`
+
+3. **Geometry Nodes** - 3D spaceship building blocks
+   - Individual 3D geometry pieces that make up spaceships
+   - Class: `SpaceshipGeometryNode` (formerly SpaceshipModule)
+   - Variables: `geometry_node`, `hull_node`, `engine_node`
+   - Collections: `geometry_nodes`, `active_nodes`, `node_grid`
+
+**📋 Detailed conventions**: See `.github/copilot/context/development_patterns.md`
 
 ### **CURRENT ARCHITECTURE (Updated October 28, 2025)**
 
 ```
 📁 Spaceship Designer Project/
-├── 📁 src/                     # Core application (USE RELATIVE IMPORTS)
-│   ├── spaceship_designer.py   # 🎯 OPTIMIZED VERSION (648 lines, 60% faster)
-│   ├── spaceship_advanced.py   # Legacy complete version (1130 lines)
-│   ├── spaceship_utils.py      # Shared utilities (380+ lines)
-│   └── ship.py                # Experimental tabbed version
-├── 📁 tests/                   # Test files and benchmarks
-├── 📁 examples/               # Demo scripts
-├── 📁 exports/                # Generated 3D models
-├── 📁 .github/ai-agents/      # 🤖 AI DOCUMENTATION & CONTROL SYSTEMS
-├── 📁 .vscode/               # VS Code integration (launch, tasks, settings)
-├── autonomous_ai_controller.py    # Full autonomous AI control
-├── strategic_ui_controller.py     # Goal-oriented UI interaction
-├── ai_development_cycle.py        # Automated development cycles  
+├── 📁 src/                        # Core application (USE RELATIVE IMPORTS)
+│   ├── spaceship_designer.py      # 🎯 OPTIMIZED VERSION (3000+ lines, enhanced docs)
+│   ├── spaceship_advanced.py      # Legacy complete version (1130 lines)
+│   ├── spaceship_utils.py         # Shared utilities (516 lines, comprehensive docs)
+│   └── ship.py                    # Experimental tabbed version
+├── 📁 app_components/             # Application features (UI system, ship generation, display)
+├── 📁 tests/                      # Test files and benchmarks
+├── 📁 examples/                   # Demo scripts
+├── 📁 exports/                    # Generated 3D models
+├── 📁 .github/copilot/            # 🤖 AI DOCUMENTATION & CONSOLIDATED REFERENCES
+├── 📁 .vscode/                    # VS Code integration (launch, tasks, settings)
+├── 📁 archive/                    # Archived redundant files and legacy code
 ├── universal_ai_controller.py     # 🔒 SECURE REAL-TIME AI CONTROL
-└── main.py                   # 🎯 ORGANIZED ENTRY POINT
+├── spaceship.py                   # 🎯 SINGLE ENTRY POINT
+└── main.py                       # 🔄 BACKUP ENTRY (redirects to spaceship.py)
 ```
 
 ## 🤖 **THE ONE DEFINITIVE AI CONTROL SYSTEM - PROVEN WORKING**
@@ -211,7 +252,7 @@ python ai_development_cycle.py latest   # View latest screenshot results
 ### **📚 CONSOLIDATED DOCUMENTATION:**
 
 **For complete working system documentation, see:**
-- **`.github/ai-agents/reference/CONSOLIDATED_WORKING_SYSTEMS_ONLY.md`** - THE ONLY PROVEN SYSTEM
+- **`.github/copilot/reference/CONSOLIDATED_WORKING_SYSTEMS_ONLY.md`** - THE ONLY PROVEN SYSTEM
 - **`true_intelligent_demo.py`** - The working implementation with Session 130512 proof
 
 **This is the ONLY system ALL AI agents must use for UI interaction - NO EXCEPTIONS!**
@@ -225,7 +266,7 @@ python ai_development_cycle.py latest   # View latest screenshot results
 
 ### **Core Components:**
 
-#### **SpaceshipModule** - Data structure:
+#### **SpaceshipGeometryNode** - Data structure:
 ```python
 {
     "type": "cylinder|cone|box|sphere|torus|wedge",
@@ -251,9 +292,9 @@ python ai_development_cycle.py latest   # View latest screenshot results
 ## 🔧 DEVELOPMENT WORKFLOW
 
 ### **BEFORE STARTING ANY WORK:**
-1. **Read Current State**: `.github/ai-agents/context/current_project_state.md`
-2. **Check File Structure**: `.github/ai-agents/reference/file_structure.md`  
-3. **Review Patterns**: `.github/ai-agents/context/development_patterns.md`
+1. **Read Current State**: `.github/copilot/context/CODEBASE_CLEANUP_COMPLETE.md`
+2. **Check File Structure**: `.github/copilot/COPILOT_STRUCTURE.md`  
+3. **Review Patterns**: `.github/copilot/context/development_patterns.md`
 4. **Use AI Cycle**: `python ai_development_cycle.py cycle`
 
 ### **Import Rules (CRITICAL):**
@@ -482,20 +523,20 @@ python strategic_ui_controller.py test_functionality
 
 ## 📚 DOCUMENTATION REFERENCES
 
-### **AI Context Files:**
-- `.github/ai-agents/context/current_project_state.md` - Current metrics and status
-- `.github/ai-agents/context/development_patterns.md` - Code patterns and practices
-- `.github/ai-agents/reference/flowcharts/ai_iteration_process.png` - Visual AI workflow
+### **Consolidated AI Documentation:**
+- `.github/copilot/CONSOLIDATED_PROJECT_DOCUMENTATION.md` - Complete project overview
+- `.github/copilot/context/CODEBASE_CLEANUP_COMPLETE.md` - Current metrics and status
+- `.github/copilot/context/development_patterns.md` - Code patterns and practices
+- `.github/copilot/reference/flowcharts/ai_iteration_process.png` - Visual AI workflow
 
 ### **Technical Documentation:**
-- `README.md` - User-facing overview
-- `.github/ai-agents/documentation/VSCODE_GUIDE.md` - Development environment setup
-- `.github/ai-agents/documentation/UI_TESTING_GUIDE.md` - Automated testing system
-- `.github/ai-agents/documentation/FUNCTIONALITY_UPDATE.md` - Recent fixes and improvements
+- `.github/copilot/README.md` - User-facing overview
+- `.github/copilot/reference/TECHNICAL_REFERENCE.md` - Complete API and architecture documentation
+- `.github/copilot/AI_DEVELOPMENT_GUIDE.md` - AI automation and visual testing system
 
 ### **AI Development Guides:**
-- `.github/ai-agents/workflows/AI_DEVELOPMENT_CYCLE_MANDATORY.md` - Required AI workflow
-- `.github/ai-agents/workflows/AI_UI_INTEGRATION_COMPLETE.md` - UI automation system
+- `.github/copilot/reference/CONSOLIDATED_WORKING_SYSTEMS_ONLY.md` - Proven working systems only
+- `.github/copilot/context/MCP_UI_RESTORATION_COMPLETE.md` - MCP integration history
 
 ## 🎯 CURRENT STATUS SUMMARY
 

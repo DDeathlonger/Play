@@ -12,6 +12,13 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
+# Import shared utilities
+try:
+    from .spaceship_utils import SpaceshipGeometryNode, MeshUtils
+except ImportError:
+    # Fallback for standalone execution
+    from spaceship_utils import SpaceshipGeometryNode, MeshUtils
+
 try:
     from PyQt6.QtWidgets import *
     from PyQt6.QtGui import *
@@ -39,39 +46,7 @@ except ImportError:
 GRID_SIZE = (8, 5, 12)  # X, Y, Z dimensions
 GRID_FILE = "spaceship_config.json"
 
-class SpaceshipModule:
-    """Represents a single module in the spaceship grid"""
-    def __init__(self, mod_type="cylinder", radius=0.5, height=1.0, color=None):
-        self.type = mod_type
-        self.radius = radius
-        self.height = height
-        self.color = color or [100, 150, 200]
-        self.enabled = True
-        self.rotation = [0, 0, 0]
-        self.scale = [1.0, 1.0, 1.0]
-        
-    def to_dict(self):
-        return {
-            "type": self.type,
-            "radius": self.radius,
-            "height": self.height,
-            "color": self.color,
-            "enabled": self.enabled,
-            "rotation": self.rotation,
-            "scale": self.scale
-        }
-    
-    @classmethod
-    def from_dict(cls, data):
-        module = cls()
-        module.type = data.get("type", "cylinder")
-        module.radius = data.get("radius", 0.5)
-        module.height = data.get("height", 1.0)
-        module.color = data.get("color", [100, 150, 200])
-        module.enabled = data.get("enabled", True)
-        module.rotation = data.get("rotation", [0, 0, 0])
-        module.scale = data.get("scale", [1.0, 1.0, 1.0])
-        return module
+# SpaceshipGeometryNode is now imported from spaceship_utils.py
 
 class SpaceshipGenerator:
     """Main class for generating spaceship geometry"""
@@ -93,7 +68,7 @@ class SpaceshipGenerator:
                     center_y = abs(y - ny//2) / (ny//2) if ny > 1 else 0
                     front_factor = z / (nz - 1) if nz > 1 else 0
                     
-                    # Determine module type and properties based on position
+                    # Determine geometry node type and properties based on position
                     if z < nz * 0.2:  # Rear engines
                         mod_type = "cylinder" if center_x < 0.7 else "cone"
                         radius = 0.4 + 0.3 * (1 - center_x) * (1 - center_y)
@@ -122,54 +97,22 @@ class SpaceshipGenerator:
                     # Add color variation
                     color = [max(10, min(255, c + 30 * np.random.randn())) for c in color]
                     
-                    grid[(x, y, z)] = SpaceshipModule(mod_type, radius, height, color)
+                    grid[(x, y, z)] = SpaceshipGeometryNode(mod_type, radius, height, color)
         
         return grid
     
     def create_primitive(self, module):
-        """Create a 3D primitive based on module type"""
+        """Create a 3D primitive based on geometry node type using shared MeshUtils"""
         if not module.enabled:
             return None
-            
+        
         try:
-            if module.type == "cylinder":
-                mesh = trimesh.creation.cylinder(
-                    radius=module.radius, 
-                    height=module.height, 
-                    sections=16
-                )
-            elif module.type == "cone":
-                mesh = trimesh.creation.cone(
-                    radius=module.radius, 
-                    height=module.height, 
-                    sections=16
-                )
-            elif module.type == "sphere":
-                mesh = trimesh.creation.icosphere(
-                    subdivisions=2, 
-                    radius=module.radius
-                )
-            elif module.type == "torus":
-                mesh = trimesh.creation.torus(
-                    major_radius=module.radius, 
-                    minor_radius=module.radius * 0.3
-                )
-            elif module.type == "wedge":
-                # Create wedge shape
-                mesh = trimesh.creation.box(extents=[module.radius*2, module.height, module.radius*2])
-                vertices = mesh.vertices.copy()
-                for i, vertex in enumerate(vertices):
-                    if vertex[2] > 0:  # Taper the front
-                        scale = 1 - 0.8 * (vertex[2] / module.radius)
-                        vertices[i][0] *= scale
-                        vertices[i][1] *= scale
-                mesh.vertices = vertices
-            else:  # box
-                mesh = trimesh.creation.box(
-                    extents=[module.radius*2, module.height, module.radius*2]
-                )
-            
-            return mesh
+            # Use centralized mesh creation utilities
+            return MeshUtils.create_simple_primitive(
+                module.type, 
+                radius=module.radius, 
+                height=module.height
+            )
             
         except Exception as e:
             print(f"Error creating primitive {module.type}: {e}")
@@ -253,7 +196,7 @@ class SpaceshipGenerator:
             
             for pos_str, module_data in config.get("modules", {}).items():
                 pos = eval(pos_str)  # Convert string back to tuple
-                self.grid[pos] = SpaceshipModule.from_dict(module_data)
+                self.grid[pos] = SpaceshipGeometryNode.from_dict(module_data)
                 
         except FileNotFoundError:
             print(f"Configuration file {filename} not found, using default.")
@@ -411,7 +354,7 @@ class SpaceshipViewer(QOpenGLWidget):
         self.zoom = max(-50, min(-2, self.zoom))
 
 class ControlWidget(QWidget):
-    """Control panel for editing spaceship modules"""
+    """Control panel for editing spaceship geometry nodes"""
     
     def __init__(self, generator, viewer):
         super().__init__()
@@ -543,10 +486,10 @@ class ControlWidget(QWidget):
             self.radius_spin.setValue(module.radius)
             self.height_spin.setValue(module.height)
     
-    def update_module(self):
+    def update_geometry_node(self):
         """Update the current module with UI values"""
         if self.current_pos not in self.generator.grid:
-            self.generator.grid[self.current_pos] = SpaceshipModule()
+            self.generator.grid[self.current_pos] = SpaceshipGeometryNode()
         
         module = self.generator.grid[self.current_pos]
         module.enabled = self.enabled_check.isChecked()

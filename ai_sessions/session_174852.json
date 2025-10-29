@@ -1,0 +1,267 @@
+{
+  "session_id": "174852",
+  "total_actions": 12,
+  "security_violations": 0,
+  "window_whitelist": [
+    "Spaceship Designer",
+    "Optimized Spaceship"
+  ],
+  "security_summary": {
+    "total_actions": 12,
+    "security_violations": 0,
+    "whitelist_size": 2,
+    "security_rate": "100.0%"
+  },
+  "start_time": "174852_87145",
+  "end_time": "174900_36719",
+  "actions": [
+    {
+      "action_id": 1,
+      "timestamp": "174852_87145",
+      "context": "intelligent_baseline_for_analysis",
+      "screenshot_path": "ai_sessions\\s174852_001_intelligent_baseline_for_analysis.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 5769044,
+        "title": "Spaceship Designer - Optimized with MCP Integration",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 1243,
+        "y": 823
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized with MCP Integration"
+    },
+    {
+      "action_id": 2,
+      "action_type": "click",
+      "position_requested": {
+        "x": 150,
+        "y": 450
+      },
+      "position_constrained": {
+        "x": 150,
+        "y": 450
+      },
+      "movement_info": {
+        "distance_pixels": 1154.89,
+        "duration_seconds": 2.31,
+        "speed_pixels_per_second": 500.0,
+        "constrained_to_window": true,
+        "window_title": "Spaceship Designer - Optimized with MCP Integration"
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "intelligent_generate_test_based_on_visual_layout_analysis",
+      "success": true,
+      "timestamp": "174855_87437"
+    },
+    {
+      "action_id": 3,
+      "timestamp": "174855_87467",
+      "context": "analyze_generate_button_visual_response",
+      "screenshot_path": "ai_sessions\\s174852_003_analyze_generate_button_visual_response.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 5769044,
+        "title": "Spaceship Designer - Optimized with MCP Integration",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 150,
+        "y": 450
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized with MCP Integration"
+    },
+    {
+      "action_id": 4,
+      "action_type": "wait",
+      "duration": 2.0,
+      "reason": "analyze_mesh_generation_process",
+      "success": true,
+      "timestamp": "174857_93555"
+    },
+    {
+      "action_id": 5,
+      "timestamp": "174857_93576",
+      "context": "mesh_generation_visual_confirmation",
+      "screenshot_path": "ai_sessions\\s174852_005_mesh_generation_visual_confirmation.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 5769044,
+        "title": "Spaceship Designer - Optimized with MCP Integration",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 150,
+        "y": 450
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized with MCP Integration"
+    },
+    {
+      "action_id": 6,
+      "action_type": "key_press",
+      "key": "w",
+      "reason": "intelligent_wireframe_test_based_on_3d_app_standards",
+      "success": true,
+      "timestamp": "174858_19012"
+    },
+    {
+      "action_id": 7,
+      "timestamp": "174858_19055",
+      "context": "analyze_wireframe_visual_change",
+      "screenshot_path": "ai_sessions\\s174852_007_analyze_wireframe_visual_change.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 5769044,
+        "title": "Spaceship Designer - Optimized with MCP Integration",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 150,
+        "y": 450
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized with MCP Integration"
+    },
+    {
+      "action_id": 8,
+      "action_type": "click",
+      "position_requested": {
+        "x": 150,
+        "y": 580
+      },
+      "position_constrained": {
+        "x": 150,
+        "y": 580
+      },
+      "movement_info": {
+        "distance_pixels": 130.0,
+        "duration_seconds": 0.26,
+        "speed_pixels_per_second": 500.0,
+        "constrained_to_window": true,
+        "window_title": "Spaceship Designer - Optimized with MCP Integration"
+      },
+      "button": "left",
+      "clicks": 1,
+      "reason": "intelligent_export_test_based_on_ui_pattern_analysis",
+      "success": true,
+      "timestamp": "174859_09136"
+    },
+    {
+      "action_id": 9,
+      "timestamp": "174859_09177",
+      "context": "analyze_export_button_visual_feedback",
+      "screenshot_path": "ai_sessions\\s174852_009_analyze_export_button_visual_feedback.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 5769044,
+        "title": "Spaceship Designer - Optimized with MCP Integration",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 150,
+        "y": 580
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized with MCP Integration"
+    },
+    {
+      "action_id": 10,
+      "action_type": "wait",
+      "duration": 1.0,
+      "reason": "detect_and_analyze_dialogs",
+      "success": true,
+      "timestamp": "174900_16438"
+    },
+    {
+      "action_id": 11,
+      "action_type": "key_press",
+      "key": "escape",
+      "reason": "intelligent_dialog_handling",
+      "success": true,
+      "timestamp": "174900_36598"
+    },
+    {
+      "action_id": 12,
+      "timestamp": "174900_36719",
+      "context": "final_intelligent_analysis_state",
+      "screenshot_path": "ai_sessions\\s174852_012_final_intelligent_analysis_state.png",
+      "screenshot_type": "cropped_to_window",
+      "window_info": {
+        "hwnd": 5769044,
+        "title": "Spaceship Designer - Optimized with MCP Integration",
+        "left": 116,
+        "top": 125,
+        "right": 1634,
+        "bottom": 1172,
+        "width": 1518,
+        "height": 1047
+      },
+      "mouse_position": {
+        "x": 150,
+        "y": 580
+      },
+      "screen_size": {
+        "width": 1920,
+        "height": 1200
+      },
+      "action_type": "observe",
+      "security_cleared": true,
+      "active_window": "Spaceship Designer - Optimized with MCP Integration"
+    }
+  ]
+}

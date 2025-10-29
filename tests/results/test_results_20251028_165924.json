@@ -1,0 +1,223 @@
+{
+  "summary": {
+    "total_tests": 14,
+    "total_time": 1.1114022731781006,
+    "status_counts": {
+      "PASS": 1,
+      "ERROR": 12,
+      "SKIP": 1
+    },
+    "pass_rate": 7.142857142857142
+  },
+  "results": [
+    {
+      "test_name": "setup_module",
+      "module": "ship_generation",
+      "duration": 0.008875846862792969,
+      "status": "PASS",
+      "message": "Module setup completed",
+      "details": [
+        "Module ship_generation imported successfully"
+      ],
+      "exception": null,
+      "timestamp": "2025-10-28T16:59:24.443279"
+    },
+    {
+      "test_name": "test_error_handling_and_recovery",
+      "module": "ship_generation",
+      "duration": 0.00010013580322265625,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443296"
+    },
+    {
+      "test_name": "test_export_functionality",
+      "module": "ship_generation",
+      "duration": 5.1975250244140625e-05,
+      "status": "SKIP",
+      "message": "No test ships available for export",
+      "details": [],
+      "exception": null,
+      "timestamp": "2025-10-28T16:59:24.443300"
+    },
+    {
+      "test_name": "test_memory_management",
+      "module": "ship_generation",
+      "duration": 0.00482487678527832,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [
+        "Initial objects: 86998"
+      ],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443303"
+    },
+    {
+      "test_name": "test_mesh_cache_functionality",
+      "module": "ship_generation",
+      "duration": 9.632110595703125e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'MeshCache'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'MeshCache'",
+      "timestamp": "2025-10-28T16:59:24.443305"
+    },
+    {
+      "test_name": "test_mesh_creation_and_validation",
+      "module": "ship_generation",
+      "duration": 0.0001246929168701172,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443308"
+    },
+    {
+      "test_name": "test_meshes",
+      "module": "ship_generation",
+      "duration": 7.677078247070312e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: 'list' object is not callable",
+      "details": [],
+      "exception": "'list' object is not callable",
+      "timestamp": "2025-10-28T16:59:24.443311"
+    },
+    {
+      "test_name": "test_module_imports",
+      "module": "ship_generation",
+      "duration": 8.749961853027344e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443313"
+    },
+    {
+      "test_name": "test_performance_optimization",
+      "module": "ship_generation",
+      "duration": 9.965896606445312e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443315"
+    },
+    {
+      "test_name": "test_primitive_generation",
+      "module": "ship_generation",
+      "duration": 0.00010347366333007812,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'PrimitiveGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'PrimitiveGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443317"
+    },
+    {
+      "test_name": "test_ship_architecture",
+      "module": "ship_generation",
+      "duration": 7.772445678710938e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipArchitecture'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipArchitecture'",
+      "timestamp": "2025-10-28T16:59:24.443327"
+    },
+    {
+      "test_name": "test_ship_generation_complete",
+      "module": "ship_generation",
+      "duration": 8.487701416015625e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443330"
+    },
+    {
+      "test_name": "test_ship_generator_creation",
+      "module": "ship_generation",
+      "duration": 0.00010466575622558594,
+      "status": "ERROR",
+      "message": "Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+      "details": [],
+      "exception": "module 'ship_generation' has no attribute 'ShipGenerator'",
+      "timestamp": "2025-10-28T16:59:24.443332"
+    },
+    {
+      "test_name": "test_ships",
+      "module": "ship_generation",
+      "duration": 8.702278137207031e-05,
+      "status": "ERROR",
+      "message": "Unexpected error: 'list' object is not callable",
+      "details": [],
+      "exception": "'list' object is not callable",
+      "timestamp": "2025-10-28T16:59:24.443334"
+    }
+  ],
+  "console_output": [
+    "\ud83e\uddea Starting ship_generation.setup_module...",
+    "\u2705 ship_generation.setup_module: PASS (0.009s) - Module setup completed",
+    "    \u2139\ufe0f Module ship_generation imported successfully",
+    "\ud83e\uddea Starting ship_generation.test_error_handling_and_recovery...",
+    "\ud83d\udca5 ship_generation.test_error_handling_and_recovery: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_export_functionality...",
+    "\u23ed\ufe0f ship_generation.test_export_functionality: SKIP (0.000s) - No test ships available for export",
+    "\ud83e\uddea Starting ship_generation.test_memory_management...",
+    "\ud83d\udca5 ship_generation.test_memory_management: ERROR (0.005s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "    \u2139\ufe0f Initial objects: 86998",
+    "\ud83e\uddea Starting ship_generation.test_mesh_cache_functionality...",
+    "\ud83d\udca5 ship_generation.test_mesh_cache_functionality: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'MeshCache'",
+    "\ud83e\uddea Starting ship_generation.test_mesh_creation_and_validation...",
+    "\ud83d\udca5 ship_generation.test_mesh_creation_and_validation: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_meshes...",
+    "\ud83d\udca5 ship_generation.test_meshes: ERROR (0.000s) - Unexpected error: 'list' object is not callable",
+    "\ud83e\uddea Starting ship_generation.test_module_imports...",
+    "\ud83d\udca5 ship_generation.test_module_imports: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_performance_optimization...",
+    "\ud83d\udca5 ship_generation.test_performance_optimization: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_primitive_generation...",
+    "\ud83d\udca5 ship_generation.test_primitive_generation: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'PrimitiveGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_ship_architecture...",
+    "\ud83d\udca5 ship_generation.test_ship_architecture: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipArchitecture'",
+    "\ud83e\uddea Starting ship_generation.test_ship_generation_complete...",
+    "\ud83d\udca5 ship_generation.test_ship_generation_complete: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_ship_generator_creation...",
+    "\ud83d\udca5 ship_generation.test_ship_generator_creation: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "\ud83e\uddea Starting ship_generation.test_ships...",
+    "\ud83d\udca5 ship_generation.test_ships: ERROR (0.000s) - Unexpected error: 'list' object is not callable"
+  ],
+  "app_log_output": [
+    "[TEST] \ud83e\uddea Starting ship_generation.setup_module...",
+    "[TEST] \u2705 ship_generation.setup_module: PASS (0.009s) - Module setup completed",
+    "[TEST]     \u2139\ufe0f Module ship_generation imported successfully",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_error_handling_and_recovery...",
+    "[TEST] \ud83d\udca5 ship_generation.test_error_handling_and_recovery: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_export_functionality...",
+    "[TEST] \u23ed\ufe0f ship_generation.test_export_functionality: SKIP (0.000s) - No test ships available for export",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_memory_management...",
+    "[TEST] \ud83d\udca5 ship_generation.test_memory_management: ERROR (0.005s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST]     \u2139\ufe0f Initial objects: 86998",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_mesh_cache_functionality...",
+    "[TEST] \ud83d\udca5 ship_generation.test_mesh_cache_functionality: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'MeshCache'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_mesh_creation_and_validation...",
+    "[TEST] \ud83d\udca5 ship_generation.test_mesh_creation_and_validation: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_meshes...",
+    "[TEST] \ud83d\udca5 ship_generation.test_meshes: ERROR (0.000s) - Unexpected error: 'list' object is not callable",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_module_imports...",
+    "[TEST] \ud83d\udca5 ship_generation.test_module_imports: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_performance_optimization...",
+    "[TEST] \ud83d\udca5 ship_generation.test_performance_optimization: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_primitive_generation...",
+    "[TEST] \ud83d\udca5 ship_generation.test_primitive_generation: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'PrimitiveGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ship_architecture...",
+    "[TEST] \ud83d\udca5 ship_generation.test_ship_architecture: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipArchitecture'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ship_generation_complete...",
+    "[TEST] \ud83d\udca5 ship_generation.test_ship_generation_complete: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ship_generator_creation...",
+    "[TEST] \ud83d\udca5 ship_generation.test_ship_generator_creation: ERROR (0.000s) - Unexpected error: module 'ship_generation' has no attribute 'ShipGenerator'",
+    "[TEST] \ud83e\uddea Starting ship_generation.test_ships...",
+    "[TEST] \ud83d\udca5 ship_generation.test_ships: ERROR (0.000s) - Unexpected error: 'list' object is not callable"
+  ],
+  "timestamp": "2025-10-28T16:59:24.443337"
+}

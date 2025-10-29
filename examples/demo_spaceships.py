@@ -6,7 +6,7 @@ Generates several example spaceships and exports them as 3D models
 
 import sys
 import os
-from spaceship_advanced import SpaceshipGenerator, SpaceshipModule
+from spaceship_advanced import SpaceshipGenerator, SpaceshipGeometryNode
 
 def create_simple_fighter():
     """Create a simple fighter-style spaceship"""

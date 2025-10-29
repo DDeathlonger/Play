@@ -1,0 +1,34 @@
+[
+  {
+    "timestamp": "2025-10-28T16:44:28.724456",
+    "session_id": "INTEGRATED_MCP_1761695068_159565c6",
+    "event_type": "INTEGRATED_MCP_MANAGER_INITIALIZED",
+    "data": {
+      "session_id": "INTEGRATED_MCP_1761695068_159565c6",
+      "timestamp": "2025-10-28T16:44:28.724438"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T16:44:37.058221",
+    "session_id": "INTEGRATED_MCP_1761695068_159565c6",
+    "event_type": "HTTP_REQUEST",
+    "data": {
+      "message": "\"GET /health HTTP/1.1\" 200 -"
+    }
+  },
+  {
+    "timestamp": "2025-10-28T16:44:37.060371",
+    "session_id": "INTEGRATED_MCP_1761695068_159565c6",
+    "event_type": "BUILTIN_MCP_SERVER_STARTED",
+    "data": {
+      "port": 8765,
+      "thread_id": 30028,
+      "endpoints": [
+        "/health",
+        "/commands",
+        "/status"
+      ],
+      "conflict_resolution": "normal"
+    }
+  }
+]

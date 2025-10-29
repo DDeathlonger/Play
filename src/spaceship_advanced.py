@@ -16,6 +16,13 @@ import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
 
+# Import shared utilities
+try:
+    from .spaceship_utils import SpaceshipGeometryNode, MeshUtils
+except ImportError:
+    # Fallback for standalone execution
+    from spaceship_utils import SpaceshipGeometryNode, MeshUtils
+
 # Try to import Qt libraries
 try:
     from PyQt6.QtWidgets import *
@@ -47,39 +54,7 @@ except ImportError:
 GRID_SIZE = (8, 5, 12)  # X, Y, Z dimensions
 GRID_FILE = "spaceship_config.json"
 
-class SpaceshipModule:
-    """Represents a single module in the spaceship grid"""
-    def __init__(self, module_type="cylinder", radius=0.5, height=1.0, color=None):
-        self.type = module_type
-        self.radius = radius
-        self.height = height
-        self.color = color or [100, 150, 200]
-        self.enabled = True
-        self.rotation = [0, 0, 0]
-        self.scale = [1.0, 1.0, 1.0]
-        
-    def to_dict(self):
-        return {
-            "type": self.type,
-            "radius": self.radius,
-            "height": self.height,
-            "color": self.color,
-            "enabled": self.enabled,
-            "rotation": self.rotation,
-            "scale": self.scale
-        }
-    
-    @classmethod
-    def from_dict(cls, data):
-        module = cls()
-        module.type = data.get("type", "cylinder")
-        module.radius = data.get("radius", 0.5)
-        module.height = data.get("height", 1.0)
-        module.color = data.get("color", [100, 150, 200])
-        module.enabled = data.get("enabled", True)
-        module.rotation = data.get("rotation", [0, 0, 0])  
-        module.scale = data.get("scale", [1.0, 1.0, 1.0])
-        return module
+# SpaceshipGeometryNode is now imported from spaceship_utils.py
 
 class SpaceshipGenerator:
     """Main class for generating spaceship geometry"""
@@ -152,12 +127,12 @@ class SpaceshipGenerator:
                     # Add color variation
                     color = [max(20, min(255, int(c + 40 * np.random.randn()))) for c in color]
                     
-                    grid[(x, y, z)] = SpaceshipModule(mod_type, radius, height, color)
+                    grid[(x, y, z)] = SpaceshipGeometryNode(mod_type, radius, height, color)
         
         return grid
     
     def create_primitive(self, module):
-        """Create a 3D primitive based on module type"""
+        """Create a 3D primitive based on geometry node type"""
         if not module.enabled:
             return None
             
@@ -469,7 +444,7 @@ class SpaceshipGenerator:
             
             for pos_str, module_data in config.get("modules", {}).items():
                 pos = eval(pos_str)  # Convert string back to tuple
-                self.grid[pos] = SpaceshipModule.from_dict(module_data)
+                self.grid[pos] = SpaceshipGeometryNode.from_dict(module_data)
             
             print(f"Configuration loaded from: {filename}")
                 
@@ -681,7 +656,7 @@ class SpaceshipViewer(QOpenGLWidget):
 # ... [Previous ControlWidget and MainWindow classes remain the same, continuing in next part]
 
 class ControlWidget(QWidget):
-    """Control panel for editing spaceship modules"""
+    """Control panel for editing spaceship geometry nodes"""
     
     def __init__(self, generator, viewer):
         super().__init__()
@@ -825,14 +800,14 @@ class ControlWidget(QWidget):
             self.height_spin.setValue(module.height)
             self.scale_spin.setValue(module.scale[0])  # Uniform scaling for simplicity
         else:
-            # Create new module at this position
-            self.generator.grid[self.current_pos] = SpaceshipModule()
+            # Create new geometry node at this position
+            self.generator.grid[self.current_pos] = SpaceshipGeometryNode()
             self.update_ui()
     
-    def update_module(self):
+    def update_geometry_node(self):
         """Update the current module with UI values"""
         if self.current_pos not in self.generator.grid:
-            self.generator.grid[self.current_pos] = SpaceshipModule()
+            self.generator.grid[self.current_pos] = SpaceshipGeometryNode()
         
         module = self.generator.grid[self.current_pos]
         module.enabled = self.enabled_check.isChecked()
@@ -842,13 +817,13 @@ class ControlWidget(QWidget):
         scale_val = self.scale_spin.value()
         module.scale = [scale_val, scale_val, scale_val]
         
-        print(f"Updated module at {self.current_pos}: {module.type}, enabled: {module.enabled}")
+        print(f"Updated geometry node at {self.current_pos}: {module.type}, enabled: {module.enabled}")
         self.viewer.update_mesh()
     
     def choose_color(self):
         """Open color picker dialog"""
         if self.current_pos not in self.generator.grid:
-            self.generator.grid[self.current_pos] = SpaceshipModule()
+            self.generator.grid[self.current_pos] = SpaceshipGeometryNode()
             
         module = self.generator.grid[self.current_pos]
         current_color = QColor(*module.color[:3])
